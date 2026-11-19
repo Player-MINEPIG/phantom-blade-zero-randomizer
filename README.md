@@ -62,6 +62,18 @@ python -m pbzmod --config config.json --out build/my-seed --player-runtime "C:\M
 
 Replace the example runtime path with `Tools\Python` from your extracted player download. The generated package is `build/my-seed/PBZ-Randomizer.zip`.
 
+<a id="creator-permission"></a>
+
+## 创作者授权 / Creator permission
+
+就作者拥有并有权授权的 Mod 原创部分，作者允许任何创作者使用本 Mod 录制、剪辑、发布和直播自己的游玩内容，并通过平台广告分成、创作激励、订阅、观众打赏和品牌赞助获得收入，无需逐次申请。这项额外授权也适用于已发布的 v0.1.0，以及随附本授权的各版本。
+
+出售 Mod 或其修改版、将其放入付费整合包，或把 Mod 下载作为付费订阅或付费群福利，均须另行取得授权。创作者可以在视频简介或直播间分享本项目的公开下载链接。游戏画面、音乐及其他第三方内容的使用须遵守相应权利人的规则。
+
+For the original parts of the mod that the author owns and can license, the author grants any creator permission to use the mod to record, edit, publish, and livestream their own gameplay. Creators may earn revenue from platform ads, creator incentive programs, subscriptions, viewer tips, and sponsorships without asking for permission each time. This additional permission covers the previously released v0.1.0 and every version that includes this notice.
+
+Selling the mod or a modified version, bundling either in a paid modpack, or offering the download as a paid subscriber or group perk requires separate permission. Creators are welcome to share the project's public download link in a video description or livestream. Use of game footage, music, and other third-party content is subject to the respective rights holders' terms.
+
 ## 许可 / License
 
 本项目的原创代码和文档采用 **PolyForm Noncommercial 1.0.0**，允许依条款非商业使用、修改和分发。游戏资产的权利归各自权利人，第三方组件沿用各自许可。
