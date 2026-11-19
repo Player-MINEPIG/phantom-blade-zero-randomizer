@@ -1,0 +1,3440 @@
+{
+  "encounters": [],
+  "items": [
+    {
+      "category": "collectible",
+      "id": "Ac_Material_1"
+    },
+    {
+      "category": "collectible",
+      "id": "Ac_Material_4"
+    },
+    {
+      "category": "collectible",
+      "id": "Medi_Material_1"
+    },
+    {
+      "category": "collectible",
+      "id": "Medi_Material_2"
+    },
+    {
+      "category": "collectible",
+      "id": "Medi_Material_3"
+    },
+    {
+      "category": "collectible",
+      "id": "Return_ShaqiWeapon_1"
+    },
+    {
+      "category": "collectible",
+      "id": "Return_Weapon_1"
+    },
+    {
+      "category": "collectible",
+      "id": "T_02001"
+    },
+    {
+      "category": "collectible",
+      "id": "T_02002"
+    },
+    {
+      "category": "collectible",
+      "id": "T_02003"
+    },
+    {
+      "category": "collectible",
+      "id": "T_05001"
+    },
+    {
+      "category": "collectible",
+      "id": "T_05002"
+    },
+    {
+      "category": "collectible",
+      "id": "T_05003"
+    },
+    {
+      "category": "collectible",
+      "id": "T_06003"
+    },
+    {
+      "category": "collectible",
+      "id": "T_06004"
+    },
+    {
+      "category": "collectible",
+      "id": "T_06005"
+    },
+    {
+      "category": "collectible",
+      "id": "T_08001"
+    },
+    {
+      "category": "collectible",
+      "id": "T_08003"
+    },
+    {
+      "category": "collectible",
+      "id": "T_12001"
+    },
+    {
+      "category": "collectible",
+      "id": "T_12002"
+    },
+    {
+      "category": "collectible",
+      "id": "T_12003"
+    },
+    {
+      "category": "collectible",
+      "id": "Weapon_Material_01"
+    },
+    {
+      "category": "collectible",
+      "id": "Weapon_Material_02"
+    },
+    {
+      "category": "collectible",
+      "id": "Weapon_Material_03"
+    },
+    {
+      "category": "collectible",
+      "id": "Weapon_Material_04"
+    },
+    {
+      "category": "collectible",
+      "id": "Weapon_Material_05"
+    },
+    {
+      "category": "collectible",
+      "id": "Weapon_Material_06"
+    },
+    {
+      "category": "collectible",
+      "id": "Weapon_Material_07"
+    },
+    {
+      "category": "collectible",
+      "id": "Weapon_Material_08"
+    },
+    {
+      "category": "collectible",
+      "id": "Weapon_Material_09"
+    },
+    {
+      "category": "collectible",
+      "id": "Weapon_Material_10"
+    },
+    {
+      "category": "collectible",
+      "id": "Weapon_Material_11"
+    },
+    {
+      "category": "collectible",
+      "id": "Weapon_Material_12"
+    },
+    {
+      "category": "collectible",
+      "id": "Weapon_Material_13"
+    },
+    {
+      "category": "collectible",
+      "id": "Weapon_Material_14"
+    },
+    {
+      "category": "collectible",
+      "id": "Weapon_Material_15"
+    },
+    {
+      "category": "collectible",
+      "id": "Weapon_Material_16"
+    },
+    {
+      "category": "collectible",
+      "id": "Weapon_Material_17"
+    },
+    {
+      "category": "collectible",
+      "id": "Weapon_Material_18"
+    },
+    {
+      "category": "collectible",
+      "id": "Weapon_Material_19"
+    },
+    {
+      "category": "collectible",
+      "id": "Weapon_Material_20"
+    },
+    {
+      "category": "collectible",
+      "id": "Weapon_Material_21"
+    },
+    {
+      "category": "collectible",
+      "id": "Weapon_Material_22"
+    },
+    {
+      "category": "collectible",
+      "id": "Weapon_Material_23"
+    },
+    {
+      "category": "collectible",
+      "id": "Weapon_Material_24"
+    },
+    {
+      "category": "collectible",
+      "id": "Weapon_Material_25"
+    },
+    {
+      "category": "collectible",
+      "id": "Weapon_Material_26"
+    },
+    {
+      "category": "collectible",
+      "id": "Weapon_Material_27"
+    }
+  ],
+  "rewards": [
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_60CF848A668944DB02_1580105783",
+      "item": "Weapon_Material_06",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_60CF848A66894BDB02_1981347114",
+      "item": "Medi_Material_2",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_60CF848A66894DDB02_1327115500",
+      "item": "Weapon_Material_24",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_74563CC57EE2693A02_1906197653",
+      "item": "Medi_Material_2",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_74563CC57EE2693A02_1906345835",
+      "item": "Weapon_Material_11",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_74563CC57EE2693A02_1907340687",
+      "item": "Ac_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_74563CC57EE2693A02_1908632442",
+      "item": "Weapon_Material_18",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_74563CC57EE2693A02_1911449162",
+      "item": "Weapon_Material_06",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_74563CC57EE2693A02_1911741371",
+      "item": "Medi_Material_3",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_74563CC57EE2693A02_1912823952",
+      "item": "Weapon_Material_21",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_74563CC57EE2693A02_1916215049",
+      "item": "Weapon_Material_21",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_BCFCE7058A98C0B202_1784117110",
+      "item": "Weapon_Material_21",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_BCFCE7058A98C0B202_1805915111",
+      "item": "Weapon_Material_02",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_BCFCE7058A98C1B202_1112559288",
+      "item": "Return_Weapon_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_BCFCE7058A98C1B202_1221703292",
+      "item": "Weapon_Material_27",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_BCFCE7058A98C1B202_1255350293",
+      "item": "Weapon_Material_03",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_BCFCE7058A98C1B202_1278290294",
+      "item": "Weapon_Material_03",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_BCFCE7058A98C2B202_1252737476",
+      "item": "Weapon_Material_09",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_BCFCE7058A98C2B202_1349179478",
+      "item": "Weapon_Material_23",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_BCFCE7058A98C2B202_1369723479",
+      "item": "Weapon_Material_09",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_BCFCE7058A98C2B202_1393165482",
+      "item": "Weapon_Material_21",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_BCFCE7058A98C2B202_1951341484",
+      "item": "Weapon_Material_12",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_BCFCE7058A98C2B202_1994985485",
+      "item": "Weapon_Material_18",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_BCFCE7058A98C2B202_2051326490",
+      "item": "Weapon_Material_09",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_BCFCE7058A98C2B202_2123055496",
+      "item": "Weapon_Material_06",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_BCFCE7058A98C2B202_2123061498",
+      "item": "Weapon_Material_09",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_E89C25A7512014F002_1293054587",
+      "item": "Weapon_Material_15",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_E89C25A7512014F002_1399698588",
+      "item": "Weapon_Material_05",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_E89C25A7512039D802_1455210972",
+      "item": "Weapon_Material_24",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_E89C25A7512079FE02_1193550076",
+      "item": "Medi_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_E89C25A7512079FE02_1252543077",
+      "item": "Weapon_Material_05",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_E89C25A7512079FE02_1651404078",
+      "item": "Weapon_Material_15",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_E89C25A751207CFE02_1414863607",
+      "item": "Weapon_Material_15",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_E89C25A751207CFE02_1763761609",
+      "item": "Weapon_Material_08",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_E89C25A7512093EE02_2058626964",
+      "item": "Weapon_Material_02",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_E89C25A7512093EE02_2145656965",
+      "item": "Weapon_Material_27",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_E89C25A7512094EE02_1319494142",
+      "item": "Ac_Material_4",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_E89C25A7512094EE02_1485170144",
+      "item": "Medi_Material_3",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_E89C25A75120B1EB02_2132706950",
+      "item": "Weapon_Material_12",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_E89C25A75120B2B302_1481111865",
+      "item": "Weapon_Material_15",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_E89C25A75120B2B302_1978283871",
+      "item": "Weapon_Material_09",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_E89C25A75120B2EB02_1149434127",
+      "item": "Weapon_Material_15",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_E89C25A75120B3B302_1509858058",
+      "item": "Return_ShaqiWeapon_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_E89C25A75120D8F902_1795897589",
+      "item": "Weapon_Material_18",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_E89C25A75120E09102_1116207801",
+      "item": "Weapon_Material_11",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_E89C25A75120E09102_1120950803",
+      "item": "Ac_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_E89C25A75120E09102_1122597804",
+      "item": "Weapon_Material_18",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_E89C25A75120E09102_1124282805",
+      "item": "Weapon_Material_03",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_E89C25A75120E09102_1130078808",
+      "item": "Medi_Material_3",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_E89C25A75120E09102_1131263809",
+      "item": "Weapon_Material_06",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_E89C25A75120E09102_1132361810",
+      "item": "Weapon_Material_08",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_E89C25A75120E09102_1133439811",
+      "item": "Weapon_Material_24",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_E89C25A75120E09102_1388576813",
+      "item": "Weapon_Material_15",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_E89C25A75120E09102_1392409815",
+      "item": "Weapon_Material_24",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_DengDingShanDao_WP-BP_Rubbish_C_UAID_E89C25A75120E09102_1394013816",
+      "item": "Weapon_Material_24",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Duanhun_WP-BP_Rubbish_C_UAID_74563C6BC2BD32B802_1177235951",
+      "item": "Return_ShaqiWeapon_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Duanhun_WP-BP_Rubbish_C_UAID_74563C6BC2BD32B802_1177297952",
+      "item": "Ac_Material_4",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Duanhun_WP-BP_Rubbish_C_UAID_74563C6BC2BD32B802_1177307954",
+      "item": "Weapon_Material_06",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Duanhun_WP-BP_Rubbish_C_UAID_74563C6BC2BD32B802_1177357964",
+      "item": "Weapon_Material_06",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Duanhun_WP-BP_Rubbish_C_UAID_74563C6BC2BD32B802_1177362965",
+      "item": "Weapon_Material_24",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Duanhun_WP-BP_Rubbish_C_UAID_74563C6BC2BD32B802_1177378968",
+      "item": "Weapon_Material_09",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Duanhun_WP-BP_Rubbish_C_UAID_74563C6BC2BD32B802_1177383969",
+      "item": "Weapon_Material_12",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Duanhun_WP-BP_Rubbish_C_UAID_74563C6BC2BD32B802_1177471986",
+      "item": "Weapon_Material_06",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Duanhun_WP-BP_Rubbish_C_UAID_74563C6BC2BD32B802_1177516995",
+      "item": "Weapon_Material_09",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Duanhun_WP-BP_Rubbish_C_UAID_74563C6BC2BD32B802_1177521996",
+      "item": "Medi_Material_3",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Duanhun_WP-BP_Rubbish_C_UAID_74563C6BC2BD32B802_1177526997",
+      "item": "Weapon_Material_15",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Duanhun_WP-BP_Rubbish_C_UAID_74563C6BC2BD32B802_1177599011",
+      "item": "Medi_Material_3",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Duanhun_WP-BP_Rubbish_C_UAID_74563C6BC2BD32B802_1177604012",
+      "item": "Weapon_Material_21",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Duanhun_WP-BP_Rubbish_C_UAID_74563C6BC2BD32B802_1177609013",
+      "item": "Weapon_Material_18",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Duanhun_WP-BP_Rubbish_C_UAID_74563C6BC2BD32B802_1177619015",
+      "item": "Weapon_Material_03",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Duanhun_WP-BP_Rubbish_C_UAID_74563C6BC2BD32B802_1177697032",
+      "item": "Ac_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Duanhun_WP-BP_Rubbish_C_UAID_74563C6BC2BD32B802_1177757045",
+      "item": "Weapon_Material_12",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Duanhun_WP-BP_Rubbish_C_UAID_74563C6BC2BD32B802_1177783051",
+      "item": "Weapon_Material_12",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Duanhun_WP-BP_Rubbish_C_UAID_74563C6BC2BD32B802_1177788052",
+      "item": "Medi_Material_3",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Duanhun_WP-BP_Rubbish_C_UAID_74563C6BC2BD32B802_1177805056",
+      "item": "Weapon_Material_27",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Duanhun_WP-BP_Rubbish_C_UAID_74563C6BC2BD32B802_1177841064",
+      "item": "Weapon_Material_12",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Duanhun_WP-BP_Rubbish_C_UAID_74563C6BC2BD32B802_1177846065",
+      "item": "Return_ShaqiWeapon_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Duanhun_WP-BP_Rubbish_C_UAID_74563C6BC2BD32B802_1292746091",
+      "item": "Weapon_Material_12",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Duanhun_WP-BP_Rubbish_C_UAID_74563C6BC2BD32B802_1638246093",
+      "item": "Weapon_Material_06",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Duanhun_WP-BP_Rubbish_C_UAID_E89C25A75120DDF902_1162603538",
+      "item": "Weapon_Material_09",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Chest_C_UAID_60CF848217CA02FC02_1705915060",
+      "item": "T_02001",
+      "source": "chest"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Chest_C_UAID_60CF848217CA4CC602_1851343419",
+      "item": "Ac_Material_1",
+      "source": "chest"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Chest_C_UAID_60CF848217CA79EE02_2068628231",
+      "item": "Ac_Material_4",
+      "source": "chest"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Chest_C_UAID_60CF848217CA82EE02_2018898784",
+      "item": "Medi_Material_3",
+      "source": "chest"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Chest_C_UAID_60CF848217CA87FA02_1208025301",
+      "item": "T_02002",
+      "source": "chest"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Chest_C_UAID_60CF848217CA87FA02_1694320302",
+      "item": "T_02003",
+      "source": "chest"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_A_C_UAID_60CF848217CA5CF102_1265727255",
+      "item": "Weapon_Material_02",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_A_C_UAID_60CF848217CA5CF102_1344046257",
+      "item": "Weapon_Material_05",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_00FF6172C59CBB4502_1884330539",
+      "item": "Weapon_Material_16",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_00FF6172C59CBB4502_1919535540",
+      "item": "Weapon_Material_07",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_00FF6172C59CBB4502_2028608541",
+      "item": "Weapon_Material_07",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_00FF6172C59CBB4502_2079789542",
+      "item": "Ac_Material_4",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_00FF6172C59CBC4502_1709139723",
+      "item": "Weapon_Material_13",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_00FF6172C59CBC4502_2114375726",
+      "item": "Ac_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_00FF6172C59CBD4502_2074733032",
+      "item": "Weapon_Material_10",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_00FF6172C59CBD4502_2118184033",
+      "item": "Return_Weapon_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_00FF6172C59CBE4502_1183773211",
+      "item": "Weapon_Material_01",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_60CF848217CA5F0C03_1284574302",
+      "item": "Weapon_Material_04",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_60CF848217CA5F0C03_1353251303",
+      "item": "Weapon_Material_04",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_60CF848217CA5F0C03_1361835304",
+      "item": "Weapon_Material_01",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_60CF848217CA71D602_1835765387",
+      "item": "Ac_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_60CF848217CA71D602_1835832388",
+      "item": "Weapon_Material_15",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_60CF848217CA71D602_1835840390",
+      "item": "Return_ShaqiWeapon_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_60CF848217CA71D602_1835855395",
+      "item": "Weapon_Material_06",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_60CF848217CA71D602_1835859396",
+      "item": "Weapon_Material_21",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_60CF848217CA71D602_1835883404",
+      "item": "Weapon_Material_21",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_60CF848217CA71D602_1835886405",
+      "item": "Return_Weapon_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_60CF848217CA71D602_1835889406",
+      "item": "Weapon_Material_18",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_60CF848217CA71D602_1835892407",
+      "item": "Weapon_Material_12",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_60CF848217CA7F9302_1112402971",
+      "item": "Weapon_Material_01",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_60CF848217CA819B02_1615150402",
+      "item": "Weapon_Material_19",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_60CF848217CA81FA02_1849706228",
+      "item": "Weapon_Material_10",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_60CF848217CA839302_1146215688",
+      "item": "Weapon_Material_16",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_60CF848217CA83FA02_1396752585",
+      "item": "Ac_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_60CF848217CA84EE02_1858796162",
+      "item": "Weapon_Material_24",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_60CF848217CA859302_1700529659",
+      "item": "Ac_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_60CF848217CA859302_1830928660",
+      "item": "Weapon_Material_07",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_60CF848217CA86EE02_1490708520",
+      "item": "Weapon_Material_06",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_60CF848217CA86EE02_1635230521",
+      "item": "Weapon_Material_03",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_60CF848217CA86FA02_1674412123",
+      "item": "Weapon_Material_13",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_60CF848217CA890403_1361459195",
+      "item": "Weapon_Material_25",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_60CF848217CA890403_1403840196",
+      "item": "Weapon_Material_16",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_60CF848217CA8AFA02_1957054842",
+      "item": "Return_ShaqiWeapon_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_60CF848217CA96AC02_1099322053",
+      "item": "Weapon_Material_01",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_60CF848217CA96AC02_1101634054",
+      "item": "Weapon_Material_22",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_60CF848217CA96AC02_1395748056",
+      "item": "Weapon_Material_10",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_60CF848217CA96AC02_1405706061",
+      "item": "Weapon_Material_01",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_60CF848217CA96AC02_1408205062",
+      "item": "Weapon_Material_04",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_60CF848217CA96AC02_1410039063",
+      "item": "Weapon_Material_22",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_60CF848217CA96AC02_1441440074",
+      "item": "Weapon_Material_13",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_60CF848217CA9AFE02_2121768956",
+      "item": "Weapon_Material_27",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_60CF848217CA9AFE02_2125837957",
+      "item": "Weapon_Material_03",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_60CF848217CAD18D02_1999446134",
+      "item": "Weapon_Material_07",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_60CF848217CAD1FF02_1219394686",
+      "item": "Ac_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_74563CC57EE2F73B02_1307857258",
+      "item": "Ac_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_74563CC57EE2F73B02_1307880296",
+      "item": "Weapon_Material_10",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_74563CC57EE2F73B02_1314413700",
+      "item": "Weapon_Material_07",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_74563CC57EE2F73B02_1315008654",
+      "item": "Weapon_Material_10",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_D85ED3AAC7CA325402_1504012879",
+      "item": "Weapon_Material_16",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Fujizhilin_WP-BP_Rubbish_C_UAID_E89C25A755A3804902_1822882817",
+      "item": "Weapon_Material_22",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Chest_C_UAID_60CF8480990991FD02_1094215260",
+      "item": "T_06004",
+      "source": "chest"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Chest_C_UAID_60CF84809909F7FB02_2043476051",
+      "item": "T_06005",
+      "source": "chest"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_A_C_UAID_E89C25A7512642AF02_1940972510",
+      "item": "Weapon_Material_04",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF8480990913B302_1319328937",
+      "item": "Weapon_Material_05",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF8480990914B302_2011273114",
+      "item": "Weapon_Material_26",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF8480990914B302_2055548115",
+      "item": "Weapon_Material_08",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF8480990916B302_1294642468",
+      "item": "Weapon_Material_20",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF8480990916B302_1324975470",
+      "item": "Weapon_Material_08",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF8480990916B302_1400706537",
+      "item": "Return_ShaqiWeapon_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF8480990916B302_1412912538",
+      "item": "Weapon_Material_13",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF8480990916B302_1437946539",
+      "item": "Weapon_Material_26",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF8480990919B302_2016902070",
+      "item": "Weapon_Material_26",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF848099091B0C03_1786935277",
+      "item": "Return_ShaqiWeapon_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF848099091BB302_1194528424",
+      "item": "Weapon_Material_25",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF848099091EB302_1150703957",
+      "item": "Weapon_Material_08",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF8480990953FB02_1783955246",
+      "item": "Weapon_Material_20",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF848099095BFB02_1457787799",
+      "item": "Weapon_Material_14",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF848099095BFB02_1578006800",
+      "item": "Weapon_Material_02",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF848099095E0C03_1139202241",
+      "item": "Weapon_Material_11",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF8480990978FF02_1093308931",
+      "item": "Weapon_Material_14",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF8480990978FF02_1127636932",
+      "item": "Weapon_Material_01",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF8480990982B302_1559276516",
+      "item": "Weapon_Material_02",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF8480990982B302_1798426518",
+      "item": "Weapon_Material_13",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF8480990982B302_1843121519",
+      "item": "Ac_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF8480990982B302_1919416521",
+      "item": "Weapon_Material_08",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF8480990982B302_1987454522",
+      "item": "Weapon_Material_02",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF8480990983B302_1152293700",
+      "item": "Weapon_Material_05",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF8480990983B302_1210404701",
+      "item": "Ac_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF8480990983B302_1292895703",
+      "item": "Weapon_Material_05",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF8480990983B302_1426664706",
+      "item": "Weapon_Material_11",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF8480990983B302_1500860708",
+      "item": "Return_Weapon_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF8480990983E302_1585396331",
+      "item": "Medi_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF8480990983E302_1658653332",
+      "item": "Weapon_Material_23",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF8480990991FD02_1442291263",
+      "item": "Weapon_Material_17",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF8480990991FD02_1520156264",
+      "item": "Weapon_Material_02",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF8480990991FD02_1722142275",
+      "item": "Return_ShaqiWeapon_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF848099099D0103_1243504542",
+      "item": "Weapon_Material_10",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF848099099D0103_1550077544",
+      "item": "Weapon_Material_02",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF84809909B0F002_1716633000",
+      "item": "Ac_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF84809909B0F002_1758693001",
+      "item": "Weapon_Material_05",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF84809909B0F002_1792633002",
+      "item": "Weapon_Material_02",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF84809909C0B202_1733921346",
+      "item": "Weapon_Material_08",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF84809909C0B202_1948968349",
+      "item": "Weapon_Material_25",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF84809909C1B202_2025402533",
+      "item": "Weapon_Material_05",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF84809909C1B202_2055225534",
+      "item": "Weapon_Material_10",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF84809909C1B202_2070119535",
+      "item": "Weapon_Material_20",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF84809909C1B202_2093812536",
+      "item": "Weapon_Material_22",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF84809909C1B202_2103389537",
+      "item": "Weapon_Material_16",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF84809909C2B202_1146337722",
+      "item": "Weapon_Material_05",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF84809909C3B202_1213007902",
+      "item": "Weapon_Material_08",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF84809909C3B202_1591042913",
+      "item": "Weapon_Material_11",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF84809909C3B202_1720689916",
+      "item": "Weapon_Material_08",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF84809909C5B202_1144328271",
+      "item": "Weapon_Material_08",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF84809909C5B202_1211747272",
+      "item": "Weapon_Material_02",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF84809909C6B202_1296532453",
+      "item": "Ac_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF84809909C6B202_1480857454",
+      "item": "Weapon_Material_05",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF84809909C6B202_1494196455",
+      "item": "Weapon_Material_26",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF84809909C6B202_1509772456",
+      "item": "Weapon_Material_19",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF84809909C6B202_1563940458",
+      "item": "Weapon_Material_08",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF84809909C6B202_1572540459",
+      "item": "Weapon_Material_10",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF84809909C6B202_1596081460",
+      "item": "Weapon_Material_25",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF84809909C6B202_1817453487",
+      "item": "Weapon_Material_08",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF84809909CCB202_1291200550",
+      "item": "Ac_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF84809909CCB202_1370091552",
+      "item": "Weapon_Material_02",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF84809909CCB202_1451214553",
+      "item": "Weapon_Material_08",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF84809909CCB202_1484965554",
+      "item": "Weapon_Material_05",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF84809909D0B202_1376056260",
+      "item": "Weapon_Material_02",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_60CF84809909EEF602_1173290179",
+      "item": "Weapon_Material_06",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_E89C25A7512647AF02_1730477474",
+      "item": "Weapon_Material_16",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_E89C25A7512647AF02_1730545476",
+      "item": "Weapon_Material_05",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_E89C25A7512647AF02_1746005270",
+      "item": "Weapon_Material_08",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_E89C25A7512647AF02_1746007271",
+      "item": "Weapon_Material_14",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_E89C25A7512647AF02_1747036436",
+      "item": "Weapon_Material_02",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_E89C25A7512647AF02_1747089457",
+      "item": "Weapon_Material_05",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_E89C25A7512647AF02_1747104463",
+      "item": "Weapon_Material_23",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_E89C25A7512647AF02_1747112466",
+      "item": "Weapon_Material_13",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_E89C25A7512647AF02_1747117468",
+      "item": "Ac_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_E89C25A7512647AF02_1747124471",
+      "item": "Weapon_Material_05",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_E89C25A7512647AF02_1747144479",
+      "item": "Medi_Material_2",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_E89C25A7512647AF02_1747147480",
+      "item": "Weapon_Material_02",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_E89C25A7512647AF02_1747149481",
+      "item": "Weapon_Material_08",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_E89C25A7512647AF02_1747158484",
+      "item": "Weapon_Material_08",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_E89C25A7512647AF02_1747165487",
+      "item": "Weapon_Material_22",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_E89C25A7512647AF02_1747168488",
+      "item": "Weapon_Material_02",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_E89C25A7512647AF02_1747171489",
+      "item": "Weapon_Material_14",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_E89C25A7512647AF02_1747176491",
+      "item": "Weapon_Material_02",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_E89C25A7512647AF02_1747178492",
+      "item": "Weapon_Material_02",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_E89C25A7512647AF02_1747181493",
+      "item": "Weapon_Material_02",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_E89C25A7512647AF02_1747186495",
+      "item": "Weapon_Material_05",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_E89C25A7512647AF02_1747194498",
+      "item": "Weapon_Material_02",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_E89C25A7512647AF02_1747199500",
+      "item": "Weapon_Material_08",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_E89C25A7512647AF02_1747201501",
+      "item": "Weapon_Material_11",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_E89C25A7512647AF02_1747204502",
+      "item": "Weapon_Material_02",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_E89C25A7512647AF02_1747206503",
+      "item": "Weapon_Material_10",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_E89C25A7512647AF02_1747209504",
+      "item": "Weapon_Material_23",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_E89C25A7512647AF02_1747212505",
+      "item": "Weapon_Material_02",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_E89C25A7512647AF02_1747237515",
+      "item": "Weapon_Material_05",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_E89C25A7512647AF02_1747260524",
+      "item": "Weapon_Material_08",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_E89C25A7512647AF02_1747265526",
+      "item": "Weapon_Material_19",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_E89C25A7512647AF02_1750172761",
+      "item": "Weapon_Material_22",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_E89C25A7512647AF02_1750183765",
+      "item": "Ac_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_E89C25A7512647AF02_1750195769",
+      "item": "Weapon_Material_20",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Houjie_WP-BP_Rubbish_C_UAID_E89C25A7512647AF02_1750198770",
+      "item": "Ac_Material_4",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Huanshuyiji2_WP-BP_Chest_C_UAID_E89C25A751204AFD02_1715588696",
+      "item": "T_08001",
+      "source": "chest"
+    },
+    {
+      "id": "PBZ_Huanshuyiji2_WP-BP_Chest_C_UAID_E89C25A751204BEC02_1096148025",
+      "item": "T_06003",
+      "source": "chest"
+    },
+    {
+      "id": "PBZ_Huanshuyiji2_WP-BP_Rubbish_C_UAID_60CF848A66891BC902_1990609452",
+      "item": "Medi_Material_2",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Huanshuyiji2_WP-BP_Rubbish_C_UAID_60CF848A668933DD02_1703183088",
+      "item": "Medi_Material_3",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Huanshuyiji2_WP-BP_Rubbish_C_UAID_60CF848A668935DD02_1366611445",
+      "item": "Weapon_Material_09",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Huanshuyiji2_WP-BP_Rubbish_C_UAID_60CF848A668936DD02_1676869626",
+      "item": "Return_Weapon_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Huanshuyiji2_WP-BP_Rubbish_C_UAID_60CF848A668937DD02_1111786803",
+      "item": "Weapon_Material_12",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Huanshuyiji2_WP-BP_Rubbish_C_UAID_60CF848A668937DD02_1458719804",
+      "item": "Ac_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Huanshuyiji2_WP-BP_Rubbish_C_UAID_60CF848A668937DD02_1743010806",
+      "item": "Return_ShaqiWeapon_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Huanshuyiji2_WP-BP_Rubbish_C_UAID_60CF848A668979DD02_1652786373",
+      "item": "Weapon_Material_03",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Huanshuyiji2_WP-BP_Rubbish_C_UAID_60CF848A668981DD02_1692163785",
+      "item": "Weapon_Material_24",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Huanshuyiji2_WP-BP_Rubbish_C_UAID_60CF848A668991DD02_1856229805",
+      "item": "Medi_Material_3",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Huanshuyiji2_WP-BP_Rubbish_C_UAID_60CF848A6689BFC902_1716520726",
+      "item": "Weapon_Material_21",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Huanshuyiji2_WP-BP_Rubbish_C_UAID_E89C25A75120039302_1940199570",
+      "item": "Weapon_Material_24",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Huanshuyiji2_WP-BP_Rubbish_C_UAID_E89C25A75120039302_1941668576",
+      "item": "Ac_Material_4",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Huanshuyiji2_WP-BP_Rubbish_C_UAID_E89C25A75120039302_1946173578",
+      "item": "Weapon_Material_27",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Huanshuyiji2_WP-BP_Rubbish_C_UAID_E89C25A75120039302_1947159582",
+      "item": "Weapon_Material_06",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Huanshuyiji2_WP-BP_Rubbish_C_UAID_E89C25A75120049302_1111811760",
+      "item": "Medi_Material_2",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Huanshuyiji2_WP-BP_Rubbish_C_UAID_E89C25A75120049302_1112961764",
+      "item": "Weapon_Material_18",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Huanshuyiji2_WP-BP_Rubbish_C_UAID_E89C25A75120049302_1490146768",
+      "item": "Ac_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Huanshuyiji2_WP-BP_Rubbish_C_UAID_E89C25A75120049302_1490819772",
+      "item": "Weapon_Material_15",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Huanshuyiji2_WP-BP_Rubbish_C_UAID_E89C25A75120069302_1496822148",
+      "item": "Weapon_Material_27",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Huanshuyiji2_WP-BP_Rubbish_C_UAID_E89C25A751203DF302_1760889142",
+      "item": "Weapon_Material_12",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Huanshuyiji2_WP-BP_Rubbish_C_UAID_E89C25A751207EFE02_1309726971",
+      "item": "Weapon_Material_03",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Huanshuyiji2_WP-BP_Rubbish_C_UAID_E89C25A7512080FE02_1278668324",
+      "item": "Weapon_Material_12",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Huanshuyiji2_WP-BP_Rubbish_C_UAID_E89C25A7512080FE02_1851254327",
+      "item": "Weapon_Material_12",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Huanshuyiji2_WP-BP_Rubbish_C_UAID_E89C25A7512092EE02_1208877736",
+      "item": "Weapon_Material_03",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Huanshuyiji2_WP-BP_Rubbish_C_UAID_E89C25A75120A3D602_1268088668",
+      "item": "Weapon_Material_12",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Chest_C_UAID_E89C25A750C7D6E702_1758800190",
+      "item": "T_08003",
+      "source": "chest"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_A_C_UAID_E89C25A750C753FC02_1620155253",
+      "item": "Weapon_Material_09",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_A_C_UAID_E89C25A750C767DA02_1287350506",
+      "item": "Weapon_Material_06",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_A_C_UAID_E89C25A750C76ADF02_1921510735",
+      "item": "Weapon_Material_03",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_A_C_UAID_E89C25A750C78EF702_1640213391",
+      "item": "Medi_Material_2",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_A_C_UAID_E89C25A750C7CEFF02_1482109072",
+      "item": "Medi_Material_2",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_A_C_UAID_E89C25A750C7CEFF02_1952104074",
+      "item": "Weapon_Material_03",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848099090DDF02_1537345292",
+      "item": "Weapon_Material_18",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848099090DDF02_2074625295",
+      "item": "Weapon_Material_26",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF84809909150003_1844743574",
+      "item": "Weapon_Material_06",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF84809909150003_1897850575",
+      "item": "Weapon_Material_12",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF84809909150003_1926271576",
+      "item": "Weapon_Material_09",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF84809909150003_1974522577",
+      "item": "Weapon_Material_21",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF84809909150003_2049931580",
+      "item": "Medi_Material_2",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF84809909160003_1105091757",
+      "item": "Medi_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF8480990918DF02_2139580339",
+      "item": "Weapon_Material_09",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF8480990919DF02_1211112516",
+      "item": "Weapon_Material_12",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF8480990942FD02_1709048497",
+      "item": "Weapon_Material_03",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF84809909DCE302_1786100232",
+      "item": "Weapon_Material_23",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA00FB02_1244635571",
+      "item": "Weapon_Material_02",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA57F102_1997369334",
+      "item": "Weapon_Material_12",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA58F102_1084943511",
+      "item": "Weapon_Material_05",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA58F102_1239283512",
+      "item": "Weapon_Material_09",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA58F102_1318964513",
+      "item": "Weapon_Material_08",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA58F102_1427707514",
+      "item": "Weapon_Material_07",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA65B302_1766447332",
+      "item": "Medi_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA68FC02_1292571967",
+      "item": "Weapon_Material_17",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA68FC02_1402583968",
+      "item": "Weapon_Material_23",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA68FC02_1423811969",
+      "item": "Weapon_Material_07",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA68FC02_1429830970",
+      "item": "Return_Weapon_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA68FC02_1435627971",
+      "item": "Weapon_Material_06",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA68FC02_1450039972",
+      "item": "Weapon_Material_12",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA68FC02_1450152973",
+      "item": "Weapon_Material_12",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA68FC02_1450156974",
+      "item": "Weapon_Material_08",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA6BB302_1375787387",
+      "item": "Weapon_Material_14",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA6BB302_1524484388",
+      "item": "Weapon_Material_11",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA6BB302_1540800389",
+      "item": "Ac_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA6CB302_1977606576",
+      "item": "Medi_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA6CB302_1980840577",
+      "item": "Medi_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA6CB302_1986977579",
+      "item": "Weapon_Material_19",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA6CB302_1993999580",
+      "item": "Weapon_Material_05",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA6CB302_2003749581",
+      "item": "Weapon_Material_19",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA6DB302_1285262758",
+      "item": "Weapon_Material_08",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA6DB302_1302997762",
+      "item": "Weapon_Material_14",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA6DB302_1308857765",
+      "item": "Weapon_Material_05",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA6DB302_1318235766",
+      "item": "Return_Weapon_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA6DB302_1318344767",
+      "item": "Weapon_Material_20",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA6DB302_1329075769",
+      "item": "Return_Weapon_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA6DB302_1329183770",
+      "item": "Weapon_Material_11",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA6DB302_1329187771",
+      "item": "Weapon_Material_05",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA6DB302_1333790772",
+      "item": "Weapon_Material_08",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA6DB302_1333901773",
+      "item": "Weapon_Material_11",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA6DB302_1333904774",
+      "item": "Weapon_Material_23",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA6DB302_1348994775",
+      "item": "Weapon_Material_08",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA6DB302_1358769776",
+      "item": "Weapon_Material_26",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA6DB302_1377068782",
+      "item": "Weapon_Material_20",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA6DB302_1377072783",
+      "item": "Medi_Material_2",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA6DB302_1396097788",
+      "item": "Weapon_Material_26",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA6DB302_1399579790",
+      "item": "Return_Weapon_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA6DB302_1399693791",
+      "item": "Return_ShaqiWeapon_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA6DB302_1411006793",
+      "item": "Weapon_Material_01",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA6DB302_1441386794",
+      "item": "Ac_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA6DB302_1449100795",
+      "item": "Ac_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA6DB302_1449215796",
+      "item": "Ac_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA6DB302_1454745797",
+      "item": "Ac_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA6DB302_1454854798",
+      "item": "Ac_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA6DB302_1458172799",
+      "item": "Ac_Material_4",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA6DB302_1458285800",
+      "item": "Ac_Material_4",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA6DB302_1771670816",
+      "item": "Weapon_Material_26",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA6DB302_1873768820",
+      "item": "Weapon_Material_17",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA77B302_1417140589",
+      "item": "Weapon_Material_17",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA77B302_1447974591",
+      "item": "Weapon_Material_11",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA77B302_1470025592",
+      "item": "Return_Weapon_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CA77B302_1480525594",
+      "item": "Weapon_Material_20",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CAA5EC02_1641591770",
+      "item": "Weapon_Material_03",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CAA5EC02_1747301771",
+      "item": "Weapon_Material_11",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848217CAA5EC02_1877770777",
+      "item": "Weapon_Material_02",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848A66893DCB02_1930709610",
+      "item": "Medi_Material_3",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848A668968DE02_2113068268",
+      "item": "Weapon_Material_09",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_60CF848A668977DD02_1860551853",
+      "item": "Weapon_Material_21",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_74563C6BC2BDCBB302_1382259098",
+      "item": "Weapon_Material_03",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_74563C6BC2BDCBB302_1586917100",
+      "item": "Weapon_Material_09",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_74563C6BC2BDCBB302_1612656101",
+      "item": "Medi_Material_3",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_74563C6BC2BDCBB302_1685099102",
+      "item": "Weapon_Material_18",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_74563C6BC2BDCBB302_1946034107",
+      "item": "Weapon_Material_15",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_74563C6BC2BDCCB302_1227828288",
+      "item": "Medi_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_74563C6BC2BDCCB302_1806722294",
+      "item": "Weapon_Material_06",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_E89C25A750C700DB02_1690590946",
+      "item": "Weapon_Material_12",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_E89C25A750C700DB02_1958041948",
+      "item": "Weapon_Material_06",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_E89C25A750C700DB02_2138492951",
+      "item": "Weapon_Material_12",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_E89C25A750C706DB02_1569028025",
+      "item": "Weapon_Material_06",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_E89C25A750C708FC02_2114581064",
+      "item": "Medi_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_E89C25A750C70B0C03_1611815564",
+      "item": "Weapon_Material_12",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_E89C25A750C71BF502_1909893048",
+      "item": "Weapon_Material_06",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_E89C25A750C71EEA02_1235210024",
+      "item": "Weapon_Material_27",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_E89C25A750C75B0003_1600580885",
+      "item": "Weapon_Material_03",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_E89C25A750C764F002_2090581565",
+      "item": "Medi_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_E89C25A750C766F502_1196888228",
+      "item": "Weapon_Material_03",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_E89C25A750C76BF502_1762008123",
+      "item": "Medi_Material_2",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_E89C25A750C779D902_1116686166",
+      "item": "Weapon_Material_12",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_E89C25A750C794DC02_1582192245",
+      "item": "Weapon_Material_21",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_E89C25A750C794DC02_2084268248",
+      "item": "Ac_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_E89C25A750C795DC02_1398032429",
+      "item": "Weapon_Material_18",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_E89C25A750C7C5FF02_1663437485",
+      "item": "Weapon_Material_09",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_E89C25A750C7D2F902_1829372515",
+      "item": "Weapon_Material_12",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_E89C25A750C7FFDA02_1321736651",
+      "item": "Weapon_Material_03",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_E89C25A750C7FFDA02_1461014653",
+      "item": "Weapon_Material_09",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_E89C25A7512081FE02_1508887531",
+      "item": "Medi_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_E89C25A7512081FE02_1557545532",
+      "item": "Medi_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_E89C25A75120A7D602_1357234415",
+      "item": "Weapon_Material_12",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_E89C25A75120A7D602_1830160418",
+      "item": "Ac_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_C_UAID_E89C25A75120A7D602_1978641421",
+      "item": "Ac_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_b_C_UAID_60CF848A66893FDD02_1202040269",
+      "item": "Weapon_Material_06",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_b_C_UAID_60CF848A66893FDD02_1463726270",
+      "item": "Medi_Material_2",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_b_C_UAID_E89C25A750C701DB02_1657763128",
+      "item": "Weapon_Material_24",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_b_C_UAID_E89C25A750C706DB02_1203223024",
+      "item": "Weapon_Material_26",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_b_C_UAID_E89C25A750C707FC02_2064366883",
+      "item": "Weapon_Material_12",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_b_C_UAID_E89C25A750C708FC02_1507490063",
+      "item": "Weapon_Material_06",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_b_C_UAID_E89C25A750C709FC02_1157580241",
+      "item": "Weapon_Material_12",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_b_C_UAID_E89C25A750C709FC02_1394968242",
+      "item": "Weapon_Material_15",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_b_C_UAID_E89C25A750C757FC02_1161734968",
+      "item": "Weapon_Material_06",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_b_C_UAID_E89C25A750C757FC02_1326242005",
+      "item": "Weapon_Material_06",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_b_C_UAID_E89C25A750C75B0003_1629606886",
+      "item": "Ac_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_b_C_UAID_E89C25A750C765F002_1238049744",
+      "item": "Weapon_Material_09",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_b_C_UAID_E89C25A750C76AB302_2138077248",
+      "item": "Medi_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_b_C_UAID_E89C25A750C76BB302_1110243425",
+      "item": "Weapon_Material_27",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_b_C_UAID_E89C25A750C76BB302_1200797426",
+      "item": "Medi_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_b_C_UAID_E89C25A750C76BB302_1241887427",
+      "item": "Medi_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_b_C_UAID_E89C25A750C76BB302_1289518428",
+      "item": "Medi_Material_2",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_b_C_UAID_E89C25A750C76BF502_1896550124",
+      "item": "Medi_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_b_C_UAID_E89C25A750C770B302_1782904739",
+      "item": "Weapon_Material_05",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_b_C_UAID_E89C25A750C770B302_2048520747",
+      "item": "Weapon_Material_15",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_b_C_UAID_E89C25A750C77BD902_1424646530",
+      "item": "Weapon_Material_06",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_b_C_UAID_E89C25A750C77BD902_1497999531",
+      "item": "Weapon_Material_12",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_b_C_UAID_E89C25A750C77BD902_1738899532",
+      "item": "Weapon_Material_03",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_b_C_UAID_E89C25A750C77BD902_1862916533",
+      "item": "Weapon_Material_17",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_b_C_UAID_E89C25A750C795DC02_1464432430",
+      "item": "Weapon_Material_03",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_b_C_UAID_E89C25A750C797DC02_1931344857",
+      "item": "Weapon_Material_17",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_b_C_UAID_E89C25A750C797DC02_2084621860",
+      "item": "Medi_Material_2",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_b_C_UAID_E89C25A750C7ABEA02_1265506732",
+      "item": "Weapon_Material_03",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_b_C_UAID_E89C25A750C7AFDB02_2144911783",
+      "item": "Return_ShaqiWeapon_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_b_C_UAID_E89C25A750C7C1F502_2081815343",
+      "item": "Weapon_Material_09",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_b_C_UAID_E89C25A750C7C3B302_1283489065",
+      "item": "Weapon_Material_23",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_b_C_UAID_E89C25A750C7CEFF02_1395943071",
+      "item": "Medi_Material_3",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_b_C_UAID_E89C25A750C7D9F902_1354805684",
+      "item": "Weapon_Material_03",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_b_C_UAID_E89C25A750C7D9F902_1627754686",
+      "item": "Medi_Material_2",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_b_C_UAID_E89C25A750C7E0E202_1647625618",
+      "item": "Weapon_Material_06",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_b_C_UAID_E89C25A750C7E30303_2121730084",
+      "item": "Weapon_Material_09",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Pangzhen_WP-BP_Rubbish_b_C_UAID_E89C25A750C7FEDA02_1978164472",
+      "item": "Medi_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_A_C_UAID_E89C25A750C7CEF402_1120685429",
+      "item": "Weapon_Material_11",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_A_C_UAID_E89C25A750C7CEF402_2138296433",
+      "item": "Weapon_Material_20",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_A_C_UAID_E89C25A750C7D0F402_1417358792",
+      "item": "Weapon_Material_08",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_A_C_UAID_E89C25A750C7D0F402_1749902795",
+      "item": "Weapon_Material_05",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_A_C_UAID_E89C25A750C7D6E802_1726924166",
+      "item": "Weapon_Material_03",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_60CF8480990911BE02_1972668874",
+      "item": "Weapon_Material_10",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_60CF8480990918BE02_1890512138",
+      "item": "Weapon_Material_13",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_60CF8480990919BE02_1294654315",
+      "item": "Weapon_Material_07",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_60CF848099091BBE02_1657091643",
+      "item": "Weapon_Material_16",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_60CF848099091CBE02_1595956824",
+      "item": "Ac_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_60CF848099091CBE02_1728460825",
+      "item": "Weapon_Material_07",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_60CF848099091DBE02_1350932005",
+      "item": "Weapon_Material_01",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_60CF848099092AD202_1259992729",
+      "item": "Return_Weapon_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_60CF84809909549302_1800287600",
+      "item": "Weapon_Material_13",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_60CF84809909559302_2073814784",
+      "item": "Weapon_Material_19",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_60CF84809909569302_1460814968",
+      "item": "Weapon_Material_10",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_60CF84809909569302_1503089969",
+      "item": "Weapon_Material_01",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_60CF84809909569302_1606819970",
+      "item": "Weapon_Material_13",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_60CF84809909579302_1890474153",
+      "item": "Return_ShaqiWeapon_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_60CF84809909589302_1094397332",
+      "item": "Weapon_Material_10",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_60CF84809909589302_1196345333",
+      "item": "Weapon_Material_22",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_60CF84809909589302_1292633334",
+      "item": "Weapon_Material_22",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_60CF84809909589302_1658736340",
+      "item": "Weapon_Material_16",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_60CF8480990971D902_1971997636",
+      "item": "Weapon_Material_10",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_60CF8480990974D902_1983910182",
+      "item": "Weapon_Material_16",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_60CF8480990999F202_2034092033",
+      "item": "Weapon_Material_09",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_60CF8480990999F202_2062696034",
+      "item": "Weapon_Material_05",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_60CF848099099BF202_1414156417",
+      "item": "Weapon_Material_08",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_60CF84809909B4AE02_1543114797",
+      "item": "Return_Weapon_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_60CF84809909B4AE02_1991654799",
+      "item": "Weapon_Material_10",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_60CF84809909BB9202_1473550658",
+      "item": "Weapon_Material_10",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_60CF84809909BB9202_1881844662",
+      "item": "Weapon_Material_01",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_60CF84809909BC0C03_1727321651",
+      "item": "Weapon_Material_19",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_60CF84809909BF9202_1546921372",
+      "item": "Weapon_Material_04",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_60CF84809909C09202_1148963553",
+      "item": "Weapon_Material_01",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_60CF84809909C09202_1223939554",
+      "item": "Weapon_Material_01",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_60CF84809909C09202_1431738559",
+      "item": "Weapon_Material_10",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_60CF84809909C09202_1592562562",
+      "item": "Return_Weapon_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_60CF84809909C19202_1846166760",
+      "item": "Weapon_Material_19",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_60CF84809909C19202_1886722761",
+      "item": "Weapon_Material_10",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_60CF84809909C19202_2128889765",
+      "item": "Weapon_Material_07",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_60CF84809909C29202_1204510943",
+      "item": "Weapon_Material_01",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_60CF84809909C29202_1308488944",
+      "item": "Weapon_Material_04",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_60CF84809909C29202_1349313945",
+      "item": "Weapon_Material_01",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_60CF84809909C29202_1532908949",
+      "item": "Weapon_Material_10",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_60CF84809909C29202_1640226950",
+      "item": "Weapon_Material_10",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_60CF84809909C39202_1312936131",
+      "item": "Weapon_Material_13",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_60CF84809909C9FF02_1239446308",
+      "item": "Return_ShaqiWeapon_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_60CF84809909C9FF02_1299242309",
+      "item": "Return_ShaqiWeapon_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_60CF84809909CDBD02_1576097271",
+      "item": "Weapon_Material_19",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_60CF84809909D8FD02_1828888712",
+      "item": "Return_Weapon_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_60CF84809909D9FD02_1197512890",
+      "item": "Weapon_Material_04",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_60CF84809909D9FD02_1248202891",
+      "item": "Return_Weapon_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_60CF84809909DCED02_1226562593",
+      "item": "Weapon_Material_19",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_BCFCE704F72581D802_1122083341",
+      "item": "Return_ShaqiWeapon_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_BCFCE7058ACC4DF202_1446708892",
+      "item": "Weapon_Material_16",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_E89C25A750C7C7F402_1696237211",
+      "item": "Weapon_Material_06",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_E89C25A750C7CBF402_1304055912",
+      "item": "Weapon_Material_06",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_E89C25A750C7CBF402_1634302927",
+      "item": "Weapon_Material_14",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Xigu_WP-BP_Rubbish_C_UAID_E89C25A75120640603_1744951087",
+      "item": "Weapon_Material_04",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Chest_C_UAID_74563C6BC2BD1B0003_1930897927",
+      "item": "Weapon_Material_12",
+      "source": "chest"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Chest_C_UAID_74563C6BC2BD90FE02_1197995028",
+      "item": "T_12003",
+      "source": "chest"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Chest_C_UAID_74563C6BC2BD90FE02_1771103035",
+      "item": "T_12001",
+      "source": "chest"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Chest_C_UAID_74563C6BC2BD90FE02_2021102037",
+      "item": "T_12002",
+      "source": "chest"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD100103_1354651016",
+      "item": "Weapon_Material_26",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD1C0003_1374409104",
+      "item": "Return_Weapon_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD1F0003_2104082637",
+      "item": "Medi_Material_2",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD1F0C03_1915271183",
+      "item": "Return_Weapon_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD220003_2040244211",
+      "item": "Weapon_Material_15",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD300A03_1681219278",
+      "item": "Ac_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD35B802_1393077667",
+      "item": "Weapon_Material_17",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD36B802_1384103847",
+      "item": "Weapon_Material_03",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD36B802_2113858852",
+      "item": "Weapon_Material_12",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD39B802_1235768383",
+      "item": "Weapon_Material_21",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD40B802_1828612639",
+      "item": "Weapon_Material_24",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD40B802_1968052641",
+      "item": "Weapon_Material_18",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD41B802_1380602824",
+      "item": "Weapon_Material_06",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD41B802_1564473828",
+      "item": "Weapon_Material_18",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD42B802_1483730016",
+      "item": "Weapon_Material_12",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD44B802_1374700426",
+      "item": "Return_ShaqiWeapon_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD44B802_1926501433",
+      "item": "Weapon_Material_17",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD45B802_1981206624",
+      "item": "Weapon_Material_17",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD45B802_2146030626",
+      "item": "Weapon_Material_12",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD5B0003_1502915869",
+      "item": "Return_Weapon_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD5FE502_1548908507",
+      "item": "Weapon_Material_27",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD660003_1465306822",
+      "item": "Weapon_Material_26",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD680003_1671942176",
+      "item": "Weapon_Material_21",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD690003_1263190356",
+      "item": "Weapon_Material_21",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD6A0003_1324096548",
+      "item": "Weapon_Material_12",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD6A0003_1726638550",
+      "item": "Medi_Material_2",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD6C0003_1432038915",
+      "item": "Return_Weapon_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD6C0003_1664721917",
+      "item": "Weapon_Material_15",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD6D0003_1353840099",
+      "item": "Medi_Material_2",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD700003_1093887708",
+      "item": "Weapon_Material_09",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD700003_1164555709",
+      "item": "Weapon_Material_20",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD700003_1737351714",
+      "item": "Ac_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD710003_1762404898",
+      "item": "Weapon_Material_27",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD710003_2000219900",
+      "item": "Medi_Material_2",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD720003_1470245078",
+      "item": "Weapon_Material_27",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD720003_1671980079",
+      "item": "Medi_Material_2",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD720003_1835799081",
+      "item": "Weapon_Material_03",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD730003_1514347263",
+      "item": "Weapon_Material_21",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD730003_1875792266",
+      "item": "Weapon_Material_06",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD730003_2115473268",
+      "item": "Weapon_Material_24",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD740003_1368236445",
+      "item": "Weapon_Material_24",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD740003_1486194447",
+      "item": "Weapon_Material_18",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD740003_1608128448",
+      "item": "Weapon_Material_12",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD740003_1995371452",
+      "item": "Ac_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD750003_1142622629",
+      "item": "Weapon_Material_21",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD750003_1366716630",
+      "item": "Ac_Material_4",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD750003_2078588636",
+      "item": "Weapon_Material_27",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD760003_1166666813",
+      "item": "Medi_Material_3",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD7BCE02_1272536243",
+      "item": "T_12001",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD7BCE02_1272568244",
+      "item": "T_12002",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD7BCE02_1272573245",
+      "item": "T_12003",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BD7DCE02_1771669810",
+      "item": "Weapon_Material_26",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Ximeng_WP-BP_Rubbish_C_UAID_74563C6BC2BDF5E502_1563716950",
+      "item": "Weapon_Material_12",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Chest_C_UAID_74563C6BC2BDB6FB02_1727224758",
+      "item": "T_05003",
+      "source": "chest"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Chest_C_UAID_74563C6BC2BDB6FB02_1872974760",
+      "item": "T_05001",
+      "source": "chest"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Chest_C_UAID_74563C6BC2BDB6FB02_1977761761",
+      "item": "T_05002",
+      "source": "chest"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Chest_C_UAID_74563C6BC2BDEFF202_1155932577",
+      "item": "Weapon_Material_08",
+      "source": "chest"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_74563C6BC2BD01F102_1487118509",
+      "item": "Ac_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_74563C6BC2BD0AF502_2085096149",
+      "item": "Weapon_Material_23",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_74563C6BC2BD0AF502_2120058150",
+      "item": "Ac_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_74563C6BC2BD3BF302_1482682555",
+      "item": "Weapon_Material_02",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_74563C6BC2BD40F302_1582458648",
+      "item": "Weapon_Material_04",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_74563C6BC2BD41F302_1608646832",
+      "item": "Weapon_Material_22",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_74563C6BC2BD4EF202_1942627106",
+      "item": "Ac_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_74563C6BC2BD680603_2098489819",
+      "item": "Weapon_Material_08",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_74563C6BC2BD690603_1113132996",
+      "item": "Weapon_Material_04",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_74563C6BC2BD6D9202_1554642461",
+      "item": "Weapon_Material_05",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_74563C6BC2BD6E9202_1353543600",
+      "item": "Weapon_Material_14",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_74563C6BC2BD6E9202_1847641602",
+      "item": "Weapon_Material_26",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_74563C6BC2BD709202_1458086411",
+      "item": "Weapon_Material_10",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_74563C6BC2BD779202_1406370184",
+      "item": "Ac_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_74563C6BC2BD789202_1682716878",
+      "item": "Weapon_Material_03",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_74563C6BC2BD789202_1870987879",
+      "item": "Weapon_Material_02",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_74563C6BC2BD799202_1880727520",
+      "item": "Weapon_Material_23",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_74563C6BC2BD7A9202_1635889712",
+      "item": "Weapon_Material_08",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_74563C6BC2BD7A9202_1695445713",
+      "item": "Ac_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_74563C6BC2BD7A9202_1824826715",
+      "item": "Weapon_Material_10",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_74563C6BC2BD7B9202_1518243903",
+      "item": "Weapon_Material_01",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_74563C6BC2BD92E702_1297485816",
+      "item": "Weapon_Material_16",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_74563C6BC2BD94D002_1810542421",
+      "item": "Weapon_Material_13",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_74563C6BC2BDAC0B03_1737046879",
+      "item": "Return_Weapon_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_74563C6BC2BDAD0B03_1182846061",
+      "item": "Return_Weapon_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_74563C6BC2BDAD0B03_1370419063",
+      "item": "Return_ShaqiWeapon_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_74563C6BC2BDAD0B03_1382641064",
+      "item": "Return_Weapon_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_74563C6BC2BDAD0B03_1574809066",
+      "item": "Return_ShaqiWeapon_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_74563C6BC2BDC7FF02_1351837185",
+      "item": "Weapon_Material_25",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_74563C6BC2BDD3F402_2003537126",
+      "item": "Weapon_Material_05",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_74563C6BC2BDD4F402_1192846326",
+      "item": "Weapon_Material_17",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_74563C6BC2BDD4F402_1519494364",
+      "item": "Weapon_Material_26",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_74563C6BC2BDD5FF02_1143211555",
+      "item": "Return_Weapon_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_74563C6BC2BDD5FF02_1553185558",
+      "item": "Return_Weapon_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_74563C6BC2BDE3F202_2094900318",
+      "item": "Weapon_Material_14",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_74563C6BC2BDE6F202_1343715866",
+      "item": "Weapon_Material_17",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_74563C6BC2BDE6F202_1424971904",
+      "item": "Weapon_Material_08",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_74563C6BC2BDE8AC02_1770205073",
+      "item": "Weapon_Material_04",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_74563C6BC2BDE9AC02_1254552260",
+      "item": "Weapon_Material_07",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_74563C6BC2BDE9AC02_1386134262",
+      "item": "Weapon_Material_05",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_74563C6BC2BDE9AC02_1620508363",
+      "item": "Weapon_Material_08",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_74563C6BC2BDEAAC02_1877383572",
+      "item": "Weapon_Material_20",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_74563C6BC2BDEDF202_1783556211",
+      "item": "Weapon_Material_22",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_74563CC57EE2FD3B02_1148991999",
+      "item": "Weapon_Material_01",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_74563CC57EE2FD3B02_1151619432",
+      "item": "Weapon_Material_12",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_74563CC57EE2FD3B02_1153413031",
+      "item": "Weapon_Material_26",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_BCFCE7058A98B7B202_1563078463",
+      "item": "Weapon_Material_10",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_BCFCE7058A98B8B202_1575095640",
+      "item": "Ac_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_BCFCE7058A98B8B202_1578857641",
+      "item": "Weapon_Material_06",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_BCFCE7058A98B8B202_1581940642",
+      "item": "Weapon_Material_01",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_BCFCE7058A98B8B202_1989030646",
+      "item": "Weapon_Material_06",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_BCFCE7058A98B8B202_2011773647",
+      "item": "Weapon_Material_07",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_BCFCE7058A98B9B202_1137106824",
+      "item": "Weapon_Material_07",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_BCFCE7058A98B9B202_1241645825",
+      "item": "Ac_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_BCFCE7058A98B9B202_1363809828",
+      "item": "Weapon_Material_12",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_BCFCE7058A98B9B202_1387648829",
+      "item": "Ac_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_BCFCE7058A98B9B202_1393128830",
+      "item": "Weapon_Material_09",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_BCFCE7058A98B9B202_1492609833",
+      "item": "Weapon_Material_07",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_BCFCE7058A98B9B202_1495102834",
+      "item": "Weapon_Material_23",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_BCFCE7058A98B9B202_1604168835",
+      "item": "Weapon_Material_23",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_BCFCE7058A98B9B202_1784134840",
+      "item": "Ac_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_BCFCE7058A98B9B202_1784209841",
+      "item": "Weapon_Material_11",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_BCFCE7058A98BEB202_2076253725",
+      "item": "Weapon_Material_20",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_BCFCE7058A98BFB202_1289681910",
+      "item": "Weapon_Material_10",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_BCFCE7058A98BFB202_1304516913",
+      "item": "Return_Weapon_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_BCFCE7058A98BFB202_1304589914",
+      "item": "Weapon_Material_12",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_BCFCE7058A98BFB202_1304592915",
+      "item": "Weapon_Material_14",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_BCFCE788D449C47002_1988942093",
+      "item": "Medi_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_BCFCE788D449C47002_2094368094",
+      "item": "Weapon_Material_03",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_E89C25A75120025702_1895492299",
+      "item": "Weapon_Material_10",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_E89C25A7512035D802_2141565247",
+      "item": "Return_ShaqiWeapon_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_E89C25A7512036EE02_1771182368",
+      "item": "Weapon_Material_03",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_E89C25A7512036EE02_1887552369",
+      "item": "Weapon_Material_12",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_E89C25A7512037EE02_1321266554",
+      "item": "Weapon_Material_17",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_E89C25A7512037EE02_1452654555",
+      "item": "Weapon_Material_09",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_E89C25A7512037EE02_1619802556",
+      "item": "Weapon_Material_10",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_E89C25A7512054D602_1784136355",
+      "item": "Weapon_Material_12",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_E89C25A751205BB302_1851239226",
+      "item": "Return_Weapon_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_E89C25A7512065DA02_1542598825",
+      "item": "Weapon_Material_14",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_E89C25A7512082D802_1830966512",
+      "item": "Weapon_Material_20",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_E89C25A7512082D802_1834028513",
+      "item": "Weapon_Material_03",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_E89C25A7512082D802_1836405514",
+      "item": "Medi_Material_3",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_E89C25A7512085D802_1986088049",
+      "item": "Medi_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_E89C25A7512085D802_2078349050",
+      "item": "Weapon_Material_03",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_E89C25A75120869002_1783513897",
+      "item": "Weapon_Material_11",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_E89C25A7512086D802_1111463227",
+      "item": "Weapon_Material_10",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_E89C25A7512086D802_1162901228",
+      "item": "Weapon_Material_09",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_E89C25A7512086D802_1165472229",
+      "item": "Weapon_Material_14",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_E89C25A75120879002_1091365076",
+      "item": "Weapon_Material_09",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_E89C25A75120879002_1274426078",
+      "item": "Medi_Material_2",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_E89C25A75120879002_1650150081",
+      "item": "Return_Weapon_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_E89C25A75120889002_1441784260",
+      "item": "Ac_Material_4",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_E89C25A75120899002_1141933439",
+      "item": "Weapon_Material_23",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_E89C25A75120899002_1263042440",
+      "item": "Weapon_Material_10",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_E89C25A751208F8F02_1296082109",
+      "item": "Medi_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_E89C25A75120974D02_1870799220",
+      "item": "Medi_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_E89C25A75120B2EB02_1870522170",
+      "item": "Weapon_Material_12",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_E89C25A75120B78702_1121333907",
+      "item": "Return_ShaqiWeapon_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_E89C25A75120BA8D02_1782002294",
+      "item": "Weapon_Material_17",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_E89C25A75120BA8D02_1834674295",
+      "item": "Medi_Material_2",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_E89C25A75120C79102_2116321257",
+      "item": "Weapon_Material_01",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_E89C25A75120C89102_1175122435",
+      "item": "Weapon_Material_20",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_E89C25A75120C89102_1187308444",
+      "item": "Medi_Material_2",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_E89C25A75120C89102_1197263448",
+      "item": "Weapon_Material_04",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_E89C25A75120D1F902_1921395350",
+      "item": "Weapon_Material_17",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_E89C25A75120D1F902_2000366351",
+      "item": "Ac_Material_1",
+      "source": "map_pickup"
+    },
+    {
+      "id": "PBZ_Zhengdaodaying_WP-BP_Rubbish_C_UAID_E89C25A75120D2F902_2016207544",
+      "item": "Weapon_Material_26",
+      "source": "map_pickup"
+    }
+  ],
+  "version": "pbz-archipelago-v0.9.2"
+}

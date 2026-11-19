@@ -1,0 +1,2102 @@
+{
+ "DengDingShanDao.AC.001": {
+  "source": "map_pickup",
+  "cell": "BQK2Y50HUYAPSDCPHACCYW31D",
+  "actor": "BP_Rubbish_C_UAID_74563CC57EE2693A02_1911449162"
+ },
+ "DengDingShanDao.AC.004": {
+  "source": "map_pickup",
+  "cell": "72HMN9OSU7TT96E430K6Y1PAU",
+  "actor": "BP_Rubbish_C_UAID_E89C25A75120E09102_1133439811"
+ },
+ "DengDingShanDao.AC.005": {
+  "source": "map_pickup",
+  "cell": "02FT4P2JX3FRWVAHITZJ075CC",
+  "actor": "BP_Rubbish_C_UAID_E89C25A75120E09102_1122597804"
+ },
+ "DengDingShanDao.AC.006": {
+  "source": "map_pickup",
+  "cell": "0WS4GRUTW1US6RA8QG7Z51X5R",
+  "actor": "BP_Rubbish_C_UAID_74563CC57EE2693A02_1906197653"
+ },
+ "DengDingShanDao.AC.007": {
+  "source": "map_pickup",
+  "cell": "5UW6XR1YYIRY579WBQUALWJBQ",
+  "actor": "BP_Rubbish_C_UAID_74563CC57EE2693A02_1916215049"
+ },
+ "DengDingShanDao.AC_LowHealth": {
+  "source": "chest",
+  "cell": "3QZ7X8HMEKXD3THN2D8Y11X5G",
+  "actor": "BP_Chest_C_UAID_E89C25A75120D4C702_1500922010"
+ },
+ "DengDingShanDao.AC_ShachiAttack": {
+  "source": "map_pickup",
+  "cell": "5YOARIM31J2TQJ2GV43G1WOJO",
+  "actor": "BP_Rubbish_C_UAID_74563CC57EE2693A02_1913063108"
+ },
+ "DengDingShanDao.Dust_G.001": {
+  "source": "map_pickup",
+  "cell": "308VEJTFPSUWYJZNE0IT3HCAO",
+  "actor": "BP_Rubbish_C_UAID_BCFCE7058A98C2B202_1951341484"
+ },
+ "DengDingShanDao.Dust_G.002": {
+  "source": "map_pickup",
+  "cell": "DSFWBCGVJ0VS1EDPGXBSXXDCN",
+  "actor": "BP_Rubbish_C_UAID_60CF848A66894DDB02_1327115500"
+ },
+ "DengDingShanDao.Dust_L.001": {
+  "source": "map_pickup",
+  "cell": "261F8HBBXL61JS8P1N7TVAFLM",
+  "actor": "BP_Rubbish_C_UAID_BCFCE7058A98C2B202_1994985485"
+ },
+ "DengDingShanDao.Dust_L.003": {
+  "source": "map_pickup",
+  "cell": "4UHXEELF6Q7VWXT9XF2IDGH81",
+  "actor": "BP_Rubbish_C_UAID_E89C25A75120B2B302_1481111865"
+ },
+ "DengDingShanDao.Dust_L.009": {
+  "source": "map_pickup",
+  "cell": "2LPFFH7YNN2U7ADOZLB2CCUGG",
+  "actor": "BP_Rubbish_C_UAID_E89C25A75120B2B302_1978283871"
+ },
+ "DengDingShanDao.Dust_M.008": {
+  "source": "map_pickup",
+  "cell": "2DRZS0GRBMCUY3SZ5KHSJFLXT",
+  "actor": "BP_Rubbish_C_UAID_60CF848A66894BDB02_1981347114"
+ },
+ "DengDingShanDao.Dust_S.006": {
+  "source": "map_pickup",
+  "cell": "2DRZS0GRBMCUY3SZ5KHSJFLXT",
+  "actor": "BP_Rubbish_C_UAID_BCFCE7058A98C2B202_2123055496"
+ },
+ "DengDingShanDao.Dust_S.008": {
+  "source": "map_pickup",
+  "cell": "3HE4PJHU517RPSMC6GA2Y5I3T",
+  "actor": "BP_Rubbish_C_UAID_BCFCE7058A98C2B202_2123061498"
+ },
+ "DengDingShanDao.Dust_S.009": {
+  "source": "map_pickup",
+  "cell": "5YOARIM31J2TQJ2GV43G1WOJO",
+  "actor": "BP_Rubbish_C_UAID_60CF848A668944DB02_1580105783"
+ },
+ "DengDingShanDao.Medi.002": {
+  "source": "map_pickup",
+  "cell": "AETVDI41F6NCCKLRD4AKJHNQ4",
+  "actor": "BP_Rubbish_C_UAID_E89C25A751207CFE02_1414863607"
+ },
+ "DengDingShanDao.Medi.003": {
+  "source": "map_pickup",
+  "cell": "2LPFFH7YNN2U7ADOZLB2CCUGG",
+  "actor": "BP_Rubbish_C_UAID_E89C25A75120E09102_1394013816"
+ },
+ "DengDingShanDao.Medi.005": {
+  "source": "map_pickup",
+  "cell": "71S0SGBQHQ1QYNI3AHZ2E29E6",
+  "actor": "BP_Rubbish_C_UAID_BCFCE7058A98C0B202_1784117110"
+ },
+ "DengDingShanDao.Medi.006": {
+  "source": "map_pickup",
+  "cell": "8T3FS1CXU5LE6KHV5QCIBX66G",
+  "actor": "BP_Rubbish_C_UAID_BCFCE7058A98C0B202_1805915111"
+ },
+ "DengDingShanDao.Medi.010": {
+  "source": "map_pickup",
+  "cell": "34L83BFDI9H7YNZRZQN0C0PGZ",
+  "actor": "BP_Rubbish_C_UAID_E89C25A7512079FE02_1651404078"
+ },
+ "DengDingShanDao.Return.002": {
+  "source": "map_pickup",
+  "cell": "DSFWBCGVJ0VS1EDPGXBSXXDCN",
+  "actor": "BP_Rubbish_C_UAID_74563CC57EE2693A02_1907340687"
+ },
+ "DengDingShanDao.Return.004": {
+  "source": "map_pickup",
+  "cell": "19CVVRDCT4323IFJ94LGGTDMH",
+  "actor": "BP_Rubbish_C_UAID_E89C25A75120D8F902_1795897589"
+ },
+ "DengDingShanDao.Return.006": {
+  "source": "map_pickup",
+  "cell": "8T3FS1CXU5LE6KHV5QCIBX66G",
+  "actor": "BP_Rubbish_C_UAID_E89C25A751207CFE02_1763761609"
+ },
+ "DengDingShanDao.Traversing.001": {
+  "source": "map_pickup",
+  "cell": "AHJUJLUG9HHSV13YWPF84U3VU",
+  "actor": "BP_Rubbish_C_UAID_E89C25A7512093EE02_2058626964"
+ },
+ "DengDingShanDao.Traversing.003": {
+  "source": "map_pickup",
+  "cell": "5OWNMVBT88XGZAIAYQU91FTGJ",
+  "actor": "BP_Rubbish_C_UAID_E89C25A7512094EE02_1319494142"
+ },
+ "DengDingShanDao.Traversing.005": {
+  "source": "map_pickup",
+  "cell": "02FT4P2JX3FRWVAHITZJ075CC",
+  "actor": "BP_Rubbish_C_UAID_E89C25A7512079FE02_1193550076"
+ },
+ "DengDingShanDao.Traversing.006": {
+  "source": "map_pickup",
+  "cell": "76JJO04NS39EITOERAL1YKX7G",
+  "actor": "BP_Rubbish_C_UAID_E89C25A7512079FE02_1252543077"
+ },
+ "DengDingShanDao.wmA.003": {
+  "source": "map_pickup",
+  "cell": "3HE4PJHU517RPSMC6GA2Y5I3T",
+  "actor": "BP_Rubbish_C_UAID_74563CC57EE2693A02_1912823952"
+ },
+ "DengDingShanDao.wmA.004": {
+  "source": "map_pickup",
+  "cell": "F0SPCMI8247RCZ3T1AD9U1S0B",
+  "actor": "BP_Rubbish_C_UAID_E89C25A7512014F002_1293054587"
+ },
+ "DengDingShanDao.wmA.007": {
+  "source": "map_pickup",
+  "cell": "72HMN9OSU7TT96E430K6Y1PAU",
+  "actor": "BP_Rubbish_C_UAID_E89C25A7512014F002_1399698588"
+ },
+ "DengDingShanDao.wmA.008": {
+  "source": "map_pickup",
+  "cell": "EEZ984E6NKW9XXGQOA3YYDISU",
+  "actor": "BP_Rubbish_C_UAID_74563CC57EE2693A02_1906345835"
+ },
+ "DengDingShanDao.wmA.010": {
+  "source": "map_pickup",
+  "cell": "5DAIF87IJTW0FIQKXXFCU5AD4",
+  "actor": "BP_Rubbish_C_UAID_BCFCE7058A98C1B202_1221703292"
+ },
+ "DengDingShanDao.wmA.011": {
+  "source": "map_pickup",
+  "cell": "BU4JNO1XVWFFX5G36QCRQD60D",
+  "actor": "BP_Rubbish_C_UAID_BCFCE7058A98C1B202_1255350293"
+ },
+ "DengDingShanDao.wmA.013": {
+  "source": "map_pickup",
+  "cell": "5UW6XR1YYIRY579WBQUALWJBQ",
+  "actor": "BP_Rubbish_C_UAID_E89C25A75120E09102_1120950803"
+ },
+ "DengDingShanDao.wmA.015": {
+  "source": "map_pickup",
+  "cell": "92ITTZWRH93QZSV3VZTCYQNVJ",
+  "actor": "BP_Rubbish_C_UAID_BCFCE7058A98C1B202_1278290294"
+ },
+ "DengDingShanDao.wmA.023": {
+  "source": "map_pickup",
+  "cell": "5OWNMVBT88XGZAIAYQU91FTGJ",
+  "actor": "BP_Rubbish_C_UAID_E89C25A75120B1EB02_2132706950"
+ },
+ "DengDingShanDao.wmA.024": {
+  "source": "map_pickup",
+  "cell": "5DAIF87IJTW0FIQKXXFCU5AD4",
+  "actor": "BP_Rubbish_C_UAID_E89C25A75120B2EB02_1149434127"
+ },
+ "DengDingShanDao.wmB.001": {
+  "source": "map_pickup",
+  "cell": "19CVVRDCT4323IFJ94LGGTDMH",
+  "actor": "BP_Rubbish_C_UAID_E89C25A75120E09102_1392409815"
+ },
+ "DengDingShanDao.wmB.003": {
+  "source": "map_pickup",
+  "cell": "CRNTNOIVP3IIAYOITKB0UC94V",
+  "actor": "BP_Rubbish_C_UAID_BCFCE7058A98C2B202_1252737476"
+ },
+ "DengDingShanDao.wmB.004": {
+  "source": "map_pickup",
+  "cell": "5OWNMVBT88XGZAIAYQU91FTGJ",
+  "actor": "BP_Rubbish_C_UAID_E89C25A75120E09102_1388576813"
+ },
+ "DengDingShanDao.wmB.008": {
+  "source": "map_pickup",
+  "cell": "74M50QBZZ7934YF242AKN8LCL",
+  "actor": "BP_Rubbish_C_UAID_BCFCE7058A98C2B202_1369723479"
+ },
+ "DengDingShanDao.wmB.012": {
+  "source": "map_pickup",
+  "cell": "0WS4GRUTW1US6RA8QG7Z51X5R",
+  "actor": "BP_Rubbish_C_UAID_E89C25A75120E09102_1131263809"
+ },
+ "DuanHunYa.AC.005": {
+  "source": "map_pickup",
+  "cell": "ANK5Q1IR4R3HL2MSQYD39ASIX",
+  "actor": "BP_Rubbish_C_UAID_74563C6BC2BD32B802_1177599011"
+ },
+ "DuanHunYa.Dust_G.001": {
+  "source": "map_pickup",
+  "cell": "BE04VJYG75E8W15A8FLG2XBER",
+  "actor": "BP_Rubbish_C_UAID_74563C6BC2BD32B802_1177235951"
+ },
+ "DuanHunYa.Dust_L.006": {
+  "source": "map_pickup",
+  "cell": "45JS89UVAKBH0Z8O64OMVO8KL",
+  "actor": "BP_Rubbish_C_UAID_74563C6BC2BD32B802_1177357964"
+ },
+ "DuanHunYa.Medi.001": {
+  "source": "map_pickup",
+  "cell": "530OOQEIQFKRME1SKDG6ZS9QP",
+  "actor": "BP_Rubbish_C_UAID_74563C6BC2BD32B802_1177604012"
+ },
+ "DuanHunYa.Medi.002": {
+  "source": "map_pickup",
+  "cell": "AIOD202EWAD3C6ECJA554AWZX",
+  "actor": "BP_Rubbish_C_UAID_74563C6BC2BD32B802_1177297952"
+ },
+ "DuanHunYa.Medi.004": {
+  "source": "map_pickup",
+  "cell": "6XU3H8KJW7XXOLXKWP3OMBZ5O",
+  "actor": "BP_Rubbish_C_UAID_74563C6BC2BD32B802_1177619015"
+ },
+ "DuanHunYa.Medi.005": {
+  "source": "map_pickup",
+  "cell": "BOHE7L2L5U1V9O93L828M5B2T",
+  "actor": "BP_Rubbish_C_UAID_74563C6BC2BD32B802_1177521996"
+ },
+ "DuanHunYa.Medi.006": {
+  "source": "map_pickup",
+  "cell": "ANK5Q1IR4R3HL2MSQYD39ASIX",
+  "actor": "BP_Rubbish_C_UAID_74563C6BC2BD32B802_1177609013"
+ },
+ "DuanHunYa.Medi.007": {
+  "source": "map_pickup",
+  "cell": "BQNRL7LNQMJSU6XLSTYM12V3S",
+  "actor": "BP_Rubbish_C_UAID_74563C6BC2BD32B802_1292746091"
+ },
+ "DuanHunYa.Return.001": {
+  "source": "map_pickup",
+  "cell": "AIOD202EWAD3C6ECJA554AWZX",
+  "actor": "BP_Rubbish_C_UAID_E89C25A75120DDF902_1162603538"
+ },
+ "DuanHunYa.Return.002": {
+  "source": "map_pickup",
+  "cell": "AIOD202EWAD3C6ECJA554AWZX",
+  "actor": "BP_Rubbish_C_UAID_74563C6BC2BD32B802_1177526997"
+ },
+ "DuanHunYa.Return.003": {
+  "source": "map_pickup",
+  "cell": "7DD1UQPHRJ46LIALPSHD8AY2Y",
+  "actor": "BP_Rubbish_C_UAID_74563C6BC2BD32B802_1177788052"
+ },
+ "DuanHunYa.Return.005": {
+  "source": "map_pickup",
+  "cell": "CGXQSJH8OJSA51KUDO4CP7PBP",
+  "actor": "BP_Rubbish_C_UAID_74563C6BC2BD32B802_1177378968"
+ },
+ "DuanHunYa.wmA.006": {
+  "source": "map_pickup",
+  "cell": "717APCDALMU1XI9LRJIFS50R7",
+  "actor": "BP_Rubbish_C_UAID_74563C6BC2BD32B802_1177783051"
+ },
+ "DuanHunYa.wmA.010": {
+  "source": "map_pickup",
+  "cell": "6XU3H8KJW7XXOLXKWP3OMBZ5O",
+  "actor": "BP_Rubbish_C_UAID_74563C6BC2BD32B802_1177471986"
+ },
+ "DuanHunYa.wmA.014": {
+  "source": "map_pickup",
+  "cell": "3QQT86W57CE3SHB8O11MPGYIG",
+  "actor": "BP_Rubbish_C_UAID_74563C6BC2BD32B802_1177841064"
+ },
+ "DuanHunYa.wmA.016": {
+  "source": "map_pickup",
+  "cell": "0TBCI6G2GAZ6FX83S000K9XVJ",
+  "actor": "BP_Rubbish_C_UAID_74563C6BC2BD32B802_1638246093"
+ },
+ "ErCijingLin.2Medi004": {
+  "source": "chest",
+  "cell": "4ID52ZAK9BH6OPL2RCU0WCD5L",
+  "actor": "BP_Chest_C_UAID_60CF848217CA79EE02_2068628231"
+ },
+ "ErCijingLin.AC.001": {
+  "source": "map_pickup",
+  "cell": "8682NEIRIOWITPWIIT0J0TYEH",
+  "actor": "BP_Rubbish_C_UAID_00FF6172C59CBC4502_2114375726"
+ },
+ "ErCijingLin.AC.002": {
+  "source": "map_pickup",
+  "cell": "5SOPFNPFPVVK2R25AVEKO84L2",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CAD1FF02_1219394686"
+ },
+ "ErCijingLin.AC_Chaos": {
+  "source": "chest",
+  "cell": "DRIBRHH9YAGYY6QYMVKGMQO46",
+  "actor": "BP_Chest_C_UAID_60CF848217CA85EE02_1314088343"
+ },
+ "ErCijingLin.AC_ResistIce": {
+  "source": "chest",
+  "cell": "E3P2CG9ZLFEY6KRA8X2HDD9GM",
+  "actor": "BP_Chest_C_UAID_60CF848217CA35EE02_1524814221"
+ },
+ "ErCijingLin.Dust_M.002": {
+  "source": "map_pickup",
+  "cell": "4O0ELCD6UR3IDCULJNNHFF18O",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA71D602_1835889406"
+ },
+ "ErCijingLin.Return.003": {
+  "source": "map_pickup",
+  "cell": "4O0ELCD6UR3IDCULJNNHFF18O",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA9AFE02_2121768956"
+ },
+ "ErCijingLin.Return.004": {
+  "source": "map_pickup",
+  "cell": "4O0ELCD6UR3IDCULJNNHFF18O",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA9AFE02_2125837957"
+ },
+ "ErCijingLin.WmA003": {
+  "source": "map_pickup",
+  "cell": "DIQ72MLORYHEZ1K6BALWDQHXB",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA71D602_1835886405"
+ },
+ "ErCijingLin.WmA008": {
+  "source": "map_pickup",
+  "cell": "4O0ELCD6UR3IDCULJNNHFF18O",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA71D602_1835892407"
+ },
+ "ErCijingLin.WmA009": {
+  "source": "map_pickup",
+  "cell": "DIQ72MLORYHEZ1K6BALWDQHXB",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA71D602_1835855395"
+ },
+ "ErCijingLin.WmA010": {
+  "source": "map_pickup",
+  "cell": "88N4VI4GMXQLOLOD70CC878P5",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA71D602_1835765387"
+ },
+ "ErCijingLin.WmA011": {
+  "source": "map_pickup",
+  "cell": "D4D338WR8Q3X3PYBUQBSORHZS",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA86EE02_1635230521"
+ },
+ "ErCijingLin.WmA021": {
+  "source": "map_pickup",
+  "cell": "4O0ELCD6UR3IDCULJNNHFF18O",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA71D602_1835840390"
+ },
+ "ErCijingLin.WmA022": {
+  "source": "map_pickup",
+  "cell": "9TU1P34OCIZS3J2CUXJQ9CJF9",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA71D602_1835832388"
+ },
+ "ErCijingLin.WmB001": {
+  "source": "map_pickup",
+  "cell": "DIQ72MLORYHEZ1K6BALWDQHXB",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA71D602_1835883404"
+ },
+ "ErCijingLin.WmB002": {
+  "source": "map_pickup",
+  "cell": "BM1S71TOOUQZ96E10W6H8QLBF",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA86EE02_1490708520"
+ },
+ "ErCijingLin.WmB005": {
+  "source": "chest",
+  "cell": "3OGJCVUQYSYIQ1BCP71AWDS0E",
+  "actor": "BP_Chest_C_UAID_60CF848217CA82EE02_2018898784"
+ },
+ "ErCijingLin.WmB006": {
+  "source": "map_pickup",
+  "cell": "C13JFVMJOW2EUUPNBNHWCIEQH",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA71D602_1835859396"
+ },
+ "ErCijingLin.WmB008": {
+  "source": "map_pickup",
+  "cell": "042545LQKWVEV1D29OUO0HRI3",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA84EE02_1858796162"
+ },
+ "FuJiZhiLin.001.T_02001": {
+  "source": "chest",
+  "cell": "9HDHQ68829MJ4Z7HLLQLZ1O3E",
+  "actor": "BP_Chest_C_UAID_60CF848217CA02FC02_1705915060"
+ },
+ "FuJiZhiLin.001.Weapon_Material_01": {
+  "source": "map_pickup",
+  "cell": "ADECDLQIG92XJPTPCK550JSAI",
+  "actor": "BP_Rubbish_C_UAID_00FF6172C59CBB4502_1919535540"
+ },
+ "FuJiZhiLin.001.Weapon_Material_07": {
+  "source": "map_pickup",
+  "cell": "ADB5I0VFDQURCBVVFTAW5XP39",
+  "actor": "BP_Rubbish_C_UAID_74563CC57EE2F73B02_1314413700"
+ },
+ "FuJiZhiLin.001.shewu1": {
+  "source": "map_pickup",
+  "cell": "EA5T3HPWDHYJ9IYX9RW819XVL",
+  "actor": "BP_Rubbish_A_C_UAID_60CF848217CA5CF102_1265727255"
+ },
+ "FuJiZhiLin.001.shewu2": {
+  "source": "map_pickup",
+  "cell": "EA5T3HPWDHYJ9IYX9RW819XVL",
+  "actor": "BP_Rubbish_A_C_UAID_60CF848217CA5CF102_1344046257"
+ },
+ "FuJiZhiLin.002.Dust_Small": {
+  "source": "map_pickup",
+  "cell": "57VUUNXRBDK078R5XRX0HR5KK",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA7F9302_1112402971"
+ },
+ "FuJiZhiLin.002.T_02002": {
+  "source": "chest",
+  "cell": "6M2062DNCOE06G0R12UV8WZBV",
+  "actor": "BP_Chest_C_UAID_60CF848217CA87FA02_1208025301"
+ },
+ "FuJiZhiLin.003.Dust_Small": {
+  "source": "map_pickup",
+  "cell": "57VUUNXRBDK078R5XRX0HR5KK",
+  "actor": "BP_Rubbish_C_UAID_00FF6172C59CBB4502_2028608541"
+ },
+ "FuJiZhiLin.003.T_02003": {
+  "source": "chest",
+  "cell": "7XEOYZ1IH725RW70YN8K37XWD",
+  "actor": "BP_Chest_C_UAID_60CF848217CA87FA02_1694320302"
+ },
+ "FuJiZhiLin.003.Weapon_Material_07": {
+  "source": "map_pickup",
+  "cell": "0BDID8JPJJE3DN59XDV0O2UVH",
+  "actor": "BP_Rubbish_C_UAID_00FF6172C59CBC4502_1709139723"
+ },
+ "FuJiZhiLin.005.Dust_Small": {
+  "source": "map_pickup",
+  "cell": "AUQ5RGZGFAH1NKOMV9U3RIQ5O",
+  "actor": "BP_Rubbish_C_UAID_74563CC57EE2F73B02_1307880296"
+ },
+ "FuJiZhiLin.005.Weapon_Material_01": {
+  "source": "map_pickup",
+  "cell": "4E9MVJZWLG2XY5A79469JJ9K1",
+  "actor": "BP_Rubbish_C_UAID_00FF6172C59CBD4502_2074733032"
+ },
+ "FuJiZhiLin.005.Weapon_Material_04": {
+  "source": "map_pickup",
+  "cell": "9CSZNJOLG5ERBTPHDSRBDCNKK",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA859302_1830928660"
+ },
+ "FuJiZhiLin.006.Dust_Small": {
+  "source": "map_pickup",
+  "cell": "2TJIY09WBJT4DX80Y9DAFFB8U",
+  "actor": "BP_Rubbish_C_UAID_74563CC57EE2F73B02_1315008654"
+ },
+ "FuJiZhiLin.006.Weapon_Material_04": {
+  "source": "map_pickup",
+  "cell": "A7ZLDXE6FT0RCLKFM3MV2OPZM",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA819B02_1615150402"
+ },
+ "FuJiZhiLin.008.Dust_Medium": {
+  "source": "map_pickup",
+  "cell": "9HU9B1AOHAHNADBWSJ16PDNGB",
+  "actor": "BP_Rubbish_C_UAID_00FF6172C59CBE4502_1183773211"
+ },
+ "FuJiZhiLin.010.Dust_Medium": {
+  "source": "map_pickup",
+  "cell": "BYC5XC7YZXVINFQBOZURNLZSD",
+  "actor": "BP_Rubbish_C_UAID_D85ED3AAC7CA325402_1504012879"
+ },
+ "FuJiZhiLin.011.Dust_Medium": {
+  "source": "map_pickup",
+  "cell": "DG3LQ5Z9I7B8ZJJY413S145P8",
+  "actor": "BP_Rubbish_C_UAID_00FF6172C59CBD4502_2118184033"
+ },
+ "FuJiZhiLin.014.Dust_Small": {
+  "source": "map_pickup",
+  "cell": "A5D7PM3ON68KVHQ42Y708IMOD",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA96AC02_1395748056"
+ },
+ "FuJiZhiLin.019.Dust_Small": {
+  "source": "map_pickup",
+  "cell": "4GWKF3VQT7GE64QTTKZIUL6GV",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA96AC02_1405706061"
+ },
+ "FuJiZhiLin.020.Dust_Small": {
+  "source": "map_pickup",
+  "cell": "C2L9JHY7GF8UIR8LX6O7RM7TA",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA96AC02_1408205062"
+ },
+ "FuJiZhiLin.021.Dust_Small": {
+  "source": "map_pickup",
+  "cell": "4D0FXD3QFNL4DLA3OHUTVGWYX",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA96AC02_1410039063"
+ },
+ "FuJiZhiLin.027.Dust_Small": {
+  "source": "map_pickup",
+  "cell": "2YCYVUA03400AMW2943NU5V67",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA890403_1403840196"
+ },
+ "FuJiZhiLin.028.Dust_Small": {
+  "source": "map_pickup",
+  "cell": "2YCYVUA03400AMW2943NU5V67",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA890403_1361459195"
+ },
+ "FuJiZhiLin.032.Dust_Small": {
+  "source": "map_pickup",
+  "cell": "02NA1GVNCHKUU82T4XEOXMIPQ",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA96AC02_1441440074"
+ },
+ "FuJiZhiLin.AC_BreakShield": {
+  "source": "chest",
+  "cell": "089FKDRB0R14BCAS6FDSOC5NT",
+  "actor": "BP_Chest_C_UAID_60CF848217CA52D002_1876392638"
+ },
+ "FuJiZhiLin.AC_Rider": {
+  "source": "chest",
+  "cell": "7WUJU9KBNU2I54OU1J91C1RF2",
+  "actor": "BP_Chest_C_UAID_60CF848217CA550203_1120242957"
+ },
+ "FuJiZhiLin.AC_Stance": {
+  "source": "chest",
+  "cell": "7XEOYZ1IH725RW70YN8K37XWD",
+  "actor": "BP_Chest_C_UAID_60CF848217CAD68D02_1205353646"
+ },
+ "FuJiZhiLin.xinzeng": {
+  "source": "map_pickup",
+  "cell": "1RERPZBRWH0QHUEVSBN4FKH8B",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA5F0C03_1284574302"
+ },
+ "FuJiZhiLin.xinzeng2": {
+  "source": "map_pickup",
+  "cell": "4D0FXD3QFNL4DLA3OHUTVGWYX",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA5F0C03_1353251303"
+ },
+ "FuJiZhiLin.xinzeng3": {
+  "source": "map_pickup",
+  "cell": "EM83N8QJNIVAFEUSBC0YHM3T3",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA5F0C03_1361835304"
+ },
+ "HouJie.001.A3_07001": {
+  "source": "map_pickup",
+  "cell": "AM9U37GTWN9WHDKGEHK0XUP9G",
+  "actor": "BP_Rubbish_C_UAID_E89C25A7512647AF02_1747109465"
+ },
+ "HouJie.001.Dust_Large": {
+  "source": "map_pickup",
+  "cell": "CLUD5CDN9V24TGV6ZPFKUQB5Z",
+  "actor": "BP_Rubbish_C_UAID_60CF84809909C6B202_1563940458"
+ },
+ "HouJie.001.Dust_Small": {
+  "source": "map_pickup",
+  "cell": "3I0YG8XE8MQ7CZVIC7IPJ6UKZ",
+  "actor": "BP_Rubbish_C_UAID_E89C25A7512647AF02_1747209504"
+ },
+ "HouJie.001.T_06004": {
+  "source": "chest",
+  "cell": "BQH3HUN9V0MEH1EJQ56CVCFLT",
+  "actor": "BP_Chest_C_UAID_60CF8480990991FD02_1094215260"
+ },
+ "HouJie.001.T_06005": {
+  "source": "chest",
+  "cell": "DB74XBZ0NYLNLFJQW7FI571A3",
+  "actor": "BP_Chest_C_UAID_60CF84809909F7FB02_2043476051"
+ },
+ "HouJie.001.Weapon_Material_04": {
+  "source": "map_pickup",
+  "cell": "57ZW51G547V4KVNKJJ2JLW413",
+  "actor": "BP_Rubbish_C_UAID_60CF84809909C1B202_2070119535"
+ },
+ "HouJie.001.Weapon_Material_08": {
+  "source": "map_pickup",
+  "cell": "CB017J5RIK4CQDB1LQNA57WAO",
+  "actor": "BP_Rubbish_C_UAID_E89C25A7512647AF02_1747171489"
+ },
+ "HouJie.0010.Dust_Medium": {
+  "source": "map_pickup",
+  "cell": "ABB36BFIGBLIJ8S83TBE22LLJ",
+  "actor": "BP_Rubbish_C_UAID_60CF84809909CCB202_1291200550"
+ },
+ "HouJie.002.Dust_Medium": {
+  "source": "map_pickup",
+  "cell": "361KH3GZHDGTHE3W3RH22K3RS",
+  "actor": "BP_Rubbish_C_UAID_60CF84809909C5B202_1144328271"
+ },
+ "HouJie.002.Dust_Small": {
+  "source": "map_pickup",
+  "cell": "C5YX42D84JTK0ZUIN8CU03GUR",
+  "actor": "BP_Rubbish_C_UAID_E89C25A7512647AF02_1747176491"
+ },
+ "HouJie.002.Item_Traversing": {
+  "source": "map_pickup",
+  "cell": "9HVIZE251MY7HZEDONJPXNBU2",
+  "actor": "BP_Rubbish_C_UAID_60CF8480990991FD02_1520156264"
+ },
+ "HouJie.002.Weapon_Material_01": {
+  "source": "map_pickup",
+  "cell": "0E5367Z36LXC8N6FXAOIRFBLU",
+  "actor": "BP_Rubbish_C_UAID_E89C25A7512647AF02_1747124471"
+ },
+ "HouJie.002.Weapon_Material_02": {
+  "source": "map_pickup",
+  "cell": "6DZ2BVTK72XLM2MJWJVDZIPAF",
+  "actor": "BP_Rubbish_C_UAID_E89C25A7512647AF02_1746005270"
+ },
+ "HouJie.002.Weapon_Material_05": {
+  "source": "map_pickup",
+  "cell": "04EP9B20KV56HA22IPO9T2D7W",
+  "actor": "BP_Rubbish_C_UAID_60CF84809909C6B202_1494196455"
+ },
+ "HouJie.002.Weapon_Material_08": {
+  "source": "map_pickup",
+  "cell": "C3CXZGV1KEGDT5BMAWVOAYQXK",
+  "actor": "BP_Rubbish_C_UAID_60CF84809909CCB202_1484965554"
+ },
+ "HouJie.003.Dust_G": {
+  "source": "map_pickup",
+  "cell": "2B8D97JYD0MV7WNC9HRX0Z25C",
+  "actor": "BP_Rubbish_C_UAID_60CF84809909C3B202_1591042913"
+ },
+ "HouJie.003.Dust_Medium": {
+  "source": "map_pickup",
+  "cell": "4XKMRZP1KOMNDYUEAWVG7DGNZ",
+  "actor": "BP_Rubbish_C_UAID_E89C25A7512647AF02_1747036436"
+ },
+ "HouJie.003.Weapon_Material_01": {
+  "source": "map_pickup",
+  "cell": "BIGW1FDFB7PJITITZK8OUFH1V",
+  "actor": "BP_Rubbish_C_UAID_60CF848099095BFB02_1457787799"
+ },
+ "HouJie.003.Weapon_Material_02": {
+  "source": "map_pickup",
+  "cell": "EJBNSGVA24K885BVZ4797ZQAW",
+  "actor": "BP_Rubbish_C_UAID_60CF84809909C6B202_1509772456"
+ },
+ "HouJie.003.Weapon_Material_04": {
+  "source": "map_pickup",
+  "cell": "0KWSMZM9N0N71PVSJ25CGQ006",
+  "actor": "BP_Rubbish_C_UAID_60CF8480990982B302_1559276516"
+ },
+ "HouJie.003.Weapon_Material_05": {
+  "source": "map_pickup",
+  "cell": "EUIKSVV9WMX43TNDOGWSXXAKT",
+  "actor": "BP_Rubbish_C_UAID_60CF8480990983B302_1292895703"
+ },
+ "HouJie.003.Weapon_Material_08": {
+  "source": "map_pickup",
+  "cell": "93V08NVH5YQWEHTJS8YHWACHI",
+  "actor": "BP_Rubbish_C_UAID_60CF8480990983B302_1426664706"
+ },
+ "HouJie.004.Dust_Small": {
+  "source": "map_pickup",
+  "cell": "016CNF2XL7GWTRFF796STIET6",
+  "actor": "BP_Rubbish_C_UAID_E89C25A7512647AF02_1747158484"
+ },
+ "HouJie.004.Item_Traversing": {
+  "source": "map_pickup",
+  "cell": "3TIPLGUDWO2JIN7TNZY8YRKTJ",
+  "actor": "BP_Rubbish_C_UAID_60CF8480990978FF02_1127636932"
+ },
+ "HouJie.004.Weapon_Material_07": {
+  "source": "map_pickup",
+  "cell": "2JGMMAR3ATHRPCOLOKW7RAUYF",
+  "actor": "BP_Rubbish_C_UAID_E89C25A7512647AF02_1747204502"
+ },
+ "HouJie.005.Dust_Medium": {
+  "source": "map_pickup",
+  "cell": "6ECY9NRWIRISDA2JY0FFR4TH8",
+  "actor": "BP_Rubbish_C_UAID_E89C25A7512647AF02_1747112466"
+ },
+ "HouJie.005.Dust_Small": {
+  "source": "map_pickup",
+  "cell": "9JD1RZCFT27W470RDAUQW3AIQ",
+  "actor": "BP_Rubbish_C_UAID_E89C25A7512647AF02_1747199500"
+ },
+ "HouJie.005.Item_Traversing": {
+  "source": "map_pickup",
+  "cell": "A4V9FTMETU4BV5EDKP58P29T2",
+  "actor": "BP_Rubbish_C_UAID_60CF848099095BFB02_1578006800"
+ },
+ "HouJie.005.Weapon_Material_04": {
+  "source": "map_pickup",
+  "cell": "4OILMAMTQOG9ZGK28SOSBZ34Q",
+  "actor": "BP_Rubbish_C_UAID_60CF8480990983B302_1152293700"
+ },
+ "HouJie.006.Dust_Small": {
+  "source": "map_pickup",
+  "cell": "EOWUHC2UGPLGDR5S9XDXVUIRB",
+  "actor": "BP_Rubbish_C_UAID_60CF8480990983E302_1658653332"
+ },
+ "HouJie.007.Dust_Small": {
+  "source": "map_pickup",
+  "cell": "4Y7MJ6PT0MRDYCGBSVWHTJ0QL",
+  "actor": "BP_Rubbish_C_UAID_60CF8480990914B302_2055548115"
+ },
+ "HouJie.008.Dust_Medium": {
+  "source": "map_pickup",
+  "cell": "CDPF8D0QZHE90EXGXSFWSWE7U",
+  "actor": "BP_Rubbish_C_UAID_E89C25A7512647AF02_1747186495"
+ },
+ "HouJie.009.Dust_Small": {
+  "source": "map_pickup",
+  "cell": "1XLSGPO2Z20B663WUAC1QT5UX",
+  "actor": "BP_Rubbish_C_UAID_60CF8480990916B302_1437946539"
+ },
+ "HouJie.011.Dust_Small": {
+  "source": "map_pickup",
+  "cell": "CB017J5RIK4CQDB1LQNA57WAO",
+  "actor": "BP_Rubbish_C_UAID_E89C25A7512647AF02_1750183765"
+ },
+ "HouJie.013.Dust_Small": {
+  "source": "map_pickup",
+  "cell": "9RK4FSBBZ7BMH3ZDTGLRLSAL8",
+  "actor": "BP_Rubbish_C_UAID_60CF8480990919B302_2016902070"
+ },
+ "HouJie.017.Dust_Small": {
+  "source": "map_pickup",
+  "cell": "04EP9B20KV56HA22IPO9T2D7W",
+  "actor": "BP_Rubbish_C_UAID_E89C25A7512647AF02_1747181493"
+ },
+ "HouJie.018.Dust_Small": {
+  "source": "map_pickup",
+  "cell": "E4DTMH1E4I76R8Z4QUSP23LL4",
+  "actor": "BP_Rubbish_C_UAID_60CF8480990953FB02_1783955246"
+ },
+ "HouJie.019.Dust_Small": {
+  "source": "map_pickup",
+  "cell": "ADF0MLRP3HOROT1LLJ5CYNWMY",
+  "actor": "BP_Rubbish_C_UAID_E89C25A7512647AF02_1747104463"
+ },
+ "HouJie.020.Dust_Small": {
+  "source": "map_pickup",
+  "cell": "4B3AWYMKCCC0NL9JM9BE45K3C",
+  "actor": "BP_Rubbish_C_UAID_E89C25A7512647AF02_1747117468"
+ },
+ "HouJie.AC_RangedWeapon": {
+  "source": "chest",
+  "cell": "9ZVBMBY1J32UUV31H2XG3UK4C",
+  "actor": "BP_Chest_C_UAID_E89C25A7512647AF02_1750186766"
+ },
+ "HouJie.AC_ResistBleed": {
+  "source": "chest",
+  "cell": "1GXMNIS0GF8XV16UL7QHQPBUL",
+  "actor": "BP_Chest_C_UAID_60CF84809909B10603_1251814544"
+ },
+ "HouJie.AC_ResistThunder": {
+  "source": "chest",
+  "cell": "CY5TWUPNTM1GBDKYJKIHHH2K7",
+  "actor": "BP_Chest_C_UAID_60CF84809909F2D502_1968722031"
+ },
+ "HouJie.extra.003": {
+  "source": "map_pickup",
+  "cell": "3TIPLGUDWO2JIN7TNZY8YRKTJ",
+  "actor": "BP_Rubbish_C_UAID_60CF84809909B0F002_1716633000"
+ },
+ "HouJie.extra.004": {
+  "source": "map_pickup",
+  "cell": "8C5NA4BI915RZ0LCBX5Y4QMKI",
+  "actor": "BP_Rubbish_C_UAID_60CF84809909B0F002_1758693001"
+ },
+ "HouJie.extra.005": {
+  "source": "map_pickup",
+  "cell": "8C5NA4BI915RZ0LCBX5Y4QMKI",
+  "actor": "BP_Rubbish_C_UAID_60CF84809909B0F002_1792633002"
+ },
+ "HouJie.extra.006": {
+  "source": "map_pickup",
+  "cell": "AM9U37GTWN9WHDKGEHK0XUP9G",
+  "actor": "BP_Rubbish_C_UAID_60CF84809909EEF602_1173290179"
+ },
+ "HuanShuShi.AC.001": {
+  "source": "map_pickup",
+  "cell": "3TKKCH5W8IY1MYHOWWML7INXE",
+  "actor": "BP_Rubbish_C_UAID_E89C25A75120039302_1940199570"
+ },
+ "HuanShuShi.AC.002": {
+  "source": "map_pickup",
+  "cell": "8AQDA1PGI352ANVRBSY2NLUCK",
+  "actor": "BP_Rubbish_C_UAID_E89C25A75120049302_1490819772"
+ },
+ "HuanShuShi.AC.003": {
+  "source": "map_pickup",
+  "cell": "CZZA6Y0RXTQ2RFR242IEDRLMM",
+  "actor": "BP_Rubbish_C_UAID_E89C25A75120A7D602_1830160418"
+ },
+ "HuanShuShi.AC.004": {
+  "source": "map_pickup",
+  "cell": "6FNCAFEVHLFH5Q32PKTS1O02Z",
+  "actor": "BP_Rubbish_C_UAID_E89C25A75120039302_1947159582"
+ },
+ "HuanShuShi.AC.005": {
+  "source": "map_pickup",
+  "cell": "9S173M9WPVMPO68T67RW18QY6",
+  "actor": "BP_Rubbish_C_UAID_E89C25A75120A7D602_1978641421"
+ },
+ "HuanShuShi.AC.007": {
+  "source": "map_pickup",
+  "cell": "A7TDGHSYJIFOCEZNXFCLNWLV5",
+  "actor": "BP_Rubbish_C_UAID_60CF848A6689BFC902_1716520726"
+ },
+ "HuanShuShi.AC_ElementRegen": {
+  "source": "chest",
+  "cell": "8XLI1M4DPYAZ23I1VHXMANHXP",
+  "actor": "BP_Chest_C_UAID_E89C25A75120B7D502_1152615756"
+ },
+ "HuanShuShi.AC_Frost": {
+  "source": "chest",
+  "cell": "2N2J1CT2XMZNJTM65679DNFVE",
+  "actor": "BP_Chest_C_UAID_E89C25A75120B2D502_1972727859"
+ },
+ "HuanShuShi.Dust_L.004": {
+  "source": "map_pickup",
+  "cell": "7Q3LLN40NYH4O98WA3T91A5RK",
+  "actor": "BP_Rubbish_C_UAID_60CF848A66891BC902_1990609452"
+ },
+ "HuanShuShi.Dust_L.006": {
+  "source": "map_pickup",
+  "cell": "A0VBJKIN9MESHT3E4XXZOIPYZ",
+  "actor": "BP_Rubbish_C_UAID_60CF848A668981DD02_1692163785"
+ },
+ "HuanShuShi.Dust_L.009": {
+  "source": "map_pickup",
+  "cell": "4F3D05DQ4PMNB0AA6D0BYWNLR",
+  "actor": "BP_Rubbish_C_UAID_60CF848A668936DD02_1676869626"
+ },
+ "HuanShuShi.Dust_L.012": {
+  "source": "map_pickup",
+  "cell": "965KJ1FYJE3LIF01U3CA8PPDR",
+  "actor": "BP_Rubbish_b_C_UAID_60CF848A66893FDD02_1463726270"
+ },
+ "HuanShuShi.Dust_L.014": {
+  "source": "map_pickup",
+  "cell": "CCTMB5E4IR3W5MR0D2OEJ6XY0",
+  "actor": "BP_Rubbish_C_UAID_60CF848A668937DD02_1743010806"
+ },
+ "HuanShuShi.Dust_L.015": {
+  "source": "map_pickup",
+  "cell": "7Q3LLN40NYH4O98WA3T91A5RK",
+  "actor": "BP_Rubbish_C_UAID_60CF848A668937DD02_1111786803"
+ },
+ "HuanShuShi.Medi.001": {
+  "source": "map_pickup",
+  "cell": "2ENDGKWB91RNK3O9V20OTMYYH",
+  "actor": "BP_Rubbish_C_UAID_E89C25A75120039302_1941668576"
+ },
+ "HuanShuShi.Medi.002": {
+  "source": "map_pickup",
+  "cell": "48BMXDLN9AG48NHDPAZZLEOG7",
+  "actor": "BP_Rubbish_C_UAID_E89C25A75120069302_1496822148"
+ },
+ "HuanShuShi.Medi.004": {
+  "source": "map_pickup",
+  "cell": "CPJFCRJN5WPRSQ5J2RX9O5I8F",
+  "actor": "BP_Rubbish_C_UAID_60CF848A66893DCB02_1930709610"
+ },
+ "HuanShuShi.Medi.005": {
+  "source": "map_pickup",
+  "cell": "DH0CWLNVY7KKXAI5XDBMSWRAI",
+  "actor": "BP_Rubbish_C_UAID_E89C25A7512080FE02_1278668324"
+ },
+ "HuanShuShi.Medi.006": {
+  "source": "map_pickup",
+  "cell": "7CAGN4XCZLNAHB5PFDRRMLP00",
+  "actor": "BP_Rubbish_C_UAID_E89C25A7512081FE02_1508887531"
+ },
+ "HuanShuShi.Medi.007": {
+  "source": "map_pickup",
+  "cell": "2PGDHTFA6NAJMRQOFXBMEWZZY",
+  "actor": "BP_Rubbish_C_UAID_E89C25A7512081FE02_1557545532"
+ },
+ "HuanShuShi.wmA.016": {
+  "source": "map_pickup",
+  "cell": "EEJ5KXRQS4M08SPF5WAGCQ4XB",
+  "actor": "BP_Rubbish_C_UAID_E89C25A75120049302_1111811760"
+ },
+ "HuanShuShi.wmA.019": {
+  "source": "map_pickup",
+  "cell": "DYIBX8ILWEK0VRNZ1FQAUADMJ",
+  "actor": "BP_Rubbish_C_UAID_E89C25A75120A7D602_1357234415"
+ },
+ "HuanShuShi.wmA.026": {
+  "source": "map_pickup",
+  "cell": "B7NEFSQWL7QD2SY5UMH0GVDGJ",
+  "actor": "BP_Rubbish_C_UAID_60CF848A668968DE02_2113068268"
+ },
+ "HuanShuShi.wmB.003": {
+  "source": "map_pickup",
+  "cell": "965KJ1FYJE3LIF01U3CA8PPDR",
+  "actor": "BP_Rubbish_b_C_UAID_60CF848A66893FDD02_1202040269"
+ },
+ "HuanShuShi.wmB.004": {
+  "source": "map_pickup",
+  "cell": "EEJ5KXRQS4M08SPF5WAGCQ4XB",
+  "actor": "BP_Rubbish_C_UAID_E89C25A75120039302_1946173578"
+ },
+ "HuanShuShi.wmB.007": {
+  "source": "map_pickup",
+  "cell": "3YMHOA690CJ1IJST5BZLZTPZW",
+  "actor": "BP_Rubbish_C_UAID_E89C25A75120049302_1112961764"
+ },
+ "HuanShuShi.wmB.009": {
+  "source": "map_pickup",
+  "cell": "DD6VQWPSWWWCRGMNT3AYP7PTA",
+  "actor": "BP_Rubbish_C_UAID_E89C25A75120A3D602_1268088668"
+ },
+ "HuanShuShi.wmB.010": {
+  "source": "map_pickup",
+  "cell": "43DMUCP3EYFDSU1PQM509KQFE",
+  "actor": "BP_Rubbish_C_UAID_60CF848A668979DD02_1652786373"
+ },
+ "HuanShuShi.wmB.012": {
+  "source": "map_pickup",
+  "cell": "3AH43W9A83K2184JF9HS6SPBS",
+  "actor": "BP_Rubbish_C_UAID_E89C25A751207EFE02_1309726971"
+ },
+ "HuanShuShi.wmB.014": {
+  "source": "map_pickup",
+  "cell": "301F9APOYML5YV322Q7RLOH6Z",
+  "actor": "BP_Rubbish_C_UAID_60CF848A668937DD02_1458719804"
+ },
+ "HuanShuShi.wmB.015": {
+  "source": "map_pickup",
+  "cell": "EWXF6LPA5OY78CR5DMUAIZML7",
+  "actor": "BP_Rubbish_C_UAID_60CF848A668977DD02_1860551853"
+ },
+ "HuanShuShi.wmB.016": {
+  "source": "map_pickup",
+  "cell": "4AJ20G11XGSSRFEH2IQ5FH9GC",
+  "actor": "BP_Rubbish_C_UAID_60CF848A668991DD02_1856229805"
+ },
+ "LuJiaCun.001.Weapon_Material_03": {
+  "source": "map_pickup",
+  "cell": "8L4ZCPQ9ZDJT34H7VWNH1K259",
+  "actor": "BP_Rubbish_C_UAID_74563C6BC2BD789202_1682716878"
+ },
+ "LuJiaCun.001.Weapon_Material_04": {
+  "source": "map_pickup",
+  "cell": "EELG6N22R1ZMGVAEWV5CR1SKS",
+  "actor": "BP_Rubbish_C_UAID_74563C6BC2BD690603_1113132996"
+ },
+ "LuJiaCun.001.Weapon_Material_08": {
+  "source": "map_pickup",
+  "cell": "8L4ZCPQ9ZDJT34H7VWNH1K259",
+  "actor": "BP_Rubbish_C_UAID_74563C6BC2BD680603_2098489819"
+ },
+ "LuJiaCun.003.Weapon_Material_07": {
+  "source": "map_pickup",
+  "cell": "CMVGICUCMUSM3YISPTTNYC32B",
+  "actor": "BP_Rubbish_C_UAID_74563C6BC2BDE9AC02_1386134262"
+ },
+ "LuJiaCun.004.T_05001": {
+  "source": "chest",
+  "cell": "9AQO7TUMVZ5ONBXSN0BZ6TDD5",
+  "actor": "BP_Chest_C_UAID_74563C6BC2BDB6FB02_1872974760"
+ },
+ "LuJiaCun.004.T_05002": {
+  "source": "chest",
+  "cell": "2JL7K9Z1MVM9N744XSKCM5KVF",
+  "actor": "BP_Chest_C_UAID_74563C6BC2BDB6FB02_1977761761"
+ },
+ "LuJiaCun.004.T_05003": {
+  "source": "chest",
+  "cell": "945FBXZLOQCZ552L19Q6K0BLT",
+  "actor": "BP_Chest_C_UAID_74563C6BC2BDB6FB02_1727224758"
+ },
+ "LuJiaCun.004.Weapon_Material_04": {
+  "source": "map_pickup",
+  "cell": "EELG6N22R1ZMGVAEWV5CR1SKS",
+  "actor": "BP_Rubbish_C_UAID_74563C6BC2BDAD0B03_1382641064"
+ },
+ "LuJiaCun.006.Dust_Small": {
+  "source": "map_pickup",
+  "cell": "EC2Z27MTJGGQ95KYVPJKE27TF",
+  "actor": "BP_Rubbish_C_UAID_74563C6BC2BD40F302_1582458648"
+ },
+ "LuJiaCun.007.Weapon_Material_04": {
+  "source": "map_pickup",
+  "cell": "9YC2VMABPBVVBWH5R2LQJ1FVY",
+  "actor": "BP_Rubbish_C_UAID_74563C6BC2BDEAAC02_1877383572"
+ },
+ "LuJiaCun.009.Weapon_Material_01": {
+  "source": "map_pickup",
+  "cell": "7B8CRZK43NUTG5461MSE5YGZB",
+  "actor": "BP_Rubbish_C_UAID_74563C6BC2BD7A9202_1824826715"
+ },
+ "LuJiacCun.001.AC_Health": {
+  "source": "chest",
+  "cell": "0U4IARHXL3VOKQOCPJM8ZYWL4",
+  "actor": "BP_Chest_C_UAID_74563C6BC2BD82F302_2129713295"
+ },
+ "LuJiacCun.001.AC_PoisonRegen": {
+  "source": "chest",
+  "cell": "8SGJE0GF1I6NLBZDSNMEO70X2",
+  "actor": "BP_Chest_C_UAID_74563C6BC2BD8FE702_1553348190"
+ },
+ "LuJiacCun.001.AC_SpiritShadow": {
+  "source": "chest",
+  "cell": "2E8XEG4Q6UPHG55QCOAW2EY1J",
+  "actor": "BP_Chest_C_UAID_74563C6BC2BD93E702_1566014058"
+ },
+ "LuJiacCun.001.AC_SummonDuration": {
+  "source": "map_pickup",
+  "cell": "3MNF6K15182M7Y3HWWXINLBQA",
+  "actor": "BP_Rubbish_C_UAID_74563C6BC2BDE0BD02_1351223193"
+ },
+ "MeiGuHu.AC_Execution": {
+  "source": "map_pickup",
+  "cell": "E8MN6NEZX84TGIEZ7C6UCE4IM",
+  "actor": "BP_Rubbish_b_C_UAID_E89C25A750C797E102_1923636706"
+ },
+ "MeiGuHu.AC_Poison": {
+  "source": "map_pickup",
+  "cell": "451SPRU5YYLYUQGDD28HOMB8N",
+  "actor": "BP_Rubbish_C_UAID_E89C25A750C700DB02_1539712944"
+ },
+ "MeiGuHu.AC_Ranged": {
+  "source": "map_pickup",
+  "cell": "6DFP0F8LBUTLZWF6COZR566XZ",
+  "actor": "BP_Rubbish_C_UAID_E89C25A750C7FDEB02_1983683228"
+ },
+ "MeiGuHu.Ac001": {
+  "source": "map_pickup",
+  "cell": "DAP2FYRWYS8WP3CQKAQ9L11U6",
+  "actor": "BP_Rubbish_b_C_UAID_E89C25A750C701DB02_1657763128"
+ },
+ "MeiGuHu.Ac005": {
+  "source": "map_pickup",
+  "cell": "DX4S23SUMYS5CD5YF2AE4FC0M",
+  "actor": "BP_Rubbish_A_C_UAID_E89C25A750C76ADF02_1921510735"
+ },
+ "MeiGuHu.Ac006": {
+  "source": "map_pickup",
+  "cell": "4KQUJJNRS5AW5G1FMOUEJDP67",
+  "actor": "BP_Rubbish_C_UAID_E89C25A750C75B0003_1600580885"
+ },
+ "MeiGuHu.Ac007": {
+  "source": "map_pickup",
+  "cell": "1MXFGPU84G2WEJ3NWR3OXQDRU",
+  "actor": "BP_Rubbish_C_UAID_E89C25A750C794DC02_2084268248"
+ },
+ "MeiGuHu.Ac010": {
+  "source": "map_pickup",
+  "cell": "E9C65RPFNH5FV0FOHJ5292Q9L",
+  "actor": "BP_Rubbish_C_UAID_74563C6BC2BDCBB302_1612656101"
+ },
+ "MeiGuHu.Dust_G.001": {
+  "source": "map_pickup",
+  "cell": "1MXFGPU84G2WEJ3NWR3OXQDRU",
+  "actor": "BP_Rubbish_C_UAID_E89C25A750C794DC02_1582192245"
+ },
+ "MeiGuHu.Dust_G.002": {
+  "source": "map_pickup",
+  "cell": "77PHOTFQ70RYRY22G3463R2QL",
+  "actor": "BP_Rubbish_b_C_UAID_E89C25A750C7D9F902_1354805684"
+ },
+ "MeiGuHu.Dust_L.003": {
+  "source": "map_pickup",
+  "cell": "0T469536K9RYC5JJ3LOMLX4QT",
+  "actor": "BP_Rubbish_C_UAID_74563C6BC2BDCBB302_1382259098"
+ },
+ "MeiGuHu.Dust_M.001": {
+  "source": "map_pickup",
+  "cell": "D1LTJU3CFX9KMN0JQBO33EDHS",
+  "actor": "BP_Rubbish_b_C_UAID_E89C25A750C77BD902_1862916533"
+ },
+ "MeiGuHu.Dust_M.002": {
+  "source": "map_pickup",
+  "cell": "39JOR29SLUT9A8XMBDGZD27L1",
+  "actor": "BP_Rubbish_b_C_UAID_E89C25A750C7E0E202_1647625618"
+ },
+ "MeiGuHu.Dust_M.005": {
+  "source": "map_pickup",
+  "cell": "10JIT0G6W7D1JQLTS3GUYVOZ6",
+  "actor": "BP_Rubbish_b_C_UAID_E89C25A750C765F002_1238049744"
+ },
+ "MeiGuHu.Dust_S.007": {
+  "source": "map_pickup",
+  "cell": "ADCSHSULEERJY9CHXGBTGXOXA",
+  "actor": "BP_Rubbish_A_C_UAID_E89C25A750C7F9CB02_1702590980"
+ },
+ "MeiGuHu.Dust_S.023": {
+  "source": "map_pickup",
+  "cell": "1HU0QHT9TX2NI343YQSXBWNVU",
+  "actor": "BP_Rubbish_C_UAID_74563C6BC2BDCCB302_1806722294"
+ },
+ "MeiGuHu.Dust_S.025": {
+  "source": "map_pickup",
+  "cell": "CPGZUQUF82N5FBD7O0JJTNLQJ",
+  "actor": "BP_Rubbish_C_UAID_74563C6BC2BDCBB302_1685099102"
+ },
+ "MeiGuHu.Dust_S.026": {
+  "source": "map_pickup",
+  "cell": "E9C65RPFNH5FV0FOHJ5292Q9L",
+  "actor": "BP_Rubbish_C_UAID_74563C6BC2BDCBB302_1946034107"
+ },
+ "MeiGuHu.Dust_S.027": {
+  "source": "map_pickup",
+  "cell": "4NNID09ZA1I52HXXW4KBCTURC",
+  "actor": "BP_Rubbish_C_UAID_74563C6BC2BDCBB302_1586917100"
+ },
+ "MeiGuHu.Dust_S.031": {
+  "source": "map_pickup",
+  "cell": "77PHOTFQ70RYRY22G3463R2QL",
+  "actor": "BP_Rubbish_b_C_UAID_E89C25A750C7D9F902_1627754686"
+ },
+ "MeiGuHu.Medi001": {
+  "source": "map_pickup",
+  "cell": "EQ13CPBD5OHW5YCZDW0SLG3LR",
+  "actor": "BP_Rubbish_C_UAID_E89C25A750C7FFDA02_1461014653"
+ },
+ "MeiGuHu.Medi002": {
+  "source": "map_pickup",
+  "cell": "9ASVNI475CG4LSAFG30SH3FPM",
+  "actor": "BP_Rubbish_C_UAID_E89C25A750C7FFDA02_1321736651"
+ },
+ "MeiGuHu.Medi003": {
+  "source": "map_pickup",
+  "cell": "B3AJZ0KI3LC1UC4XA3KU5WR3E",
+  "actor": "BP_Rubbish_C_UAID_E89C25A750C70B0C03_1611815564"
+ },
+ "MeiGuHu.Medi004": {
+  "source": "map_pickup",
+  "cell": "8O1W4CTKK2ARBGCE4PHNMMT9S",
+  "actor": "BP_Rubbish_b_C_UAID_E89C25A750C76BB302_1110243425"
+ },
+ "MeiGuHu.Medi006": {
+  "source": "map_pickup",
+  "cell": "90JQH8W0E3RR77SPJ6Q6FX6DE",
+  "actor": "BP_Rubbish_C_UAID_E89C25A750C700DB02_1958041948"
+ },
+ "MeiGuHu.Medi007": {
+  "source": "map_pickup",
+  "cell": "4C8795D7EUSYAUGQGA5QA3ICR",
+  "actor": "BP_Rubbish_C_UAID_E89C25A750C779D902_1116686166"
+ },
+ "MeiGuHu.Medi008": {
+  "source": "map_pickup",
+  "cell": "10JIT0G6W7D1JQLTS3GUYVOZ6",
+  "actor": "BP_Rubbish_A_C_UAID_E89C25A750C767DA02_1287350506"
+ },
+ "MeiGuHu.Medi009": {
+  "source": "map_pickup",
+  "cell": "AWCB2TBA5SP4JXOGQVK55NC7K",
+  "actor": "BP_Rubbish_b_C_UAID_E89C25A750C77BD902_1424646530"
+ },
+ "MeiGuHu.Medi010": {
+  "source": "map_pickup",
+  "cell": "BGMR2LN9UKDBOYPAWTDGVY0E6",
+  "actor": "BP_Rubbish_b_C_UAID_E89C25A750C7E30303_2121730084"
+ },
+ "MeiGuHu.Medi011": {
+  "source": "map_pickup",
+  "cell": "4R3MZHWB9JI71FLVI48EIFGKJ",
+  "actor": "BP_Rubbish_C_UAID_60CF84809909160003_1105091757"
+ },
+ "MeiGuHu.Medi013": {
+  "source": "map_pickup",
+  "cell": "DX4S23SUMYS5CD5YF2AE4FC0M",
+  "actor": "BP_Rubbish_b_C_UAID_E89C25A750C7C1F502_2081815343"
+ },
+ "MeiGuHu.Medi015": {
+  "source": "map_pickup",
+  "cell": "ADCSHSULEERJY9CHXGBTGXOXA",
+  "actor": "BP_Rubbish_A_C_UAID_E89C25A750C7CEFF02_1482109072"
+ },
+ "MeiGuHu.Medi016": {
+  "source": "map_pickup",
+  "cell": "AYIR97T9G2S3SXS7MNE5SJDJ7",
+  "actor": "BP_Rubbish_A_C_UAID_E89C25A750C7CEFF02_1952104074"
+ },
+ "MeiGuHu.Return001": {
+  "source": "map_pickup",
+  "cell": "9ASVNI475CG4LSAFG30SH3FPM",
+  "actor": "BP_Rubbish_C_UAID_E89C25A750C7D2F902_1829372515"
+ },
+ "MeiGuHu.Return002": {
+  "source": "map_pickup",
+  "cell": "7HSILURM9N9QA4LPI8O7AIXQ4",
+  "actor": "BP_Rubbish_b_C_UAID_E89C25A750C707FC02_2064366883"
+ },
+ "MeiGuHu.Return003": {
+  "source": "map_pickup",
+  "cell": "3Q9KQWK97HHN9I69VSFT0M6WU",
+  "actor": "BP_Rubbish_b_C_UAID_E89C25A750C708FC02_1507490063"
+ },
+ "MeiGuHu.Return006": {
+  "source": "map_pickup",
+  "cell": "4R3MZHWB9JI71FLVI48EIFGKJ",
+  "actor": "BP_Rubbish_C_UAID_60CF84809909150003_1844743574"
+ },
+ "MeiGuHu.Return007": {
+  "source": "map_pickup",
+  "cell": "5IK2SWL6LSTO2DY31OHEZDWAT",
+  "actor": "BP_Rubbish_C_UAID_60CF84809909150003_1897850575"
+ },
+ "MeiGuHu.Return008": {
+  "source": "map_pickup",
+  "cell": "AZDISB944YK6QZGET6J9MYEKM",
+  "actor": "BP_Rubbish_C_UAID_E89C25A750C708FC02_2114581064"
+ },
+ "MeiGuHu.Return009": {
+  "source": "map_pickup",
+  "cell": "7ZXLCZ7WB1X76AU7MSNQ8HENS",
+  "actor": "BP_Rubbish_b_C_UAID_E89C25A750C709FC02_1157580241"
+ },
+ "MeiGuHu.Return010": {
+  "source": "map_pickup",
+  "cell": "24FLA5SGBXKKMB3DLDKVXLKZP",
+  "actor": "BP_Rubbish_b_C_UAID_E89C25A750C709FC02_1394968242"
+ },
+ "MeiGuHu.Return011": {
+  "source": "map_pickup",
+  "cell": "3JPOXDWR8EPC9DLM2YK179KRC",
+  "actor": "BP_Rubbish_C_UAID_60CF84809909150003_1926271576"
+ },
+ "MeiGuHu.Return012": {
+  "source": "map_pickup",
+  "cell": "E16XWPB1KC3PT1FBG7QREA7ZG",
+  "actor": "BP_Rubbish_C_UAID_60CF84809909150003_1974522577"
+ },
+ "MeiGuHu.ShaqiTa.AC_TimerEndure": {
+  "source": "chest",
+  "cell": "ELYP1M94LS7964HIPM4Z34GHX",
+  "actor": "BP_Chest_C_UAID_60CF8480990942E702_1117798106"
+ },
+ "MeiGuHu.T_08003": {
+  "source": "chest",
+  "cell": "7ULP8UZK3NDBTEF6KJ3JRJTV3",
+  "actor": "BP_Chest_C_UAID_E89C25A750C7D6E702_1758800190"
+ },
+ "MeiGuHu.Traverse001": {
+  "source": "map_pickup",
+  "cell": "4KV4CJPB4W14476R1I2B4426I",
+  "actor": "BP_Rubbish_A_C_UAID_E89C25A750C753FC02_1620155253"
+ },
+ "MeiGuHu.Traverse003": {
+  "source": "map_pickup",
+  "cell": "ABQV0EGZ6G2YHUHCTJIWA7JSN",
+  "actor": "BP_Rubbish_C_UAID_E89C25A750C71BF502_1909893048"
+ },
+ "MeiGuHu.Traverse007": {
+  "source": "map_pickup",
+  "cell": "0DCR77YYUX6PH67VU56XJ3TIY",
+  "actor": "BP_Rubbish_b_C_UAID_E89C25A750C757FC02_1161734968"
+ },
+ "MeiGuHu.Traverse009": {
+  "source": "map_pickup",
+  "cell": "E16XWPB1KC3PT1FBG7QREA7ZG",
+  "actor": "BP_Rubbish_C_UAID_60CF84809909150003_2049931580"
+ },
+ "MeiGuHu.WmA004": {
+  "source": "map_pickup",
+  "cell": "BGMR2LN9UKDBOYPAWTDGVY0E6",
+  "actor": "BP_Rubbish_b_C_UAID_E89C25A750C76BB302_1200797426"
+ },
+ "MeiGuHu.WmA005": {
+  "source": "map_pickup",
+  "cell": "4KQUJJNRS5AW5G1FMOUEJDP67",
+  "actor": "BP_Rubbish_C_UAID_E89C25A750C764F002_2090581565"
+ },
+ "MeiGuHu.WmA006.Shaqita": {
+  "source": "map_pickup",
+  "cell": "BQ9I9RZ4P4DHRA3OHA9B9EPQ3",
+  "actor": "BP_Rubbish_C_UAID_60CF848099090DDF02_1537345292"
+ },
+ "MeiGuHu.WmA007": {
+  "source": "map_pickup",
+  "cell": "2NWZ7XSYKRTCDLFVA6SW18P6L",
+  "actor": "BP_Rubbish_b_C_UAID_E89C25A750C76AB302_2138077248"
+ },
+ "MeiGuHu.WmA009": {
+  "source": "map_pickup",
+  "cell": "AWCB2TBA5SP4JXOGQVK55NC7K",
+  "actor": "BP_Rubbish_b_C_UAID_E89C25A750C77BD902_1497999531"
+ },
+ "MeiGuHu.WmA009.Shaqita": {
+  "source": "map_pickup",
+  "cell": "5X6GM2NX7VNFA97E76CTLHDBS",
+  "actor": "BP_Rubbish_C_UAID_60CF8480990918DF02_2139580339"
+ },
+ "MeiGuHu.WmA010": {
+  "source": "map_pickup",
+  "cell": "B6H1AX3AFY75BUJTOZLOXXR6K",
+  "actor": "BP_Rubbish_b_C_UAID_E89C25A750C77BD902_1738899532"
+ },
+ "MeiGuHu.WmA011": {
+  "source": "map_pickup",
+  "cell": "25042TIMXW1BJZL9KC0CQPXK6",
+  "actor": "BP_Rubbish_C_UAID_E89C25A750C766F502_1196888228"
+ },
+ "MeiGuHu.WmA015": {
+  "source": "map_pickup",
+  "cell": "90JQH8W0E3RR77SPJ6Q6FX6DE",
+  "actor": "BP_Rubbish_b_C_UAID_E89C25A750C7AFDB02_2144911783"
+ },
+ "MeiGuHu.WmA018": {
+  "source": "map_pickup",
+  "cell": "2NWZ7XSYKRTCDLFVA6SW18P6L",
+  "actor": "BP_Rubbish_C_UAID_E89C25A750C795DC02_1398032429"
+ },
+ "MeiGuHu.WmA022": {
+  "source": "map_pickup",
+  "cell": "96WJD1LH2ZINLA9BFLUQODGZ4",
+  "actor": "BP_Rubbish_C_UAID_E89C25A750C7C5FF02_1663437485"
+ },
+ "MeiGuHu.WmA022.shaqita": {
+  "source": "map_pickup",
+  "cell": "DVU6EWTI2ZX3XP1DTQUP0KDUZ",
+  "actor": "BP_Rubbish_C_UAID_60CF8480990919DF02_1211112516"
+ },
+ "MeiGuHu.WmA023.shaqita": {
+  "source": "map_pickup",
+  "cell": "0G19R99QHRYYL2XOMK2RF87OX",
+  "actor": "BP_Rubbish_C_UAID_60CF84809909DCE302_1786100232"
+ },
+ "MeiGuHu.WmB004": {
+  "source": "map_pickup",
+  "cell": "A5T5LQSV5L8NPBNZHLIQWGLWF",
+  "actor": "BP_Rubbish_C_UAID_E89C25A750C71EEA02_1235210024"
+ },
+ "MeiGuHu.WmB005": {
+  "source": "map_pickup",
+  "cell": "AZDISB944YK6QZGET6J9MYEKM",
+  "actor": "BP_Rubbish_b_C_UAID_E89C25A750C770B302_1782904739"
+ },
+ "MeiGuHu.WmB006": {
+  "source": "map_pickup",
+  "cell": "7UJXY64FRB944AJ10LOFNR63I",
+  "actor": "BP_Rubbish_C_UAID_E89C25A750C700DB02_2138492951"
+ },
+ "MeiGuHu.WmB007.shaqita": {
+  "source": "map_pickup",
+  "cell": "E16XWPB1KC3PT1FBG7QREA7ZG",
+  "actor": "BP_Rubbish_C_UAID_74563C6BC2BDCCB302_1227828288"
+ },
+ "MeiGuHu.WmB009": {
+  "source": "map_pickup",
+  "cell": "9YXV9M6LYOMY26JG9QG4TGUXE",
+  "actor": "BP_Rubbish_b_C_UAID_E89C25A750C770B302_2048520747"
+ },
+ "MeiGuHu.WmB010": {
+  "source": "map_pickup",
+  "cell": "90JQH8W0E3RR77SPJ6Q6FX6DE",
+  "actor": "BP_Rubbish_b_C_UAID_E89C25A750C7FEDA02_1978164472"
+ },
+ "MeiGuHu.WmB010.shaqita": {
+  "source": "map_pickup",
+  "cell": "8DITV5Z2WMV5KDUYUUHWUIQC0",
+  "actor": "BP_Rubbish_C_UAID_60CF848099090DDF02_2074625295"
+ },
+ "MeiGuHu.WmB011": {
+  "source": "map_pickup",
+  "cell": "10JIT0G6W7D1JQLTS3GUYVOZ6",
+  "actor": "BP_Rubbish_b_C_UAID_E89C25A750C706DB02_1203223024"
+ },
+ "MeiGuHu.WmB011.shaqita": {
+  "source": "map_pickup",
+  "cell": "37B8V0VQPSC4PGU323HYDCKJ6",
+  "actor": "BP_Rubbish_C_UAID_60CF8480990942FD02_1709048497"
+ },
+ "MeiGuHu.WmB012": {
+  "source": "map_pickup",
+  "cell": "BG5BOBSGGR63L5IXZ05MLY133",
+  "actor": "BP_Rubbish_C_UAID_E89C25A750C706DB02_1569028025"
+ },
+ "MeiGuHu.WmB013": {
+  "source": "map_pickup",
+  "cell": "96FG7E2IYQGAU40KWMWQS7KCB",
+  "actor": "BP_Rubbish_b_C_UAID_E89C25A750C7ABEA02_1265506732"
+ },
+ "MeiGuHu.WmB014": {
+  "source": "map_pickup",
+  "cell": "10JIT0G6W7D1JQLTS3GUYVOZ6",
+  "actor": "BP_Rubbish_b_C_UAID_E89C25A750C75B0003_1629606886"
+ },
+ "MeiGuHu.WmB019": {
+  "source": "map_pickup",
+  "cell": "DX4S23SUMYS5CD5YF2AE4FC0M",
+  "actor": "BP_Rubbish_A_C_UAID_E89C25A750C78EF702_1640213391"
+ },
+ "MeiGuHu.wmB.020": {
+  "source": "map_pickup",
+  "cell": "6KVRAJTVVV9PZK1OXOYJWE6TJ",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CAA5EC02_1641591770"
+ },
+ "PangZhen.AC.001": {
+  "source": "map_pickup",
+  "cell": "84FUD7EGJCVUTG7SE0NJC88MN",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA6BB302_1540800389"
+ },
+ "PangZhen.AC.002": {
+  "source": "map_pickup",
+  "cell": "57VOFR7ZI9MT3HQIVYMTNTSPI",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA6DB302_1441386794"
+ },
+ "PangZhen.AC.003": {
+  "source": "map_pickup",
+  "cell": "4L0E76N72FYXQKFIJ4VCNLBB1",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA6DB302_1449100795"
+ },
+ "PangZhen.AC.005": {
+  "source": "map_pickup",
+  "cell": "B01OJ44F52MGQ34TEGGV9FBLJ",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA6DB302_1454745797"
+ },
+ "PangZhen.AC.006": {
+  "source": "map_pickup",
+  "cell": "B01OJ44F52MGQ34TEGGV9FBLJ",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA6DB302_1454854798"
+ },
+ "PangZhen.AC.007": {
+  "source": "map_pickup",
+  "cell": "4L0E76N72FYXQKFIJ4VCNLBB1",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA6DB302_1458172799"
+ },
+ "PangZhen.AC.008": {
+  "source": "map_pickup",
+  "cell": "B01OJ44F52MGQ34TEGGV9FBLJ",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA6DB302_1458285800"
+ },
+ "PangZhen.AC_ResistFire": {
+  "source": "map_pickup",
+  "cell": "CECWIACKGEBVXDAOM1OOI3XNP",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA7AD602_1121972988"
+ },
+ "PangZhen.Dust_S.001": {
+  "source": "map_pickup",
+  "cell": "4PIWPPU5S65P4XQ0A4FXP3J6P",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA77B302_1417140589"
+ },
+ "PangZhen.Dust_S.002": {
+  "source": "map_pickup",
+  "cell": "B01OJ44F52MGQ34TEGGV9FBLJ",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA77B302_1447974591"
+ },
+ "PangZhen.Dust_S.003": {
+  "source": "map_pickup",
+  "cell": "4L0E76N72FYXQKFIJ4VCNLBB1",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA77B302_1470025592"
+ },
+ "PangZhen.Dust_S.005": {
+  "source": "map_pickup",
+  "cell": "2HD24GN4ONRUPTRIIS0CXCQSZ",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA77B302_1480525594"
+ },
+ "PangZhen.Dust_S.012": {
+  "source": "map_pickup",
+  "cell": "7DO4MGDP0F3AJ2MNV4BKT15NV",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CAA5EC02_1877770777"
+ },
+ "PangZhen.E_wmA.001": {
+  "source": "map_pickup",
+  "cell": "1VOOYLAIWDXWW5MBT3KU4BCYN",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA58F102_1239283512"
+ },
+ "PangZhen.E_wmA.002": {
+  "source": "map_pickup",
+  "cell": "1VOOYLAIWDXWW5MBT3KU4BCYN",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA58F102_1318964513"
+ },
+ "PangZhen.E_wmA.003": {
+  "source": "map_pickup",
+  "cell": "5KSWFF23TUGUBGZLQ4NUXLTCD",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA58F102_1084943511"
+ },
+ "PangZhen.E_wmA.004": {
+  "source": "map_pickup",
+  "cell": "5KSWFF23TUGUBGZLQ4NUXLTCD",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA57F102_1997369334"
+ },
+ "PangZhen.Medi.001": {
+  "source": "map_pickup",
+  "cell": "BWQV792T6NUKI1AW7WADAUV2I",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA65B302_1766447332"
+ },
+ "PangZhen.Medi.002": {
+  "source": "map_pickup",
+  "cell": "5KSWFF23TUGUBGZLQ4NUXLTCD",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA6CB302_1977606576"
+ },
+ "PangZhen.Medi.005": {
+  "source": "map_pickup",
+  "cell": "1VOOYLAIWDXWW5MBT3KU4BCYN",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA6CB302_1986977579"
+ },
+ "PangZhen.Medi.007": {
+  "source": "map_pickup",
+  "cell": "1VOOYLAIWDXWW5MBT3KU4BCYN",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA6CB302_2003749581"
+ },
+ "PangZhen.wmA.001": {
+  "source": "map_pickup",
+  "cell": "84FUD7EGJCVUTG7SE0NJC88MN",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA6BB302_1375787387"
+ },
+ "PangZhen.wmA.002": {
+  "source": "map_pickup",
+  "cell": "BWQV792T6NUKI1AW7WADAUV2I",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA6DB302_1285262758"
+ },
+ "PangZhen.wmA.006": {
+  "source": "map_pickup",
+  "cell": "5KSWFF23TUGUBGZLQ4NUXLTCD",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA6DB302_1302997762"
+ },
+ "PangZhen.wmA.008": {
+  "source": "map_pickup",
+  "cell": "1SXWRZ3GY2MN5TG7ZEYU69U0Q",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA6CB302_1993999580"
+ },
+ "PangZhen.wmA.009": {
+  "source": "map_pickup",
+  "cell": "7DO4MGDP0F3AJ2MNV4BKT15NV",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA6DB302_1308857765"
+ },
+ "PangZhen.wmA.010": {
+  "source": "map_pickup",
+  "cell": "6F5PAGL7N38X84M5UZECXZ7RT",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA6DB302_1318235766"
+ },
+ "PangZhen.wmA.011": {
+  "source": "map_pickup",
+  "cell": "6F5PAGL7N38X84M5UZECXZ7RT",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA6DB302_1318344767"
+ },
+ "PangZhen.wmA.013": {
+  "source": "map_pickup",
+  "cell": "7HY8DCEN1BNHMCS4G08TLY6TR",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA6DB302_1329075769"
+ },
+ "PangZhen.wmA.014": {
+  "source": "map_pickup",
+  "cell": "4PIWPPU5S65P4XQ0A4FXP3J6P",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA6DB302_1329183770"
+ },
+ "PangZhen.wmA.015": {
+  "source": "map_pickup",
+  "cell": "6F5PAGL7N38X84M5UZECXZ7RT",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA6DB302_1329187771"
+ },
+ "PangZhen.wmA.016": {
+  "source": "map_pickup",
+  "cell": "4PIWPPU5S65P4XQ0A4FXP3J6P",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA6DB302_1333790772"
+ },
+ "PangZhen.wmA.018": {
+  "source": "map_pickup",
+  "cell": "5KSWFF23TUGUBGZLQ4NUXLTCD",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA6DB302_1333904774"
+ },
+ "PangZhen.wmA.019": {
+  "source": "map_pickup",
+  "cell": "9IFB7R60ZFRKJ3UFMZGQ65ZUG",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA6DB302_1348994775"
+ },
+ "PangZhen.wmA.020": {
+  "source": "map_pickup",
+  "cell": "1SXWRZ3GY2MN5TG7ZEYU69U0Q",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CAA5EC02_1747301771"
+ },
+ "PangZhen.wmA.021": {
+  "source": "map_pickup",
+  "cell": "9ZZCAAJCPL1JY6KILM777IGTT",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA00FB02_1244635571"
+ },
+ "PangZhen.wmB.001": {
+  "source": "map_pickup",
+  "cell": "84FUD7EGJCVUTG7SE0NJC88MN",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA6BB302_1524484388"
+ },
+ "PangZhen.wmB.002": {
+  "source": "map_pickup",
+  "cell": "4SE7XEQ4FIM5INDVAT1NOALUO",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA6DB302_1358769776"
+ },
+ "PangZhen.wmB.008": {
+  "source": "map_pickup",
+  "cell": "8ZHW9U3CZ92MHQRAGM0MD7P2F",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA6DB302_1377068782"
+ },
+ "PangZhen.wmB.014": {
+  "source": "map_pickup",
+  "cell": "1VOOYLAIWDXWW5MBT3KU4BCYN",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA6DB302_1396097788"
+ },
+ "PangZhen.wmB.016": {
+  "source": "map_pickup",
+  "cell": "9IFB7R60ZFRKJ3UFMZGQ65ZUG",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA6DB302_1399579790"
+ },
+ "PangZhen.wmB.017": {
+  "source": "map_pickup",
+  "cell": "84R9IJ5AWZZIXOFYHWBH8RDS5",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA6DB302_1399693791"
+ },
+ "PangZhen.wmB.018": {
+  "source": "map_pickup",
+  "cell": "9ZZCAAJCPL1JY6KILM777IGTT",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA58F102_1427707514"
+ },
+ "PangZhen.wmB.019": {
+  "source": "map_pickup",
+  "cell": "CECWIACKGEBVXDAOM1OOI3XNP",
+  "actor": "BP_Rubbish_C_UAID_60CF848217CA6DB302_1411006793"
+ },
+ "XiMeng.001.AC_Elemental": {
+  "source": "map_pickup",
+  "cell": "8RRKGA6COQMQJ97G7F17NJ5RS",
+  "actor": "BP_Rubbish_C_UAID_74563C6BC2BD170003_1523515210"
+ },
+ "XiMeng.001.AC_ExecutionSwitchCool": {
+  "source": "chest",
+  "cell": "55QNNQQCCNF7LVCADYN1NCM95",
+  "actor": "BP_Chest_C_UAID_74563C6BC2BD6D0003_1779634100"
+ },
+ "XiMeng.001.AC_MagicWeapon": {
+  "source": "map_pickup",
+  "cell": "73QM3C8CWLZIIJLWVF4IYCX9H",
+  "actor": "BP_Rubbish_C_UAID_74563C6BC2BD7AFF02_1954688457"
+ },
+ "XiMeng.001.Weapon_Material_03": {
+  "source": "map_pickup",
+  "cell": "7OV4GR8BRAN0H1SIEX4U25HUA",
+  "actor": "BP_Rubbish_C_UAID_74563C6BC2BD36B802_1384103847"
+ },
+ "XiMeng.001.Weapon_Material_06": {
+  "source": "map_pickup",
+  "cell": "8RRKGA6COQMQJ97G7F17NJ5RS",
+  "actor": "BP_Rubbish_C_UAID_74563C6BC2BD36B802_2113858852"
+ },
+ "XiMeng.003.Weapon_Material_08": {
+  "source": "map_pickup",
+  "cell": "EVHXWLBBABOEJ83WMQC11OLZH",
+  "actor": "BP_Rubbish_C_UAID_74563C6BC2BD42B802_1483730016"
+ },
+ "XiMeng.004.Weapon_Material_02": {
+  "source": "map_pickup",
+  "cell": "42J2YYQM8W7NLDZ2988LG668M",
+  "actor": "BP_Rubbish_C_UAID_74563C6BC2BD700003_1093887708"
+ },
+ "XiMeng.007.Weapon_Material_05": {
+  "source": "map_pickup",
+  "cell": "DK9JVYTHA1DSTYEOLES4PA725",
+  "actor": "BP_Rubbish_C_UAID_74563C6BC2BDF5E502_1563716950"
+ },
+ "XiMeng.Return.003": {
+  "source": "map_pickup",
+  "cell": "99OLBG20WICV13NY8A4KVNK47",
+  "actor": "BP_Rubbish_C_UAID_74563C6BC2BD6C0003_1432038915"
+ },
+ "XiMeng.Return.004": {
+  "source": "map_pickup",
+  "cell": "488AU20ILND4FR3LILRSS2PWZ",
+  "actor": "BP_Rubbish_C_UAID_74563C6BC2BD1F0C03_1915271183"
+ },
+ "XiMeng.Return_ShaqiWeapon_1.002": {
+  "source": "map_pickup",
+  "cell": "9IV54FSCAGNVACIYGF1U9036S",
+  "actor": "BP_Rubbish_C_UAID_74563C6BC2BD44B802_1374700426"
+ },
+ "Xigu.001.Long": {
+  "source": "map_pickup",
+  "cell": "439KJPMJE1ZJ0GO7HQ9SGSRA7",
+  "actor": "BP_Rubbish_C_UAID_60CF84809909589302_2018031477"
+ },
+ "Xigu.001.Weapon_Material_01": {
+  "source": "map_pickup",
+  "cell": "3LVOFUNWI3SLGR3K5WE6FF97S",
+  "actor": "BP_Rubbish_C_UAID_60CF84809909DCED02_1226562593"
+ },
+ "Xigu.002.Weapon_Material_01": {
+  "source": "map_pickup",
+  "cell": "7RLRBM9ME2T1U0VVV995KV7F3",
+  "actor": "BP_Rubbish_C_UAID_60CF848099091CBE02_1728460825"
+ },
+ "Xigu.002.Weapon_Material_07": {
+  "source": "map_pickup",
+  "cell": "4J6BHKT1B5J7PEC50FS08ROAK",
+  "actor": "BP_Rubbish_C_UAID_60CF84809909C19202_2128889765"
+ },
+ "Xigu.003.Dust_Small": {
+  "source": "map_pickup",
+  "cell": "5G43WQTM6331MFR98OIDKR5N3",
+  "actor": "BP_Rubbish_C_UAID_60CF84809909BB9202_1473550658"
+ },
+ "Xigu.003.Weapon_Material_04": {
+  "source": "map_pickup",
+  "cell": "25RBB7TKKCT9APT3BNSHDVTEC",
+  "actor": "BP_Rubbish_C_UAID_60CF848099091DBE02_1350932005"
+ },
+ "Xigu.004.Weapon_Material_07": {
+  "source": "map_pickup",
+  "cell": "E0CLKN3BVCEPQIVY38AR2HRA5",
+  "actor": "BP_Rubbish_C_UAID_60CF8480990919BE02_1294654315"
+ },
+ "Xigu.005.Weapon_Material_04": {
+  "source": "map_pickup",
+  "cell": "1HK3BS3ARHJIPJPWIHCH49LPT",
+  "actor": "BP_Rubbish_C_UAID_60CF848099091CBE02_1595956824"
+ },
+ "Xigu.005.Weapon_Material_08": {
+  "source": "map_pickup",
+  "cell": "6L3U6EA6BSDB5AM4754H4V2JO",
+  "actor": "BP_Rubbish_C_UAID_E89C25A75120640603_1744951087"
+ },
+ "Xigu.005.Weapon_Material_09": {
+  "source": "map_pickup",
+  "cell": "48BPXZGISS6IUNX4CN3BY2AE2",
+  "actor": "BP_Rubbish_C_UAID_60CF8480990971D902_1971997636"
+ },
+ "Xigu.017.Dust_Small": {
+  "source": "map_pickup",
+  "cell": "B16SRKHZ35HU512T3GJY8J6YJ",
+  "actor": "BP_Rubbish_C_UAID_60CF84809909589302_1658736340"
+ },
+ "Xigu.019.Dust_Small": {
+  "source": "map_pickup",
+  "cell": "8IEBCL9KIVTGE7436EXLJ3ECE",
+  "actor": "BP_Rubbish_C_UAID_60CF84809909BB9202_1881844662"
+ },
+ "Xigu.AC_BreakAttack": {
+  "source": "chest",
+  "cell": "0OXNG95M3FF9FRXHXPOW2OX48",
+  "actor": "BP_Chest_C_UAID_60CF8480990975BD02_2071282517"
+ },
+ "Xigu.AC_Deflect": {
+  "source": "chest",
+  "cell": "DWULILHDPN4PO93QXOOLZ53IJ",
+  "actor": "BP_Chest_C_UAID_60CF84809909D8FD02_1509415711"
+ },
+ "Xigu.AC_HealthResistance": {
+  "source": "map_pickup",
+  "cell": "BFIWDF4CNUECTIS8V7A10T31U",
+  "actor": "BP_Rubbish_C_UAID_60CF84809909D3CD02_1886440951"
+ },
+ "Xigu.AC_HeavyAttackCost": {
+  "source": "chest",
+  "cell": "5EY8IC4QPH3OVTEEOY4VXWJ8B",
+  "actor": "BP_Chest_C_UAID_74563CC57EE2E73C02_1961080040"
+ },
+ "Xigu.Extra.001": {
+  "source": "map_pickup",
+  "cell": "6NWKZNOL6IVE40JZ5JRTGEHRR",
+  "actor": "BP_Rubbish_C_UAID_60CF8480990999F202_2034092033"
+ },
+ "Xigu.Extra.002": {
+  "source": "map_pickup",
+  "cell": "3N7988A70EWNX7MR2LY1LBAGV",
+  "actor": "BP_Rubbish_C_UAID_60CF8480990999F202_2062696034"
+ },
+ "Xigu.Extra.003": {
+  "source": "map_pickup",
+  "cell": "3N7988A70EWNX7MR2LY1LBAGV",
+  "actor": "BP_Rubbish_C_UAID_60CF848099099BF202_1414156417"
+ },
+ "Xigu.HongFangZi.Wm001": {
+  "source": "map_pickup",
+  "cell": "AR9PEIT28LGE2V9OIITL8RWFA",
+  "actor": "BP_Rubbish_C_UAID_E89C25A750C7C7F402_1696237211"
+ },
+ "Xigu.HongFangZi.Wm002": {
+  "source": "map_pickup",
+  "cell": "7BHGQ6QA9HHUOID67HJBP0INQ",
+  "actor": "BP_Rubbish_C_UAID_E89C25A750C7CBF402_1304055912"
+ },
+ "Xigu.HongFangZi.Wm003": {
+  "source": "map_pickup",
+  "cell": "BAMGQUGM0A241Y24HBE2RYZZG",
+  "actor": "BP_Rubbish_A_C_UAID_E89C25A750C7D6E802_1726924166"
+ },
+ "Xigu.HongFangZi.Wm004": {
+  "source": "map_pickup",
+  "cell": "1012ZLYI36XHUDSCE63SB583Y",
+  "actor": "BP_Rubbish_A_C_UAID_E89C25A750C7CEF402_1120685429"
+ },
+ "Xigu.HongFangZi.Wm005": {
+  "source": "map_pickup",
+  "cell": "7BHGQ6QA9HHUOID67HJBP0INQ",
+  "actor": "BP_Rubbish_C_UAID_E89C25A750C7CBF402_1634302927"
+ },
+ "Xigu.HongFangZi.Wm006": {
+  "source": "map_pickup",
+  "cell": "DFKP2O59YSUJTBPZXZ1VZR0KC",
+  "actor": "BP_Rubbish_A_C_UAID_E89C25A750C7D0F402_1417358792"
+ },
+ "Xigu.HongFangZi.Wm007": {
+  "source": "map_pickup",
+  "cell": "4H0D8PVKI61KNNUCOE935CSJH",
+  "actor": "BP_Rubbish_A_C_UAID_E89C25A750C7D0F402_1749902795"
+ },
+ "Xigu.HongFangZi.Wm008": {
+  "source": "map_pickup",
+  "cell": "4H0D8PVKI61KNNUCOE935CSJH",
+  "actor": "BP_Rubbish_A_C_UAID_E89C25A750C7CEF402_2138296433"
+ },
+ "Zhengdaodaying.AC.002": {
+  "source": "map_pickup",
+  "cell": "7OJPIILN6E6RGJTGFHAYGTIZO",
+  "actor": "BP_Rubbish_C_UAID_E89C25A75120879002_1274426078"
+ },
+ "Zhengdaodaying.AC.005": {
+  "source": "map_pickup",
+  "cell": "76VET4TZO70TJXU0SN2OI7LUU",
+  "actor": "BP_Rubbish_C_UAID_E89C25A75120C89102_1197263448"
+ },
+ "Zhengdaodaying.AC.006": {
+  "source": "map_pickup",
+  "cell": "3YQFQVL5815S2E4ZBNH2ND7MQ",
+  "actor": "BP_Rubbish_C_UAID_E89C25A75120889002_1441784260"
+ },
+ "Zhengdaodaying.AC.007": {
+  "source": "map_pickup",
+  "cell": "7BOZ0PWAIFXEC4BXKHCH1Z9LT",
+  "actor": "BP_Rubbish_C_UAID_E89C25A75120BA8D02_1782002294"
+ },
+ "Zhengdaodaying.AC.008": {
+  "source": "map_pickup",
+  "cell": "0LTJ4DCW652CWI7ISEM4XE3KC",
+  "actor": "BP_Rubbish_C_UAID_E89C25A75120869002_1783513897"
+ },
+ "Zhengdaodaying.AC_UltimateCharge": {
+  "source": "chest",
+  "cell": "4MBYGWTI7X5U6EQ293VRLFR49",
+  "actor": "BP_Chest_C_UAID_E89C25A75120C3B202_1615615459"
+ },
+ "Zhengdaodaying.Dust_M.001": {
+  "source": "map_pickup",
+  "cell": "3X1GOALLTPEMNQTC6T5V2GK59",
+  "actor": "BP_Rubbish_C_UAID_BCFCE7058A98BEB202_2076253725"
+ },
+ "Zhengdaodaying.Dust_M.002": {
+  "source": "map_pickup",
+  "cell": "EVTRUBRO9LBUBETHK9EQIXWDM",
+  "actor": "BP_Rubbish_C_UAID_BCFCE788D449C47002_1988942093"
+ },
+ "Zhengdaodaying.Dust_S.001": {
+  "source": "map_pickup",
+  "cell": "BI5EG118UUWLILN99ZWUVDHYP",
+  "actor": "BP_Rubbish_C_UAID_E89C25A75120025702_1895492299"
+ },
+ "Zhengdaodaying.Dust_S.004": {
+  "source": "map_pickup",
+  "cell": "3P3LV3E9SW9VBUC74CWZTBIIT",
+  "actor": "BP_Rubbish_C_UAID_BCFCE7058A98BFB202_1289681910"
+ },
+ "Zhengdaodaying.Dust_S.007": {
+  "source": "map_pickup",
+  "cell": "EX03O32M6X9HBANJIADALXCTS",
+  "actor": "BP_Rubbish_C_UAID_BCFCE7058A98BFB202_1304516913"
+ },
+ "Zhengdaodaying.Dust_S.008": {
+  "source": "map_pickup",
+  "cell": "CU273XJHHDHBWWZFQT6UNK5TN",
+  "actor": "BP_Rubbish_C_UAID_BCFCE7058A98BFB202_1304589914"
+ },
+ "Zhengdaodaying.Dust_S.009": {
+  "source": "map_pickup",
+  "cell": "EJ5LZD477D88CWI1WA0EVCN7H",
+  "actor": "BP_Rubbish_C_UAID_BCFCE7058A98BFB202_1304592915"
+ },
+ "Zhengdaodaying.Dust_S.011": {
+  "source": "map_pickup",
+  "cell": "47J2EQ4UHI7FE0Q5UBSEOTTJ9",
+  "actor": "BP_Rubbish_C_UAID_E89C25A751205BB302_1851239226"
+ },
+ "Zhengdaodaying.Medi.001": {
+  "source": "map_pickup",
+  "cell": "79CC19S0YPCA0VMUK02RQA8O0",
+  "actor": "BP_Rubbish_C_UAID_E89C25A75120879002_1091365076"
+ },
+ "Zhengdaodaying.Medi.003": {
+  "source": "map_pickup",
+  "cell": "0IMW89KFR0EV4VO0HHI3J6DBB",
+  "actor": "BP_Rubbish_C_UAID_E89C25A751208F8F02_1296082109"
+ },
+ "Zhengdaodaying.Medi.004": {
+  "source": "map_pickup",
+  "cell": "45TQUA0ZJQAEADTQILUY7EYYZ",
+  "actor": "BP_Rubbish_C_UAID_E89C25A7512035D802_2141565247"
+ },
+ "Zhengdaodaying.Medi.006": {
+  "source": "map_pickup",
+  "cell": "4O7M6A15OYPGWGQSHFXN2X2YO",
+  "actor": "BP_Rubbish_C_UAID_E89C25A7512065DA02_1542598825"
+ },
+ "Zhengdaodaying.Medi.009": {
+  "source": "map_pickup",
+  "cell": "DGSDDKVZJBMZFRHCDPDEWNTIM",
+  "actor": "BP_Rubbish_C_UAID_E89C25A7512082D802_1830966512"
+ },
+ "Zhengdaodaying.Medi.010": {
+  "source": "map_pickup",
+  "cell": "2P1S3JRLWNJNW0AIZ25664DW3",
+  "actor": "BP_Rubbish_C_UAID_E89C25A7512082D802_1834028513"
+ },
+ "Zhengdaodaying.Medi.011": {
+  "source": "map_pickup",
+  "cell": "BI5EG118UUWLILN99ZWUVDHYP",
+  "actor": "BP_Rubbish_C_UAID_E89C25A7512082D802_1836405514"
+ },
+ "Zhengdaodaying.Return.001": {
+  "source": "map_pickup",
+  "cell": "0MW48RDDHZXXDOJ6MIYCGT80W",
+  "actor": "BP_Rubbish_C_UAID_74563CC57EE2FD3B02_1153413031"
+ },
+ "Zhengdaodaying.Return.002": {
+  "source": "map_pickup",
+  "cell": "63VB80UBKWJZD0A39RESWOT13",
+  "actor": "BP_Rubbish_C_UAID_E89C25A75120D1F902_1921395350"
+ },
+ "Zhengdaodaying.Return.003": {
+  "source": "map_pickup",
+  "cell": "3YQFQVL5815S2E4ZBNH2ND7MQ",
+  "actor": "BP_Rubbish_C_UAID_E89C25A75120899002_1141933439"
+ },
+ "Zhengdaodaying.Return.005": {
+  "source": "map_pickup",
+  "cell": "AD50AGBFCCGB780B9DQ2YBQCU",
+  "actor": "BP_Rubbish_C_UAID_E89C25A75120D2F902_2016207544"
+ },
+ "Zhengdaodaying.Return.006": {
+  "source": "map_pickup",
+  "cell": "9HCUAFCG49LYVSCFR93JE3G85",
+  "actor": "BP_Rubbish_C_UAID_74563CC57EE2FD3B02_1151619432"
+ },
+ "Zhengdaodaying.Traversing.003": {
+  "source": "map_pickup",
+  "cell": "44308FCW34C75NYAXSIHQ6DEK",
+  "actor": "BP_Rubbish_C_UAID_E89C25A75120D1F902_2000366351"
+ },
+ "Zhengdaodaying.Traversing.004": {
+  "source": "map_pickup",
+  "cell": "76GMK4R8B2UDEY4VODTGEF40Y",
+  "actor": "BP_Rubbish_C_UAID_E89C25A7512037EE02_1452654555"
+ },
+ "Zhengdaodaying.Traversing.005": {
+  "source": "map_pickup",
+  "cell": "5OX4YFTR0Y364K2ULS5VRZK3P",
+  "actor": "BP_Rubbish_C_UAID_E89C25A7512037EE02_1619802556"
+ },
+ "Zhengdaodaying.Traversing.006": {
+  "source": "map_pickup",
+  "cell": "5FIXNMIDTS4WARRZO5VCYKZJA",
+  "actor": "BP_Rubbish_C_UAID_E89C25A75120C89102_1187308444"
+ },
+ "Zhengdaodaying.wmA.002": {
+  "source": "map_pickup",
+  "cell": "EBEWI3CAZJHYS2PFB9GAUHR1V",
+  "actor": "BP_Rubbish_C_UAID_BCFCE7058A98B7B202_1563078463"
+ },
+ "Zhengdaodaying.wmA.003": {
+  "source": "map_pickup",
+  "cell": "F4YMIYVS79CW02EJRDK349XDV",
+  "actor": "BP_Rubbish_C_UAID_BCFCE7058A98B8B202_1575095640"
+ },
+ "Zhengdaodaying.wmA.004": {
+  "source": "map_pickup",
+  "cell": "5KGR7DRC4JWSDTILF4OHVRPIG",
+  "actor": "BP_Rubbish_C_UAID_BCFCE7058A98B8B202_1578857641"
+ },
+ "Zhengdaodaying.wmA.005": {
+  "source": "map_pickup",
+  "cell": "95VTOQT8NQH81F04HNVHY026B",
+  "actor": "BP_Rubbish_C_UAID_BCFCE7058A98B8B202_1581940642"
+ },
+ "Zhengdaodaying.wmA.007": {
+  "source": "map_pickup",
+  "cell": "47J2EQ4UHI7FE0Q5UBSEOTTJ9",
+  "actor": "BP_Rubbish_C_UAID_74563CC57EE2FD3B02_1148991999"
+ },
+ "Zhengdaodaying.wmA.012": {
+  "source": "map_pickup",
+  "cell": "8DMEQDO4LEWW5L9PBXD3TGSIM",
+  "actor": "BP_Rubbish_C_UAID_E89C25A75120B78702_1121333907"
+ },
+ "Zhengdaodaying.wmA.014": {
+  "source": "map_pickup",
+  "cell": "8DMEQDO4LEWW5L9PBXD3TGSIM",
+  "actor": "BP_Rubbish_C_UAID_BCFCE7058A98B8B202_1989030646"
+ },
+ "Zhengdaodaying.wmA.015": {
+  "source": "map_pickup",
+  "cell": "6BJ061UY73LEYZWXU6YQ5ZXDV",
+  "actor": "BP_Rubbish_C_UAID_BCFCE7058A98B8B202_2011773647"
+ },
+ "Zhengdaodaying.wmA.016": {
+  "source": "map_pickup",
+  "cell": "AT63SJRY5X44MLP9ADCO68GXC",
+  "actor": "BP_Rubbish_C_UAID_E89C25A75120C89102_1175122435"
+ },
+ "Zhengdaodaying.wmA.017": {
+  "source": "map_pickup",
+  "cell": "9D9Z6A86DQMFFWVT5AAFW5EEP",
+  "actor": "BP_Rubbish_C_UAID_E89C25A7512037EE02_1321266554"
+ },
+ "Zhengdaodaying.wmA.018": {
+  "source": "map_pickup",
+  "cell": "023FK10TWA92BU0KABBEF8M1N",
+  "actor": "BP_Rubbish_C_UAID_E89C25A75120899002_1263042440"
+ },
+ "Zhengdaodaying.wmA.019": {
+  "source": "map_pickup",
+  "cell": "0IMW89KFR0EV4VO0HHI3J6DBB",
+  "actor": "BP_Rubbish_C_UAID_BCFCE7058A98B9B202_1137106824"
+ },
+ "Zhengdaodaying.wmA.021": {
+  "source": "map_pickup",
+  "cell": "BPBKM2JT9MQOTIP11H08RE7WO",
+  "actor": "BP_Rubbish_C_UAID_BCFCE7058A98B9B202_1241645825"
+ },
+ "Zhengdaodaying.wmA.022": {
+  "source": "map_pickup",
+  "cell": "6TKQURKQ4JDQ4MT6YMQNKS89V",
+  "actor": "BP_Rubbish_C_UAID_BCFCE788D449C47002_2094368094"
+ },
+ "Zhengdaodaying.wmA.030": {
+  "source": "map_pickup",
+  "cell": "EX03O32M6X9HBANJIADALXCTS",
+  "actor": "BP_Rubbish_C_UAID_E89C25A7512085D802_2078349050"
+ },
+ "Zhengdaodaying.wmA.032": {
+  "source": "map_pickup",
+  "cell": "BB5S1I8OR62DD71QO7HZ048VG",
+  "actor": "BP_Rubbish_C_UAID_E89C25A7512085D802_1986088049"
+ },
+ "Zhengdaodaying.wmA.035": {
+  "source": "map_pickup",
+  "cell": "3XJFSV8R7Q7GH0LAX9M63JDFC",
+  "actor": "BP_Rubbish_C_UAID_E89C25A7512086D802_1111463227"
+ },
+ "Zhengdaodaying.wmA.040": {
+  "source": "map_pickup",
+  "cell": "7EOE0KR7XOQQ17T641UU5ZFA9",
+  "actor": "BP_Rubbish_C_UAID_E89C25A7512086D802_1162901228"
+ },
+ "Zhengdaodaying.wmA.041": {
+  "source": "map_pickup",
+  "cell": "C6D6KOKDJI7Y68OH1UUWLP4GH",
+  "actor": "BP_Rubbish_C_UAID_E89C25A7512086D802_1165472229"
+ },
+ "Zhengdaodaying.wmA.042": {
+  "source": "map_pickup",
+  "cell": "2X4TVWT2CSA3OWX9B8RY64PXA",
+  "actor": "BP_Rubbish_C_UAID_E89C25A7512054D602_1784136355"
+ },
+ "Zhengdaodaying.wmA.043": {
+  "source": "map_pickup",
+  "cell": "BGLF1L8L44R3XUCHCLUD3QHOS",
+  "actor": "BP_Rubbish_C_UAID_E89C25A75120B2EB02_1870522170"
+ },
+ "Zhengdaodaying.wmB.002": {
+  "source": "map_pickup",
+  "cell": "7OJPIILN6E6RGJTGFHAYGTIZO",
+  "actor": "BP_Rubbish_C_UAID_BCFCE7058A98B9B202_1363809828"
+ },
+ "Zhengdaodaying.wmB.003": {
+  "source": "map_pickup",
+  "cell": "74ZTAXT2TNT7YHDH0394X505E",
+  "actor": "BP_Rubbish_C_UAID_BCFCE7058A98B9B202_1387648829"
+ },
+ "Zhengdaodaying.wmB.010": {
+  "source": "map_pickup",
+  "cell": "0JCMP2MVULVZHXCHXW5K7B0UN",
+  "actor": "BP_Rubbish_C_UAID_E89C25A75120974D02_1870799220"
+ },
+ "Zhengdaodaying.wmB.011": {
+  "source": "map_pickup",
+  "cell": "8DMEQDO4LEWW5L9PBXD3TGSIM",
+  "actor": "BP_Rubbish_C_UAID_BCFCE7058A98B9B202_1604168835"
+ },
+ "Zhengdaodaying.wmB.014": {
+  "source": "map_pickup",
+  "cell": "7OJPIILN6E6RGJTGFHAYGTIZO",
+  "actor": "BP_Rubbish_C_UAID_BCFCE7058A98B9B202_1492609833"
+ },
+ "Zhengdaodaying.wmB.021": {
+  "source": "map_pickup",
+  "cell": "AUQ6Z4FX20Q1DGJ8GCLEW2334",
+  "actor": "BP_Rubbish_C_UAID_BCFCE7058A98B9B202_1784209841"
+ },
+ "Zhengdaodaying.wmB.022": {
+  "source": "map_pickup",
+  "cell": "53AQ0ADF4UBTHQO92NZHVDAC9",
+  "actor": "BP_Rubbish_C_UAID_BCFCE7058A98B9B202_1784134840"
+ }
+}

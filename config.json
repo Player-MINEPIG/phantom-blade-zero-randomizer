@@ -1,0 +1,8 @@
+{
+  "seed": "白绿拾遗-113",
+  "item_mode": "all",
+  "weapon_mode": "independent",
+  "monster_mode": "unit",
+  "ambient_voices": true,
+  "combat_voices": true
+}

@@ -1,0 +1,685 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>随机周目如何生成 · 影之刃零随机 Mod</title>
+  <style>
+    :root {
+      --paper: #f3efe4;
+      --light: #fbf8f0;
+      --ink: #252723;
+      --muted: #5f6057;
+      --line: #c7c2b3;
+      --red: #963d2c;
+      --red-soft: #e9d7c9;
+      --dark: #252d28;
+      --dark-muted: #c2c7b6;
+      --dark-line: #5d665b;
+      --dark-accent: #f3a78e;
+      --jade: #365b51;
+      --gold: #785922;
+      --serif: "Songti SC", "Noto Serif CJK SC", "SimSun", serif;
+      --sans: "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+      --mono: "Cascadia Mono", Consolas, monospace;
+      --frame: min(1120px, calc(100% - 80px));
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: var(--paper); color: var(--ink); font: 15px/1.75 var(--sans); }
+    ::selection { background: var(--red-soft); color: var(--ink); }
+    button, input { font: inherit; }
+    button { cursor: pointer; }
+    a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: .28em; }
+    :focus-visible { outline: 3px solid var(--red); outline-offset: 5px; }
+    .dark :focus-visible { outline-color: var(--dark-accent); }
+    .skip { position: fixed; left: 16px; top: 12px; z-index: 10; transform: translateY(-150%); background: var(--light); padding: .45em .85em; }
+    .skip:focus { transform: none; }
+    .frame { width: var(--frame); margin-inline: auto; }
+    .dark { color: var(--light); background: var(--dark); }
+
+    header { border-bottom: 1px solid var(--line); }
+    .masthead, .mast-nav, .brand { display: flex; align-items: center; }
+    .masthead { justify-content: space-between; min-height: 68px; gap: 1rem; }
+    .brand { gap: .7rem; font-weight: 700; white-space: nowrap; }
+    .seal { display: grid; place-items: center; background: var(--red); color: var(--light); width: 29px; height: 29px; font: 700 17px var(--serif); }
+    .mast-nav { gap: clamp(12px, 3vw, 38px); flex-wrap: wrap; }
+    .mast-nav a { color: var(--muted); text-decoration: none; white-space: nowrap; }
+    .mast-nav a:hover { color: var(--red); text-decoration: underline; }
+
+    h1, h2, h3, p { margin: 0; }
+    h1, h2 { font-family: var(--serif); font-weight: 800; letter-spacing: -.032em; text-wrap: balance; }
+    h1 { font-size: clamp(3rem, 6.5vw, 6rem); line-height: 1.05; }
+    h2 { font-size: clamp(2.25rem, 4.5vw, 3.75rem); line-height: 1.14; }
+    h3 { font-size: 1.1rem; line-height: 1.45; }
+    section { scroll-margin-top: 20px; }
+    .section-intro { max-width: 43rem; color: var(--muted); margin-top: 15px; }
+    .hero { min-height: 409px; display: grid; grid-template-columns: 1.17fr 1fr; align-items: center; gap: clamp(32px, 4vw, 70px); padding-block: 52px 62px; }
+    .hero p { margin-top: 22px; max-width: 31rem; color: var(--muted); }
+    .hero-link { display: inline-flex; align-items: center; gap: .7em; margin-top: 22px; padding: .43em .8em; background: var(--red); color: var(--light); text-decoration: none; }
+    .hero-link:hover { background: #753122; }
+    .arrow-down { width: .52em; height: .52em; border: 1.5px solid currentColor; border-width: 0 1.5px 1.5px 0; transform: translateY(-2px) rotate(45deg); }
+
+    .composition {
+      position: relative;
+      isolation: isolate;
+      display: grid;
+      justify-items: center;
+      align-content: center;
+      gap: 9px;
+      min-height: 296px;
+      padding: 22px;
+      margin: 0;
+      background: var(--red);
+      color: var(--light);
+      border-radius: 2px;
+      overflow: hidden;
+    }
+    .composition::before, .composition::after { content: ""; position: absolute; inset: 11px; border: 1px solid #f3efe460; pointer-events: none; z-index: -1; }
+    .composition::after { inset: auto -11% -95% 32%; height: 143%; border: 1px solid #f3efe43b; transform: rotate(43deg); border-radius: 44%; box-shadow: 0 0 0 15px #f3efe414, 0 0 0 35px #f3efe40e, 0 0 0 62px #f3efe409; }
+    .composition-sources { display: flex; justify-content: center; gap: 8px 14px; flex-wrap: wrap; }
+    .composition-sources span { border-bottom: 1px solid #f3efe487; padding-inline: .12em; }
+    .composition-line { height: 28px; border-left: 1px solid #f3efe4c0; }
+    .composition-plate { padding: 2px 15px; background: var(--light); color: #783023; font: 800 clamp(1.75rem, 3.8vw, 3.1rem)/1.4 var(--serif); }
+    .composition figcaption { font-size: .87rem; text-align: center; }
+
+    .pipeline { padding-block: 47px 52px; }
+    .pipeline h2 { color: var(--light); }
+    .pipeline .section-intro { color: var(--dark-muted); }
+    .path { margin-block: 24px 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(5, 1fr); }
+    .path li { min-width: 0; position: relative; }
+    .path li + li { padding-left: 18px; }
+    .path li + li::before { position: absolute; content: ""; left: 2px; top: 50%; width: 12px; border-top: 1px solid var(--dark-muted); }
+    .path li + li::after { position: absolute; content: ""; left: 9px; top: calc(50% - 2px); width: 4px; height: 4px; border: solid var(--dark-muted); border-width: 1px 1px 0 0; transform: rotate(45deg); }
+    .path-button { display: grid; gap: .2em; align-content: center; width: 100%; min-height: 79px; text-align: left; color: var(--light); border: 1px solid var(--dark-line); padding: 11px 13px; background: transparent; }
+    .path-button small { color: var(--dark-muted); line-height: 1.35; }
+    .path-button:hover { border-color: var(--dark-muted); }
+    .path-button[aria-pressed="true"] { background: var(--light); color: var(--ink); border-color: var(--light); }
+    .path-button[aria-pressed="true"] small { color: var(--red); }
+    .node-detail { display: grid; grid-template-columns: 1.25fr 1fr; gap: 12px 26px; padding-block: 16px 0; }
+    .node-detail p { color: var(--dark-muted); margin-top: 4px; }
+    .node-io { display: grid; gap: 4px; align-content: start; margin: 0; }
+    .node-io div { display: grid; grid-template-columns: auto 1fr; gap: 12px; }
+    .node-io dt { color: var(--dark-accent); }
+    .node-io dd { margin: 0; }
+
+    .lab { padding-block: 69px 65px; }
+    .pool-controls { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 24px; }
+    .pool-button, .slot-button { border: 1px solid var(--line); color: var(--ink); background: transparent; padding: .42em .82em; }
+    .pool-button:hover, .slot-button:hover:not(:disabled) { border-color: var(--red); color: var(--red); }
+    .pool-button[aria-pressed="true"], .slot-button[aria-pressed="true"] { background: var(--red); color: var(--light); border-color: var(--red); }
+    .lab-board { margin-top: 14px; display: grid; grid-template-columns: minmax(225px, .79fr) minmax(0, 1.9fr); background: var(--light); border-top: 1px solid var(--ink); border-bottom: 1px solid var(--line); }
+    .lab-config { padding: 21px 25px 25px 0; border-right: 1px solid var(--line); background: var(--paper); }
+    .lab-config p { margin-top: 5px; color: var(--muted); }
+    .seed-form { margin-top: 24px; }
+    .seed-form label { display: block; font-weight: 700; margin-bottom: 5px; }
+    .seed-entry { display: flex; gap: 6px; }
+    .seed-entry input { width: 100%; min-width: 0; color: var(--ink); caret-color: var(--red); border: 1px solid #a59e91; background: var(--light); padding: .42em .56em; font-family: var(--mono); }
+    .seed-entry button { background: var(--ink); color: var(--light); border: 1px solid var(--ink); padding: .42em .7em; white-space: nowrap; }
+    .seed-entry button:hover { background: var(--red); border-color: var(--red); }
+    .lab-config .seed-help { font-size: .84rem; margin-top: 8px; }
+    .table-wrap { min-width: 0; }
+    table { width: 100%; border-collapse: collapse; line-height: 1.45; }
+    table caption { text-align: left; color: var(--muted); padding: 12px 16px 7px; font-size: .86rem; }
+    th, td { text-align: left; padding: 9px 12px 9px 0; border-bottom: 1px solid #e3dfd3; overflow-wrap: anywhere; }
+    th:first-child, td:first-child { padding-left: 16px; }
+    thead th { color: var(--muted); font-size: .85rem; }
+    tbody th { font-weight: 600; }
+    tbody tr:last-child > * { border-bottom: 0; }
+    .reward-previous { color: var(--muted); }
+    .reward-new { color: var(--accent, var(--ink)); font-weight: 700; }
+    .reward-new small { display: block; color: var(--muted); font-size: .73rem; font-weight: 400; }
+    .item-main { --accent: var(--red); }
+    .item-shadow { --accent: var(--jade); }
+    .item-collectible { --accent: var(--gold); }
+    .outside-pool .reward-new { color: var(--muted); font-weight: 400; }
+    .participating { white-space: nowrap; color: var(--muted); font-size: .77rem; }
+    .participating::before { content: ""; display: inline-block; width: .42em; height: .42em; margin-right: .36em; vertical-align: .14em; border: 1px solid var(--red); border-radius: 100%; }
+    .in-pool .participating::before { background: var(--red); }
+    .lab-foot { color: var(--muted); margin-top: 13px; max-width: 55rem; font-size: .91rem; }
+    .slot-demo { margin-top: 36px; padding-top: 25px; border-top: 1px solid var(--line); scroll-margin-top: 20px; }
+    .slot-demo h3 { font: 800 clamp(1.65rem, 2.6vw, 2.2rem)/1.2 var(--serif); }
+    .slot-demo .lab-board { margin-top: 15px; }
+    .slot-demo .lab-config { font-size: .92rem; }
+    .slot-actions { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+    .slot-button:disabled { color: var(--muted); border-color: transparent; cursor: default; }
+    .slot-claim { padding: .22em .6em; white-space: nowrap; }
+    .slot-steps { padding-left: 1.5rem; margin: 13px 0 0; max-width: 54rem; color: var(--muted); }
+    .slot-steps li + li { margin-top: 5px; }
+    .slot-demo a { color: var(--red); }
+
+    .rules { border-top: 1px solid var(--line); padding-block: 51px 59px; }
+    .rules h2 { max-width: 45rem; }
+    .lanes { margin-top: 21px; padding: 0; list-style: none; border-block: 1px solid var(--line); }
+    .lanes li { display: grid; grid-template-columns: minmax(80px, .34fr) 1fr 1fr 1.12fr; align-items: stretch; }
+    .lanes li + li { border-top: 1px solid var(--line); }
+    .lanes strong { display: flex; align-items: center; color: var(--light); background: var(--jade); padding: 10px 12px; }
+    .lanes .reward-lane strong { background: var(--red); }
+    .lane-step { padding: 10px 12px; }
+    .lane-step + .lane-step { border-left: 1px solid var(--line); }
+    .lane-step:last-child { font-weight: 700; }
+    .rules p { margin-top: 15px; max-width: 47rem; color: var(--muted); }
+    .rules a { color: var(--red); }
+
+    .scope { padding-block: 53px 58px; }
+    .scope dl { margin: 23px 0 0; }
+    .scope dl > div { display: grid; grid-template-columns: minmax(112px, .28fr) 1.72fr; gap: 16px 22px; align-items: start; padding: 12px 0; border-top: 1px solid var(--dark-line); }
+    .scope dl > div:last-child { border-bottom: 1px solid var(--dark-line); }
+    .scope dt { font-weight: 700; }
+    .scope dd { margin: 0; color: var(--dark-muted); max-width: 50rem; }
+    .scope a { color: var(--dark-accent); }
+
+    .pickup-checks { padding-block: 55px 46px; }
+    .pickup-checks ul { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; padding: 0; margin: 22px 0 0; list-style: none; }
+    .pickup-checks li { padding: 14px 16px 16px; border-top: 2px solid var(--red); background: var(--light); }
+    .pickup-checks li p { color: var(--muted); margin-top: 6px; }
+    .pickup-checks .prize { color: var(--red); font-weight: 700; }
+
+    .verification { padding-block: 45px 59px; border-top: 1px solid var(--line); }
+    .status-list { margin: 22px 0 0; padding: 0; list-style: none; border-top: 1px solid var(--line); }
+    .status-list li { display: grid; grid-template-columns: minmax(120px, .35fr) 1.65fr; gap: 12px 21px; border-bottom: 1px solid var(--line); padding-block: 12px; }
+    .status-list strong { color: var(--red); }
+    .status-list span { color: var(--muted); }
+    .status-list code { font: .89em var(--mono); color: var(--ink); overflow-wrap: anywhere; }
+    .status-list a { color: var(--red); white-space: nowrap; }
+    .build-command { margin: 18px 0 0; padding: 11px 14px; overflow-x: auto; background: var(--light); border: 1px solid var(--line); font: .9rem/1.6 var(--mono); }
+    .reference { padding-block: 43px 51px; border-top: 1px solid var(--line); }
+    .reference p { margin-top: 13px; max-width: 53rem; color: var(--muted); }
+    .reference a { color: var(--red); white-space: nowrap; }
+    footer { border-top: 1px solid var(--line); }
+    .footer { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding-block: 14px; color: var(--muted); font-size: .9rem; }
+    .flash tr.in-pool { animation: assigned .38s ease-out; }
+    @keyframes assigned { from { background: var(--red-soft); } to { background: transparent; } }
+
+    @media (max-width: 830px) {
+      :root { --frame: calc(100% - 50px); }
+      .hero { min-height: auto; gap: 21px; padding-block: 42px 48px; }
+      .composition { min-height: 244px; }
+      .path li + li { padding-left: 12px; }
+      .path li + li::before { width: 7px; }
+      .path li + li::after { left: 4px; }
+      .path-button { padding-inline: 8px; }
+    }
+    @media (max-width: 620px) {
+      :root { --frame: calc(100% - 32px); }
+      .masthead { flex-wrap: wrap; gap: 2px 12px; padding-block: 10px; }
+      .mast-nav { gap: 3px 15px; font-size: .85rem; }
+      .hero, .node-detail, .lab-board { grid-template-columns: 1fr; }
+      .hero { padding-block: 33px 35px; gap: 24px; }
+      .hero p { margin-top: 13px; }
+      .hero-link { margin-top: 15px; }
+      .composition { min-height: 205px; }
+      .pipeline, .lab, .rules, .scope, .pickup-checks, .verification, .reference { padding-block: 38px; }
+      .pickup-checks ul { grid-template-columns: 1fr; gap: 8px; }
+      .path { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 5px; }
+      .path li + li { padding-left: 0; }
+      .path li + li::before, .path li + li::after { content: none; }
+      .path { counter-reset: flow-step; }
+      .path-button { position: relative; min-height: 64px; padding-left: 26px; }
+      .path-button::before { counter-increment: flow-step; content: counter(flow-step); position: absolute; left: 8px; top: 12px; font: .82rem var(--mono); color: var(--dark-muted); }
+      .path-button[aria-pressed="true"]::before { color: var(--red); }
+      .lab-config { padding: 13px 0 18px; border-right: 0; border-bottom: 1px solid var(--line); }
+      .seed-form { margin-top: 14px; }
+      .pool-controls { margin-top: 18px; }
+      table { font-size: .87rem; }
+      th:first-child, td:first-child, table caption { padding-left: 8px; }
+      th, td { padding-right: 5px; }
+      .participating { font-size: .72rem; }
+      .participating::before { display: none; }
+      .lanes li { grid-template-columns: repeat(3, 1fr); }
+      .lanes strong { grid-column: 1 / -1; padding: 5px 9px; }
+      .lane-step { padding: 7px 9px; font-size: .88rem; }
+      .scope dl > div, .status-list li { grid-template-columns: 1fr; gap: 4px; padding-block: 10px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      .flash tr.in-pool { animation: none; }
+    }
+  </style>
+</head>
+<body id="top">
+  <a class="skip" href="#main">跳至内容</a>
+  <header>
+    <div class="masthead frame">
+      <div class="brand"><span class="seal" aria-hidden="true">影</span>影之刃零随机 Mod</div>
+      <nav class="mast-nav" aria-label="本页导航">
+        <a href="#flow">生成流程</a>
+        <a href="#pools">物品池</a>
+        <a href="#save-modes">独立战役</a>
+        <a href="#locks">能力锁</a>
+        <a href="#validation">验证进度</a>
+        <a href="#modcraft">ModCraft</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero frame" aria-labelledby="title">
+      <div>
+        <h1 id="title">随机周目<br>如何生成</h1>
+        <p>在同一工具版本、数据目录与配置下，相同种子会生成相同分配。用启动器进入同一独立战役时，游戏会继续使用该战役的种子包和存档。</p>
+        <a class="hero-link" href="#pools">试一次物品分配<span class="arrow-down" aria-hidden="true"></span></a>
+      </div>
+      <figure class="composition" aria-label="种子、配置和数据目录共同决定周目分配计划">
+        <div class="composition-sources"><span>种子</span><span>随机配置</span><span>版本化目录</span></div>
+        <span class="composition-line" aria-hidden="true"></span>
+        <div class="composition-plate">周目分配计划</div>
+        <figcaption>奖励点位、武器、敌人和语音的分配清单</figcaption>
+      </figure>
+    </section>
+
+    <section id="flow" class="pipeline dark" aria-labelledby="flow-title">
+      <div class="frame">
+        <h2 id="flow-title">从种子到游戏</h2>
+        <p class="section-intro">点选流程节点，查看这一步读取什么、产出什么。</p>
+        <ol class="path" aria-label="周目生成流程">
+          <li><button class="path-button" type="button" data-node="input" aria-controls="node-detail" aria-pressed="true"><strong>读取输入</strong><small>种子与版本</small></button></li>
+          <li><button class="path-button" type="button" data-node="plan" aria-controls="node-detail" aria-pressed="false"><strong>生成计划</strong><small>按选项分配</small></button></li>
+          <li><button class="path-button" type="button" data-node="verify" aria-controls="node-detail" aria-pressed="false"><strong>检查可达性</strong><small>关键道具与能力锁</small></button></li>
+          <li><button class="path-button" type="button" data-node="apply" aria-controls="node-detail" aria-pressed="false"><strong>生成覆盖包</strong><small>改写已核对的字段</small></button></li>
+          <li><button class="path-button" type="button" data-node="play" aria-controls="node-detail" aria-pressed="false"><strong>进入周目</strong><small>读档沿用分配</small></button></li>
+        </ol>
+        <div class="node-detail" id="node-detail" aria-live="polite">
+          <div><h3 id="node-title">读取配置和版本化目录</h3><p id="node-summary">外部 Python 工具读取周目配置，并用地图 Actor 的奖励行 ID 把光点和宝箱对应到奖表。</p></div>
+          <dl class="node-io">
+            <div><dt>输入</dt><dd id="node-input">种子、随机选项、武器白名单、数据目录</dd></div>
+            <div><dt>产出</dt><dd id="node-output">绑定目录版本的周目输入</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <section id="pools" class="lab frame" aria-labelledby="pool-title">
+      <h2 id="pool-title">试试五种物品池</h2>
+      <p class="section-intro">白名单决定哪些物品参与。默认覆盖主武器、影之武装和收集品。通过核对的意识尘埃和文献也属于收集品池。所选模式决定可互换的奖励位置。</p>
+      <div class="pool-controls" role="group" aria-label="物品随机模式">
+        <button class="pool-button" type="button" data-mode="all" aria-pressed="true" aria-controls="pool-results">全随机</button>
+        <button class="pool-button" type="button" data-mode="weapons" aria-pressed="false" aria-controls="pool-results">武器随机</button>
+        <button class="pool-button" type="button" data-mode="main" aria-pressed="false" aria-controls="pool-results">主武器随机</button>
+        <button class="pool-button" type="button" data-mode="shadow" aria-pressed="false" aria-controls="pool-results">影之武装随机</button>
+        <button class="pool-button" type="button" data-mode="collectible" aria-pressed="false" aria-controls="pool-results">收集品随机</button>
+      </div>
+      <div class="lab-board" id="pool-results">
+        <div class="lab-config">
+          <h3 id="mode-title">全随机</h3>
+          <p id="mode-summary">主武器、影之武装和收集品共用一池，物品可以跨类别换到彼此的奖励位置。</p>
+          <form id="seed-form" class="seed-form">
+            <label for="seed">演示种子</label>
+            <div class="seed-entry">
+              <input id="seed" name="seed" value="2026" maxlength="128" required autocomplete="off" spellcheck="false" aria-describedby="seed-help">
+              <button type="submit">重算分配</button>
+            </div>
+            <p class="seed-help" id="seed-help">可输入文字或数字。相同模式和种子会复现表中的分配。</p>
+          </form>
+          <noscript><p>启用 JavaScript 后可切换模式和重算示例。</p></noscript>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <caption id="result-caption" aria-live="polite">虚构奖励点位 · 种子 2026</caption>
+            <thead><tr><th scope="col">奖励点位</th><th scope="col">原奖励</th><th scope="col">分配后</th><th scope="col">参与状态</th></tr></thead>
+            <tbody id="reward-rows"></tbody>
+          </table>
+        </div>
+      </div>
+      <p class="lab-foot">表格用虚构物品、点位和浏览器演示算法展示分池。本例假定所有条目都在白名单内，同一个点位也可能抽回原奖励。实际构建会核对每处光点和宝箱的原版奖励行。多个位置或脚本共用同一行时，构建器会保护该行。</p>
+      <div class="slot-demo" id="save-modes" role="region" aria-labelledby="save-modes-title">
+        <h3 id="save-modes-title">从启动器进入独立战役</h3>
+        <ol class="slot-steps">
+          <li>退出游戏。如果曾安装静态 r1 或 r2，将旧包的同名 <code>.pak</code>、<code>.utoc</code> 和 <code>.ucas</code> 一起移出游戏安装目录的 <code>Paks</code>。</li>
+          <li>将发行包解压到游戏安装目录以外。 <a href="../../build/profiles/PBZ-Randomizer.zip">PBZ-Randomizer.zip</a></li>
+          <li>打开 <code>PBZRandomizer.exe</code>，选择种子，创建独立战役并启动，再在游戏中选<strong>新游戏</strong>。</li>
+          <li>此后用启动器选同一战役，并沿用同一个游戏槽位。游戏从该战役的独立档库读取进度。</li>
+          <li>要继续个人原版档，先退出游戏，再从 Steam 正常启动。 <a href="../../README.md#游玩">安装与兼容说明</a></li>
+        </ol>
+        <h3>浏览器演示 · 换模式后，剩下的奖励去哪了</h3>
+        <p>在启动器选择「切换此战役模式…」，确认当前槽已经领过哪些奖励。游戏退出后，离线编译器按这份记录重写剩余奖励、光效和其他模块，再让启动器为同一份存档选用新布局。已有原版进度可先导入为独立战役副本。下面的三个虚构点位可以试出提前拾取对关闭随机的影响。 <a href="../游玩说明.md">游玩说明</a></p>
+        <div class="lab-board">
+          <div class="lab-config">
+            <p>先领甲点的武器，再关闭随机。乙点会补回尚未发出的钥匙。也可以先按原版领取，再启用随机。</p>
+            <div class="slot-actions" role="group" aria-label="切换存档模式">
+              <button id="slot-vanilla" class="slot-button" type="button" aria-pressed="false" aria-controls="slot-rewards" disabled>关闭随机</button>
+              <button id="slot-random" class="slot-button" type="button" aria-pressed="true" aria-controls="slot-rewards" disabled>启用随机</button>
+              <button id="slot-reset" class="slot-button" type="button" aria-controls="slot-rewards" disabled>重置示例</button>
+            </div>
+          </div>
+          <div class="table-wrap">
+            <table id="slot-rewards">
+              <caption id="slot-summary" aria-live="polite">随机模式，已领 0 份，还剩 3 份</caption>
+              <thead><tr><th scope="col">点位</th><th scope="col">原奖励</th><th scope="col">当前奖励</th><th scope="col">领取</th></tr></thead>
+              <tbody>
+                <tr><th scope="row">甲</th><td>钥匙</td><td class="reward-new item-main">武器</td><td><button class="slot-button slot-claim" type="button" aria-label="领取甲点奖励" disabled>领取</button></td></tr>
+                <tr><th scope="row">乙</th><td>武器</td><td class="reward-new item-shadow">文献</td><td><button class="slot-button slot-claim" type="button" aria-label="领取乙点奖励" disabled>领取</button></td></tr>
+                <tr><th scope="row">丙</th><td>文献</td><td class="reward-new item-main">钥匙</td><td><button class="slot-button slot-claim" type="button" aria-label="领取丙点奖励" disabled>领取</button></td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <p class="lab-foot">每份奖励只发一次。关闭随机时，剩余点位尽量恢复原奖励。如果原奖励已在其他点位发出，仍会在剩余点位补齐未发放的那份奖励。</p>
+        <details><summary>这次切换在磁盘上改变了什么？</summary>
+          <p><code>permutation.json</code> 记录每个点位从哪一条原版奖励行取货。两行即使有同名材料，也能分别保留各自的数量。<code>ledger.json</code> 保存点位和领取时的模式；重放这些记录便能算出还有哪些原始奖励未发。</p>
+          <p>离线编译器从 <code>kit.zip</code> 重建掉落表、需要转发的 Boss 奖励节点、地图光效和所选模块，再用 retoc 打包装回读。所有块核对成功后，启动器一次更新 <code>campaign.json</code> 的布局引用。</p>
+          <p>下一次启动使用新的 <code>-UserDir</code> 挂载布局，<code>-SaveGamesDir</code> 仍指向这个战役的同一个档库。正常从 Steam 启动时不带这两个参数。</p>
+        </details>
+      </div>
+    </section>
+
+    <section id="locks" class="rules frame" aria-labelledby="lock-title">
+      <h2 id="lock-title">通行资格与武装奖励</h2>
+      <p>当前静态包保留关键通行武装的原版发放点和机关条件。下图展示独立解锁的设计目标。</p>
+      <ol class="lanes" aria-label="通行能力和影之武装奖励各自的流程">
+        <li><strong>通行能力</strong><span class="lane-step">原 Boss 遭遇</span><span class="lane-step">击败该遭遇的当前对手</span><span class="lane-step">能力解锁，开放对应障碍</span></li>
+        <li class="reward-lane"><strong>物品奖励</strong><span class="lane-step">影之武装本体</span><span class="lane-step">按白名单与池规则重排</span><span class="lane-step">从分配到的奖励点领取</span></li>
+      </ol>
+      <p>设计目标是由原 Boss 遭遇的胜利条件授予通行能力。替换该遭遇的对手后，胜利仍能解锁，并且无需取得或装备对应影之武装。</p>
+      <p>生成器能检查配置中已登记的前置条件。游戏的完整流程依赖图仍待核对。</p>
+      <p>已核对彭猛击杀事件、巨凶斧发放和锁链通行条件。原版有 Flow 标签控制机关碰撞的范例，西谷锁链仍需验证子 Actor 碰撞与读档恢复。当前覆盖包把这些关键物品留在原奖励点。 <a href="../../integrations/gates/README.md">查看原版资产证据</a></p>
+      <p>另有手动补发推进武装的命令，经 UE4SS 和 PBZArchipelago 0.9.2 的本地文件桥发送。桥接行为已通过本地测试，游戏内发放待验证。 <a href="../../integrations/archipelago/README.md">查看手动补发说明</a></p>
+    </section>
+
+    <section id="scope" class="scope dark" aria-labelledby="scope-title">
+      <div class="frame">
+        <h2 id="scope-title">已接入的游戏数据</h2>
+        <dl>
+          <div><dt>奖励点位</dt><dd>构建目录包含 1,204 个点位，其中地图光点 1,137、宝箱 47、任务 12、Boss 7、小怪战斗结算 1。按原奖励统计，光点含 383 处纯意识尘埃、152 处文献和 602 处其他物品。三面混沌支线所需的长形黑伤保留原位。 <a href="../../integrations/grants/README.md">查看发放路径</a></dd></div>
+          <div><dt>拾取与光效</dt><dd>静态包把该种子的奖励写入掉落表和经核对的发放节点。地图光点采用分配后奖励的原版色阶与 Niagara 特效。地面武器使用橙红特效。</dd></div>
+          <div><dt>武器数值</dt><dd>现有适配覆盖 38 件武器，交换物理伤害、失衡伤害和格挡失衡伤害倍率。联动模式下数值和连段取自同一把武器，独立模式下分别分配。 <a href="../../integrations/weapons/README.md">武器字段</a></dd></div>
+          <div><dt>武器连段</dt><dd>白影与偃月刀的整套配置可对调，补丁保留接收武器的原版模型。 <a href="../../integrations/weapons/README.md">连段范围</a></dd></div>
+          <div><dt>怪物分布</dt><dd>四个区域共识别 138 个普通敌人生成点和 52 个分组。支持按生成点重排，也支持在构成兼容的分组之间整体重排。 <a href="../../integrations/monsters/README.md">地图与分组范围</a></dd></div>
+          <div><dt>语音与字幕</dt><dd>站桩对白和可选战斗对白均按兼容组整对重排。识别了 1,630 个站桩节点和 48 个战斗对白槽位。播片语音和字幕沿用原版。 <a href="../../integrations/voices/README.md">对白字段</a></dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section id="pickup-checks" class="pickup-checks frame" aria-labelledby="pickup-checks-title">
+      <h2 id="pickup-checks-title">开端之地与悲泣溪谷的验证点</h2>
+      <p class="section-intro">下列点位对应静态 r2 包的种子 <code>白绿拾遗-113</code>。距离从铃铛直线量至光点，方向以传送后的默认镜头为准。原版意识尘埃数量以首周目为准。</p>
+      <ul>
+        <li>
+          <h3>开端之地 · 左后</h3>
+          <p>离铃铛约 41.7 米，比铃铛低约 6 米。</p>
+          <p>原为白光，奖励 220 意识尘埃。新版为紫光，奖励 <span class="prize">大师药师记忆 ×2</span>。</p>
+        </li>
+        <li>
+          <h3>开端之地 · 后方偏左</h3>
+          <p>离铃铛约 108.1 米，比铃铛低约 6.6 米。</p>
+          <p>原为白光，奖励 224 意识尘埃。新版为紫光，奖励 <span class="prize">兵刃逆炼符 ×1</span>。</p>
+        </li>
+        <li>
+          <h3>斧老大关押处</h3>
+          <p>传送后向左侧略后寻找。光点离铃铛约 43 米，接近同一高度。</p>
+          <p>原为白光，奖励 437 意识尘埃。新版为橙红光，奖励 <span class="prize">玉双环</span>。</p>
+        </li>
+        <li>
+          <h3>溪谷杀气塔一层</h3>
+          <p>传送后向左前方寻找。光点离铃铛约 28 米，比铃铛高约 3 米。</p>
+          <p>原为绿光，奖励《杀气塔勘探调查》和 438 意识尘埃。新版为橙红光，奖励 <span class="prize">操偶铃铛</span>。</p>
+        </li>
+      </ul>
+      <p class="section-intro">另一个静态核对点在开端之地铃铛左前约 46.3 米、高约 1.1 米，奖励从 221 意识尘埃变为 5,563 意识尘埃。</p>
+    </section>
+
+    <section id="validation" class="verification frame" aria-labelledby="verification-title">
+      <h2 id="verification-title">验证进度</h2>
+      <ul class="status-list">
+        <li><strong>静态 r2 包已读回</strong><span>面向 Steam build 26367565 的 <code>.pak</code>、<code>.utoc</code> 和 <code>.ucas</code> 三件套共覆盖 728 个资产。 <a href="../../build/white-green/PBZ-Randomizer.zip">白绿拾遗-113</a> · <a href="../../build/r2-1119/PBZ-Randomizer.zip">江湖初雪-1119</a></span></li>
+        <li><strong>示例构建的实际改动</strong><span>种子 <code>白绿拾遗-113</code> 改变了 1,195 个点位的奖励，987 处光点换用不同的 Niagara 特效资产。119 个刷怪点更换敌人类，1,079 个站桩对白和 32 个战斗对白的字幕键变化。白影与偃月刀互换连段。</span></li>
+        <li><strong>r2 启动与挂载</strong><span>2026-11-18 从 Steam 启动 r2，进入标题画面 <code>302256-17280</code>。Windows Restart Manager 确认 PBZ 游戏进程实际打开了与发布包 SHA-256 一致的 <code>.utoc</code> 和 <code>.ucas</code>。</span></li>
+        <li><strong>开场与收集品实测</strong><span>2026-11-19 玩家通过开场，确认收集品出现在新位置。开端之地原奖励为 220 和 224 意识尘埃的两个光点分别入账大师药师记忆 ×2、兵刃逆炼符 ×1。重读存档后，领取标记与物品均保留。 <a href="#pickup-checks">查看验证点</a></span></li>
+        <li><strong>地面武器拾取实测</strong><span>隔离测试在开端之地铃铛旁使用两个同类拾取实例，沿用发布种子的奖励和光效配置。两处均显示钥匙色的橙红光。拾取操偶铃铛和玉双环后，游戏分别显示 3D 物品模型及装备影之武装和武器的提示。两个发行点位的实地表现仍待验证。 <a href="../integration-research.md#地面武器拾取实测">查看实测配置</a></span></li>
+        <li><strong>页面交互已验证</strong><span>浏览器检查覆盖五种物品池、五个流程节点、同种子复算和窄屏显示。三点示例也已检查领取、关闭后补发和再次启用。</span></li>
+        <li><strong>生成器已验证</strong><span>Python 的 <code>randomizer.generate</code> 已通过本地测试，覆盖物品池、复现、可达性、能力锁分配、武器、怪物和语音逻辑。</span></li>
+        <li><strong>备用点位目录</strong><span>从 PBZArchipelago v0.9.2 导入 48 种物品和 648 个奖励点，包括 19 个宝箱和 629 个地图拾取点。</span></li>
+        <li><strong>独立档库与覆盖包</strong><span>在 Steam build 26367565 上，测试进程进入标题画面，在指定档库生成测试存档，并打开指定目录中的 IoStore 文件。发行版用独立战役进入随机周目，个人原档仍从 Steam 正常启动。 <a href="#save-modes">游玩步骤</a></span></li>
+        <li><strong>同档三次切换</strong><span>对独立测试档执行开启、带领取记录关闭、再次开启。三次操作前后，档库内 9 个文件的 SHA-256 均一致。以提前领取玉双环为例，生成后的 Boss 奖励行与原来的整份尘埃一致，光点回读为钥匙的橙红特效。这项验证使用模拟领取记录。</span></li>
+        <li><strong>零售版脚本限制</strong><span>按档原型通过本地逻辑测试。实机探针未产生脚本回执，目标零售版包含对脚本内容的校验。游戏内开关和旧档自动识别尚待游戏提供入口。 <a href="../integration-research.md#零售版启动与存档边界">实测依据</a></span></li>
+        <li><strong>其余游戏行为</strong><span>开箱、Boss 发奖、武器动作、刷怪、语音播放和通关待实机核对。原生的独立通行能力仍待接入。 <a href="../integration-research.md">查看接入调研</a></span></li>
+      </ul>
+      <p class="section-intro">在仓库根目录使用自己的周目配置生成覆盖包，并指定一个新输出目录。 <a href="../../README.md">准备工具与配置</a></p>
+      <pre class="build-command"><code>python -m pbzmod --config config.json --out build/next-seed</code></pre>
+    </section>
+
+    <section id="modcraft" class="reference frame" aria-labelledby="modcraft-title">
+      <h2 id="modcraft-title">ModCraft 的适用范围</h2>
+      <p>ModCraft 展示了对话式编辑、项目文件对比、构建和社区发布，也提供支持 Unreal UE4SS 与 Pak 的桌面管理器。公开演示可用于了解创作和部署流程。《影之刃零》的种子复现、可达性检查及专用 IoStore 写入需要项目级测试；本项目已用本地 Python 流程构建 Steam 原生覆盖包。 <a href="https://www.modcraft.games/editor">ModCraft 编辑器说明</a></p>
+      <p>《随机增援 MOD》是游戏内动态生成的参考案例。它使用游戏专用 UE4SS，在玩家附近定时新增敌人，或为原有敌人加增援，并保存新生成单位的状态。作者说明可开启额外材料掉落。现有项目通过种子预先重排原版刷怪点和奖励点，实际范围由本机资产映射决定。 <a href="https://www.modcraft.games/games/phantom-blade-zero/mods/88">随机增援作者说明</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer frame">
+      <a href="../../%E9%9A%8F%E6%9C%BA%20Mod%20%E9%9C%80%E6%B1%82.md">随机 Mod 需求草案</a>
+      <a href="#top">返回顶部</a>
+    </div>
+  </footer>
+
+  <script>
+    "use strict";
+
+    const nodes = {
+      input: {
+        title: "读取配置和版本化目录",
+        summary: "外部 Python 工具读取周目配置，并用地图 Actor 的奖励行 ID 把光点和宝箱对应到奖表。",
+        input: "种子、随机选项、武器白名单、数据目录",
+        output: "绑定目录版本的周目输入"
+      },
+      plan: {
+        title: "按模式生成周目分配",
+        summary: "从唯一且无剧情条件的奖励来源筛选候选条目，再按白名单和物品池规则分配。同一版本和配置使用同一种子时，分配可复现。",
+        input: "周目输入、点位与候选条目目录",
+        output: "奖励、武器数值和连段、怪物及语音的分配计划"
+      },
+      verify: {
+        title: "排除会卡死的分配",
+        summary: "沿初始可达区域逐步纳入新增能力和关键道具。需要先获得钥匙的点位不能成为该钥匙的唯一来源。",
+        input: "分配计划、区域前置条件、原 Boss 遭遇解锁规则",
+        output: "满足可达性的计划，或说明阻断位置的检查结果"
+      },
+      apply: {
+        title: "写入并读回游戏覆盖包",
+        summary: "pbzmod 改写奖励表、地图光效和模块资产，读回每个块，并把同一颗种子切换模式所需的资源整理成 kit.zip。",
+        input: "通过检查的分配计划、匹配的原版资产、适配范围",
+        output: "原生 IoStore 三件套、原始来源排列、离线切换配方"
+      },
+      play: {
+        title: "游玩、读档与重试",
+        summary: "PBZRandomizer.exe 选择战役的存档目录和资源布局。关闭后再开启随机仍沿用原始种子，并保留此前确认领过的每份奖励。",
+        input: "独立战役、该战役的种子包与存档",
+        output: "该战役的奖励、光效与进度"
+      }
+    };
+
+    const nodeFields = {
+      title: document.getElementById("node-title"),
+      summary: document.getElementById("node-summary"),
+      input: document.getElementById("node-input"),
+      output: document.getElementById("node-output")
+    };
+    const nodeButtons = document.querySelectorAll(".path-button");
+
+    for (const button of nodeButtons) {
+      button.addEventListener("click", () => {
+        const detail = nodes[button.dataset.node];
+        for (const other of nodeButtons) other.setAttribute("aria-pressed", String(other === button));
+        for (const field of Object.keys(nodeFields)) nodeFields[field].textContent = detail[field];
+      });
+    }
+
+    const items = [
+      { site: "山门守将 · 胜利", reward: "断虹", category: "main" },
+      { site: "竹院客卿 · 任务", reward: "折竹", category: "main" },
+      { site: "石窟首领 · 胜利", reward: "飞索", category: "shadow" },
+      { site: "峭壁游侠 · 胜利", reward: "壁钉", category: "shadow" },
+      { site: "偏殿 · 宝箱", reward: "殿门旧印", category: "collectible" },
+      { site: "巡夜卒 · 掉落", reward: "破损腰牌", category: "collectible" },
+      { site: "山腰栈道 · 光点", reward: "褪色残页", category: "collectible" },
+      { site: "渡口 · 任务", reward: "青玉穗", category: "collectible" }
+    ];
+    const categoryNames = { main: "主武器", shadow: "影之武装", collectible: "收集品" };
+    const modes = {
+      all: { name: "全随机", categories: ["main", "shadow", "collectible"], summary: "主武器、影之武装和收集品共用一池，物品可以跨类别换到彼此的奖励位置。" },
+      weapons: { name: "武器随机", categories: ["main", "shadow"], summary: "主武器与影之武装共用一池，两类武器可换到彼此的奖励位置。" },
+      main: { name: "主武器随机", categories: ["main"], summary: "只在主武器对应的奖励位置之间分配主武器。" },
+      shadow: { name: "影之武装随机", categories: ["shadow"], summary: "只在影之武装对应的奖励位置之间分配影之武装。" },
+      collectible: { name: "收集品随机", categories: ["collectible"], summary: "在宝箱、小怪掉落、地图光点和任务奖励等非 Boss 点位之间分配收集品。" }
+    };
+
+    const modeButtons = document.querySelectorAll(".pool-button");
+    const seedForm = document.getElementById("seed-form");
+    const seedInput = document.getElementById("seed");
+    const modeTitle = document.getElementById("mode-title");
+    const modeSummary = document.getElementById("mode-summary");
+    const caption = document.getElementById("result-caption");
+    const rewardRows = document.getElementById("reward-rows");
+    let currentMode = "all";
+    let currentSeed = seedInput.value;
+    let flashFrame;
+
+    // FNV-1a seeds a small deterministic generator for the browser example.
+    function randomFor(seed) {
+      let state = 2166136261;
+      for (const byte of new TextEncoder().encode(seed)) {
+        state = Math.imul(state ^ byte, 16777619);
+      }
+      return () => {
+        state = (state + 0x6d2b79f5) | 0;
+        let value = Math.imul(state ^ (state >>> 15), state | 1);
+        value ^= value + Math.imul(value ^ (value >>> 7), value | 61);
+        return ((value ^ (value >>> 14)) >>> 0) / 4294967296;
+      };
+    }
+
+    function element(type, value, className) {
+      const node = document.createElement(type);
+      if (className) node.className = className;
+      node.textContent = value;
+      return node;
+    }
+
+    function renderRewards(animate = false) {
+      const mode = modes[currentMode];
+      const participating = items.filter(item => mode.categories.includes(item.category));
+      const shuffled = participating.slice();
+      const random = randomFor(`物品池演示/v1/${currentMode}/${currentSeed}`);
+
+      for (let index = shuffled.length - 1; index > 0; index--) {
+        const swap = Math.floor(random() * (index + 1));
+        [shuffled[index], shuffled[swap]] = [shuffled[swap], shuffled[index]];
+      }
+
+      const rewardsBySite = new Map(participating.map((item, index) => [item.site, shuffled[index]]));
+      const rows = items.map(item => {
+        const assigned = rewardsBySite.get(item.site);
+        const reward = assigned ?? item;
+        const row = document.createElement("tr");
+        row.className = assigned ? "in-pool" : "outside-pool";
+        const location = element("th", item.site);
+        location.scope = "row";
+        const updated = element("td", reward.reward, `reward-new item-${reward.category}`);
+        updated.append(element("small", categoryNames[reward.category]));
+        row.append(location, element("td", item.reward, "reward-previous"), updated,
+          element("td", assigned ? "在池内" : "池外", "participating"));
+        return row;
+      });
+
+      for (const button of modeButtons) {
+        button.setAttribute("aria-pressed", String(button.dataset.mode === currentMode));
+      }
+
+      modeTitle.textContent = mode.name;
+      modeSummary.textContent = mode.summary;
+      caption.textContent = `虚构点位 · 种子 ${currentSeed} · ${participating.length} 个点位参与`;
+      rewardRows.classList.remove("flash");
+      rewardRows.replaceChildren(...rows);
+      if (animate) {
+        cancelAnimationFrame(flashFrame);
+        flashFrame = requestAnimationFrame(() => rewardRows.classList.add("flash"));
+      }
+    }
+
+    for (const button of modeButtons) {
+      button.addEventListener("click", () => {
+        currentMode = button.dataset.mode;
+        renderRewards(true);
+      });
+    }
+
+    seedInput.addEventListener("input", () => seedInput.setCustomValidity(""));
+    seedForm.addEventListener("submit", event => {
+      event.preventDefault();
+      const entered = seedInput.value.trim();
+      if (!entered) {
+        seedInput.setCustomValidity("请输入文字或数字作为种子。");
+        seedInput.reportValidity();
+        return;
+      }
+      seedInput.value = entered;
+      currentSeed = entered;
+      renderRewards(true);
+    });
+
+    const slotOriginals = ["钥匙", "武器", "文献"];
+    const slotPermutation = [1, 2, 0];
+    const slotGrants = new Map();
+    const slotRows = [...document.querySelectorAll("#slot-rewards tbody tr")];
+    const slotVanilla = document.getElementById("slot-vanilla");
+    const slotRandom = document.getElementById("slot-random");
+    const slotReset = document.getElementById("slot-reset");
+    const slotSummary = document.getElementById("slot-summary");
+    let slotEnabled = true;
+
+    function slotAssignments() {
+      const spent = new Map([...slotGrants].map(([point, source]) => [source, point]));
+      const preferred = slotEnabled ? slotPermutation : [0, 1, 2];
+      return preferred.map((source, point) => {
+        if (slotGrants.has(point)) return slotGrants.get(point);
+        while (spent.has(source)) source = preferred[spent.get(source)];
+        return source;
+      });
+    }
+
+    function renderSlot() {
+      const assignments = slotAssignments();
+      for (const [point, row] of slotRows.entries()) {
+        const source = assignments[point];
+        const granted = slotGrants.has(point);
+        const cell = row.cells[2];
+        const button = row.querySelector("button");
+        cell.textContent = slotOriginals[source];
+        cell.className = `reward-new ${source === 2 ? "item-shadow" : "item-main"}`;
+        button.disabled = granted;
+        button.textContent = granted ? "已领" : "领取";
+        button.setAttribute("aria-label", granted ? `已领${slotOriginals[source]}` : `领取${row.cells[0].textContent}点的${slotOriginals[source]}`);
+      }
+      slotVanilla.setAttribute("aria-pressed", String(!slotEnabled));
+      slotRandom.setAttribute("aria-pressed", String(slotEnabled));
+      slotSummary.textContent = `${slotEnabled ? "随机模式" : "随机已关闭"}，已领 ${slotGrants.size} 份，还剩 ${slotRows.length - slotGrants.size} 份`;
+    }
+
+    for (const [point, row] of slotRows.entries()) {
+      row.querySelector("button").addEventListener("click", () => {
+        if (slotGrants.has(point)) return;
+        slotGrants.set(point, slotAssignments()[point]);
+        renderSlot();
+      });
+    }
+    for (const [button, enabled] of [[slotVanilla, false], [slotRandom, true]]) {
+      button.disabled = false;
+      button.addEventListener("click", () => {
+        slotEnabled = enabled;
+        renderSlot();
+      });
+    }
+    slotReset.disabled = false;
+    slotReset.addEventListener("click", () => {
+      slotGrants.clear();
+      slotEnabled = true;
+      renderSlot();
+    });
+
+    renderRewards();
+    renderSlot();
+  </script>
+</body>
+</html>
